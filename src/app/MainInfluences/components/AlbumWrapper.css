@@ -1,0 +1,7 @@
+.album-wrapper {
+  display: grid;
+  grid-template-columns: 0.4fr 1fr 4fr;
+  justify-content: space-around;
+  background-color: rgb(44, 35, 35);
+  margin-bottom: 3rem;
+}

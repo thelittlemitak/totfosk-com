@@ -1,8 +1,11 @@
+import MainInfluences from "./MainInfluences/page";
+import Image from "next/image";
+
 export default function HomePage() {
-  console.log("k paza")
+  console.log("k paza");
   return (
-    <main>
-      This is the home page
-    </main>
-  )
+    <>
+      <MainInfluences></MainInfluences>
+    </>
+  );
 }

@@ -1,4 +1,5 @@
 import "./globals.css";
+import "./tempo.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 
@@ -17,9 +18,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <header>[This is a header]</header>
+        <header className="tempo1">[This is a header]</header>
         <main>{children}</main>
-        <footer>[This is a footer]</footer>
+        <footer className="tempo1">[This is a footer]</footer>
       </body>
     </html>
   );

@@ -1,11 +1,24 @@
+/* page.js */
+
 /* AlbumWrapper.js */
 
 .albumWrapper {
   display: grid;
-  grid-template-columns: 0.4fr 1fr 4fr;
-  justify-content: space-around;
-  background-color: rgb(44, 35, 35);
-  margin-bottom: 3rem;
+  grid-template-columns: 8rem 25rem 1fr;
+  background-color: rgb(37, 6, 6);
+  min-height: 21rem;
+  margin-bottom: 5rem;
+}
+
+/* compontents/Position.js */
+
+.ranking {
+  width: 6rem;
+  text-align: center;
+  font-size: 3rem;
+  justify-self: center;
+  align-self: center;
+  border: 1px solid white;
 }
 
 /* compontents/CoverArt.js */
@@ -15,37 +28,38 @@
   align-self: center;
 }
 
-/* compontents/Position.js */
-
-.ranking {
-  font-size: 3rem;
-  justify-self: center;
-  align-self: center;
-}
-
 /* compontents/AlbumDescription.js */
 
-.albumInformation {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  font-size: 3rem;
-  align-self: center;
+/* this is the wrapper of the below */
+.albumInfoWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
   padding-right: 4rem;
+  margin-left: 2rem;
+  align-items: center;
 }
 
-.nameAndLabelWrapper {
-  display: flex;
-  gap: 3rem;
+.albumTitle {
+  font-size: 3rem;
+  letter-spacing: -0.2rem;
+}
+
+.artistName {
+  font-size: 2.2rem;
 }
 
 .labelInfo {
-  font-size: 2.4rem;
-  transform: translateY(-0.2rem);
-  align-self: end;
+  font-size: 2.2rem;
 }
 
 .albumInfoDescription {
   font-size: 2.3rem;
   line-height: 3rem;
+  grid-row: 1 / 5; /* 5 */
+  grid-column: 2/3;
+}
+
+.genre {
+  font-size: 1.5rem;
 }

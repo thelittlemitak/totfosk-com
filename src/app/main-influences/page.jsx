@@ -1,6 +1,33 @@
+"use client";
+
 import AlbumWrapper from "./AlbumWrapper";
+import styles from "./main-influences.module.css";
 
 export default function MainInfluencesPage() {
+  const genres = {
+    idm: "IDM",
+    ambient: "AMBIENT",
+    piano: "PIANO SOLO",
+    jungle: "JUNGLE",
+    glitch: "GLITCH",
+    noise: "NOISE",
+    jazz: "JAZZ",
+    shoe: "SHOEGAZE",
+    electronic: "ELECTRONIC",
+    jpop: "JPOP",
+    synth: "SYNTHPOP",
+    free: "FREE JAZZ",
+    minimal: "MINIMALISM",
+    avant: "AVANT-GARDE",
+    drone: "DRONE",
+    ost: "OST",
+    electro: "ELECTRO",
+    contemp: "CONTEMPORARY CLASSICAL",
+    exp: "EXPERIMENTAL",
+    classic: "CLASSICAL",
+    japan: "JAPANESE",
+  };
+
   const albumInfo = [
     {
       artist: "Aphex Twin",
@@ -10,7 +37,7 @@ export default function MainInfluencesPage() {
       decription:
         "James (Aphex Twin) decided to release Drukqs primarily to circumvent a potential leak after he accidentally left behind an MP3 player containing 180 of his unreleased tracks on a plane)",
       favorite: "Mt Saint Michel + Saint Michaels Mount",
-      genre: "IDM, Ambient, Piano solo, Jungle, Glitch, Noise",
+      genre: `${genres.idm} ${genres.ambient}`,
       picID: 4434343,
       social: "@instaphex",
     },
@@ -22,7 +49,7 @@ export default function MainInfluencesPage() {
       decription:
         "Live recording; described as one of the greatest live jazz albums of all times, the concert ironically had low expectations and Joe Morello was recovering from a flu.",
       favorite: "St. Louis Blues",
-      genre: "Jazz",
+      genre: `${genres.jazz}`,
       picID: 1289374890124,
       social: "",
     },
@@ -34,7 +61,7 @@ export default function MainInfluencesPage() {
       decription:
         "it was recorded at the home of Sweet Trip member Roberto Burgos together with second band mate Valerie Cooper (vocals). He interpreted the album as having 'a recurring theme of convincing someone you love to leave it all behind, fall in love with you, and run away to an ideal world'",
       favorite: "Tekka",
-      genre: "IDM, Shoegaze, Glitch, Noise",
+      genre: `${genres.idm} ${genres.noise} ${genres.glitch} ${genres.shoe}`,
       picID: 179034719,
       social: "",
     },
@@ -45,7 +72,7 @@ export default function MainInfluencesPage() {
       label: "Ki/oon (Sony Music Entertainment Japan)",
       decription: "Not available",
       favorite: "VOLCANIC DRUMBEATS",
-      genre: "Electronic, Jpop, SynthPop",
+      genre: `${genres.electronic} ${genres.jpop} ${genres.synth}`,
       picID: 17234980,
       social: "",
     },
@@ -57,7 +84,7 @@ export default function MainInfluencesPage() {
       decription:
         "with trumpeter Don Cherry, bassist Charlie Haden, and drummer Billy Higgins. ''The album was a breakthrough and helped to establish the free jazz movement.'' #freejazz ''a term derived from his album Free Jazz: A Collective Improvisation'' that one being released in 1961 (but recorded in 1960!)",
       favorite: "All of them",
-      genre: "Free jazz",
+      genre: `${genres.free}`,
       picID: 7129347109234,
       social: "",
     },
@@ -69,7 +96,7 @@ export default function MainInfluencesPage() {
       decription:
         "Solo piano and voice compositions, which features haunting keyboard melodies accompanied by Mertens' unique high-pitched tenor voice singing in an invented, personal language.",
       favorite: "Jaat",
-      genre: "Piano solo, Minimalism, Avant-garde",
+      genre: `${genres.piano} ${genres.minimal} ${genres.avant}`,
       picID: 12347129384,
       social: "@wimmertensofficial",
     },
@@ -81,7 +108,7 @@ export default function MainInfluencesPage() {
       decription:
         "It's recorded in my bedroom mostly, but also in a rehearsal space, a cabin in the mountains very far away from where I live, the bog very near from where I live and in the city during the hour everyone slept. Honorable mention to the hands-free mic attached to my headphones which I recorded this album on.",
       favorite: "My Sputnik Sweetheart",
-      genre: "Shoegaze, Ambient",
+      genre: `${genres.shoe} ${genres.ambient}`,
       picID: 3289741987324,
       social: "",
     },
@@ -93,7 +120,7 @@ export default function MainInfluencesPage() {
       decription:
         "The game's soundtrack was entirely composed by Fox with FL Studio. A self-taught musician, he composed most of the tracks with little iteration. For each section of the game, he composed the music prior to programming, as it helped 'decide how the scene should go'.",
       favorite: "Core",
-      genre: "Ambient, Electronic, Piano solo, Electro, Drone, Soundtrack",
+      genre: `${genres.ambient} ${genres.electronic} ${genres.piano} ${genres.electro} ${genres.drone} ${genres.ost}`,
       picID: 48917347132984,
       social: "",
     },
@@ -105,7 +132,7 @@ export default function MainInfluencesPage() {
       decription:
         "A personal journey of transience and tumult. His entire studio, audio archives, and possessions were stolen while moving from Seattle to New York, forcing him to rebuild from ground zero. But such a tabula rasa moment also brought with it a chance for renewal, and for reductive experimentation.",
       favorite: "Reprisal",
-      genre: "Ambient, Drone, Noise",
+      genre: `${genres.ambient} ${genres.drone} ${genres.noise}`,
       picID: 34897489714891,
       social: "",
     },
@@ -117,7 +144,7 @@ export default function MainInfluencesPage() {
       decription:
         "In his tracks, Floex creates a unique atmospheric universe, exploring the possibilities of coexistence between electronic and acoustic sound worlds. There is strong emphases placed on natural musicality and humanity on one side and on cutting-edge approach to electronic music production on the other. These polarities just seem to create an interesting tension.",
       favorite: "By the Wall",
-      genre: "Ambient, Drone, Contemporary classical, IDM, Glitch, Soundtrack",
+      genre: `${genres.ambient} ${genres.contemp} ${genres.piano} ${genres.idm} ${genres.drone} ${genres.glitch} ${genres.ost}`,
       picID: 321984712974,
       social: "",
     },
@@ -129,7 +156,7 @@ export default function MainInfluencesPage() {
       decription:
         "Although not very successful on its initial release, the album is now considered an important and influential album in the development of electronic music. Important to point out: the one and only Delia Derbyshire was in the project and did most of the sound design.",
       favorite: "The Visitations",
-      genre: "Ambient, Drone, Noise, IDM, Glitch",
+      genre: `${genres.ambient} ${genres.drone} ${genres.noise} ${genres.idm} ${genres.glitch}`,
       picID: 123081023,
       social: "",
     },
@@ -142,7 +169,7 @@ export default function MainInfluencesPage() {
         "Braxton often titles his compositions with diagrams or numbers and letters. Some diagrams have a clear meaning or signification, as on 'For Trio, 1977', where the title indicates the physical positions of the performers. The titles can themselves be musical notation indicating to the performer how a piece is played. Some letters are identifiable as the initials of Braxton's friends and musical colleagues, but many titles remain inscrutable to critics.",
       favorite: "All of them",
       albumCounting: "16th studio album.",
-      genre: "Free jazz",
+      genre: `${genres.free}`,
       picID: 38748912734,
       social: "",
     },
@@ -155,7 +182,7 @@ export default function MainInfluencesPage() {
         "Brian Eno originally viewed his new album as an experiment and entered the recording studio with nothing written or prepared beforehand. Employing tactics derived from his Oblique Strategies cards for guidance, Eno utilised a variety of unconventional recording techniques and instrumental approaches.",
       favorite: "All of them",
       albumCounting: "3rd studio album.",
-      genre: "Experimental",
+      genre: `${genres.exp}`,
       picID: 34234,
       social: "@brianeno",
     },
@@ -168,7 +195,7 @@ export default function MainInfluencesPage() {
         "Performed by New Japan Philharmonic. Spirited Away is frequently regarded as one of the best films of the 21st century as well as one of the greatest animated films ever made. It also bacome the highest-grossing film in Japanese history.",
       favorite: "The dragon boy",
       albumCounting: "Original Motion Picture Soundtrack.",
-      genre: "Classical, Soundtrack",
+      genre: `${genres.classic} ${genres.ost}`,
       picID: 283138,
       social: "@joehisaishi.official",
     },
@@ -181,7 +208,7 @@ export default function MainInfluencesPage() {
         "Flea said he had no plans for the album to be anything but to just record it in the back room at his house following a long Chili Peppers tour and as a way for Chris Warren (drum technician and tour keyboard player for the RHCP) to learn how to be a sound engineer.",
       favorite: "333",
       albumCounting: "Debut studio album.",
-      genre: "Experimental, Noise, Piano solo, Japanese",
+      genre: `${genres.exp} ${genres.noise} ${genres.piano} ${genres.japan}`,
       picID: 987123,
       social: "@flea333",
     },
@@ -194,7 +221,7 @@ export default function MainInfluencesPage() {
         "He (Kenji) used classical Japanese in the opening theme Making of a Cyborg. The composition is a mixture of Bulgarian harmony and traditional Japanese notes; the haunting chorals are a wedding song sung to dispel all evil influences.",
       favorite: "Nightstalker",
       albumCounting: "Original Motion Picture Soundtrack.",
-      genre: "Ambient, Japanese, Soundtrack",
+      genre: `${genres.ambient} ${genres.japan} ${genres.ost}`,
       picID: 447173,
       social: "",
     },
@@ -364,7 +391,7 @@ export default function MainInfluencesPage() {
   let counter = 0;
 
   return (
-    <>
+    <div className={styles.pageWrapper}>
       {albumInfo.map((x) => {
         counter++;
         return (
@@ -376,6 +403,6 @@ export default function MainInfluencesPage() {
           ></AlbumWrapper>
         );
       })}
-    </>
+    </div>
   );
 }

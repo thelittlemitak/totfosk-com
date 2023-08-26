@@ -1,4 +1,4 @@
-import AlbumWrapper from "./components/AlbumWrapper";
+import AlbumWrapper from "./AlbumWrapper";
 
 export default function MainInfluencesPage () {
   const albumInfo = [
@@ -131,7 +131,6 @@ export default function MainInfluencesPage () {
     <>
       {albumInfo.map((x) => {
         counter++;
-        // console.log(counter)
         return (
           <AlbumWrapper
             imgIDTunnel={x.picID}

@@ -1,13 +1,13 @@
-import CoverArt from "./CoverArt";
-import AlbumDescription from "./AlbumDescription";
-import "./AlbumWrapper.css";
-import Position from "./Position";
+import CoverArt from "./components/CoverArt";
+import AlbumDescription from "./components/AlbumDescription";
+import styles from "./main-influences.module.css";
+import Position from "./components/Position";
 
 function AlbumWrapper(props) {
   const position = props.positionTunnel;
 
   return (
-    <div className="album-wrapper">
+    <div className={styles.albumWrapper}>
       <Position positionTunnel={position}></Position>
       <CoverArt imgIDTunnell2={props.imgIDTunnel}></CoverArt>
       <AlbumDescription

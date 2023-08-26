@@ -1,0 +1,11 @@
+.headerFooter {
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-size: 5rem;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-around;
+}

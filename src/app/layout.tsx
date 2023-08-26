@@ -1,7 +1,8 @@
-import "./globals.css";
-import "./tempo.css";
+import "./global.css";
+import styles from "./app.module.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,9 +19,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <header className="tempo1">[This is a header]</header>
+        <header className={styles.headerFooter}>
+          <nav className={styles.navBar}>
+            <Link href="/">Home</Link>
+            <Link href="/main-influences">Main influences</Link>
+          </nav>
+        </header>
         <main>{children}</main>
-        <footer className="tempo1">[This is a footer]</footer>
+        <footer className={styles.headerFooter}>[This is a footer]</footer>
       </body>
     </html>
   );

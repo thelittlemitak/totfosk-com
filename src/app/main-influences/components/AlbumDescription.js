@@ -1,8 +1,9 @@
 import styles from "../main-influences.module.css";
 
 function AlbumDescription(props) {
-  console.log(props.albumInfoTunnell2.artist);
+  let counter = 0;
 
+  console.log(props.albumInfoTunnell2.picID);
 
   return (
     <div className={styles.albumInfoWrapper}>
@@ -18,7 +19,19 @@ function AlbumDescription(props) {
       <div
         className={styles.labelInfo}
       >{`${props.albumInfoTunnell2.year}, ${props.albumInfoTunnell2.label}`}</div>
-      <div className={styles.genre}>{props.albumInfoTunnell2.genre.toUpperCase()}</div>
+      <div className={styles.tagsWrapper}>
+        {props.albumInfoTunnell2.genre.map((x) => {
+          counter++;
+          return (
+            <div
+              className={styles.genre}
+              key={props.albumInfoTunnell2.picID + counter}
+            >
+              {x}{" "}
+            </div>
+          );
+        })}
+      </div>
     </div>
   );
 }

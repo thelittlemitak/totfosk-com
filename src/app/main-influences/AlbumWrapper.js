@@ -12,6 +12,7 @@ function AlbumWrapper(props) {
       <CoverArt imgIDTunnell2={props.imgIDTunnel}></CoverArt>
       <AlbumDescription
         albumInfoTunnell2={props.albumInfoTunnel}
+        key={props.albumInfoTunnel.picID}
       ></AlbumDescription>
     </div>
   );

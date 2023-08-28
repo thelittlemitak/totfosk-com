@@ -3,8 +3,6 @@ import styles from "../main-influences.module.css";
 function AlbumDescription(props) {
   let counter = 0;
 
-  console.log(props.albumInfoTunnell2.picID);
-
   return (
     <div className={styles.albumInfoWrapper}>
       <div

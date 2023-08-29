@@ -652,10 +652,6 @@ const albums = [
     social: "X",
   },
 ];
-console.log(albums.length);
-// 28 + 13: 41; II II II II
-
-// traffic?
 
 export default albums;
 

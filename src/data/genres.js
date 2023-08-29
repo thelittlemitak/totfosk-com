@@ -25,6 +25,7 @@ const genres = {
   prorock: "PROGRESSIVE-ROCK",
   cool: "COOL-JAZZ",
   symph: "SYMPHONIC-ROCK",
+  metal: "HEAVY-METAL"
 };
 
 export default genres;

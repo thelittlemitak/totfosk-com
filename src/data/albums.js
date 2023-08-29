@@ -1,5 +1,7 @@
 import genres from "./genres";
 
+const ost = "Original Motion Picture Soundtrack.";
+
 const albums = [
   {
     artist: "Aphex Twin",
@@ -179,7 +181,7 @@ const albums = [
     decription:
       "Performed by New Japan Philharmonic. Spirited Away is frequently regarded as one of the best films of the 21st century as well as one of the greatest animated films ever made. It also bacome the highest-grossing film in Japanese history.",
     favorite: "The dragon boy",
-    albumCounting: "Original Motion Picture Soundtrack.",
+    albumCounting: ost,
     genre: [genres.classic, genres.ost, genres.japan],
     picID: 283138,
     social: "@joehisaishi.official",
@@ -205,7 +207,7 @@ const albums = [
     decription:
       "He (Kenji) used classical Japanese in the opening theme Making of a Cyborg. The composition is a mixture of Bulgarian harmony and traditional Japanese notes; the haunting chorals are a wedding song sung to dispel all evil influences.",
     favorite: "Nightstalker",
-    albumCounting: "Original Motion Picture Soundtrack.",
+    albumCounting: ost,
     genre: [genres.ambient, genres.japan, genres.ost],
     picID: 447173,
     social: "",
@@ -218,7 +220,7 @@ const albums = [
     decription:
       "Hans Zimmer contributes one of his most richly imagined and inventive scores, which ranges from a gentle electronic keyboard melody to brassy, Strauss-ian crescendos.",
     favorite: "Mountains",
-    albumCounting: "Original Motion Picture Soundtrack.",
+    albumCounting: ost,
     genre: [genres.classic, genres.ambient, genres.ost],
     picID: 2312331,
     social: "@hanszimmer",
@@ -339,8 +341,7 @@ const albums = [
     decription:
       "Aronofsky saw Requiem as a monster movie, only when something goes bad you hear the music. The soundtrack has been widely praised, and in particular the track Lux Aeterna (which itself is much used in the film) has subsequently been used in various forms of media.",
     favorite: "Ghosts of Things to Come",
-    albumCounting:
-      "Original Motion Picture Soundtrack. Performed by Kronos Quartet.",
+    albumCounting: `${ost} Performed by Kronos Quartet.`,
     genre: [genres.ost, genres.classic],
     picID: 4434344,
     social: "@i_was_a_teenage_clint_mansell @kronos_quartet",
@@ -372,28 +373,30 @@ const albums = [
     social: "N/a",
   },
   {
-    artist: "Avenged Sevel Fold",
-    album: "X",
-    year: "X",
-    label: "X",
-    decription: "X",
-    favorite: "X",
-    albumCounting: "X",
-    genre: [genres.electronic, genres.classic],
+    artist: "Avenged Sevenfold",
+    album: "Avenged Sevenfold",
+    year: "2007",
+    label: "Warner Bros & Hopeless Records",
+    decription:
+      "With more than 20 session musicians on it, it is the band's first studio album to be solely self-produced. It is also their final studio album to feature The Rev performing on drums, due to his death in December 2009 during production of their follow-up album",
+    favorite: "A little piece of heaven",
+    albumCounting: "Fourth studio album",
+    genre: [genres.metal, genres.symph],
     picID: 234143124,
-    social: "X",
+    social: "@avengedsevenfold",
   },
   {
     artist: "Antonio Sanchez",
-    album: "X",
-    year: "X",
-    label: "X",
-    decription: "X",
-    favorite: "X",
-    albumCounting: "X",
-    genre: [genres.electronic, genres.classic],
+    album: "Birdman",
+    year: "2014",
+    label: "Milan Records",
+    decription:
+      "The movie won 4 Oscars, incl. Best Picture, but the OST was not even nominated because, acc. to the committee 'the film also contains over a half an hour of non-original (mostly classical) music cues that are featured very prominently'",
+    favorite: "Doors and Distance",
+    albumCounting: ost,
+    genre: [genres.drum],
     picID: 77757,
-    social: "X",
+    social: "@antoniodrums1",
   },
   {
     artist: "Kraftwerk",

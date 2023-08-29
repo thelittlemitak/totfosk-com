@@ -25,13 +25,13 @@ export default function MainInfluencesPage() {
       <div className={styles.intro}>{quotes[0]}</div>
       <div className={styles.pageWrapper}>{mapper(0, 9)}</div>
       <div className={styles.intro}>{quotes[1]}</div>
-      <div className={styles.pageWrapper}>{mapper(10, 21)}</div>
+      <div className={styles.pageWrapper}>{mapper(9, 19)}</div>
       <div className={styles.intro}>{quotes[2]}</div>
-      <div className={styles.pageWrapper}>{mapper(21, 31)}</div>
+      <div className={styles.pageWrapper}>{mapper(19, 29)}</div>
       <div className={styles.intro}>{quotes[3]}</div>
-      <div className={styles.pageWrapper}>{mapper(31, 41)}</div>
+      <div className={styles.pageWrapper}>{mapper(29, 39)}</div>
       <div className={styles.intro}>{quotes[4]}</div>
-      <div className={styles.pageWrapper}>{mapper(41, 51)}</div>
+      <div className={styles.pageWrapper}>{mapper(39, 51)}</div>
       <div>Albums that will be added very soon are:</div>
       <ul>
         <li>Sewervst - Draining Love Story</li>

@@ -61,9 +61,9 @@ export default function MainInfluencesPage() {
         })}
       </div>
       <div className={styles.intro}>
-        Albums are not ranked here as better or worst, but regarding how much
-        time I spent with them or rather how much they affected me. And this
-        depends a lot on which time they were discovered.
+        &quot;Albums are not ranked here as better or worst, but regarding how
+        much time I spent with them or rather how much they affected me. And
+        this depends a lot on which time they were discovered.&quot;
       </div>
       <div className={styles.pageWrapper}>
         {albums.slice(31, 41).map((x) => {

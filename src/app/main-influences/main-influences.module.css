@@ -1,4 +1,12 @@
-/* page.js */
+/* MAIN (from page) */
+.intro {
+  margin-top: -4rem;
+  font-size: 3rem;
+  padding: 3rem;
+  padding-bottom: 4rem;
+  text-align: center;
+  border: collapse;
+}
 
 /* AlbumWrapper.js */
 
@@ -72,13 +80,4 @@
 .tagsWrapper{
   display: flex;
   gap: 2rem;
-}
-
-.intro {
-  margin-top: -4rem;
-  font-size: 3rem;
-  padding: 3rem;
-  padding-bottom: 4rem;
-  text-align: center;
-  border: collapse
 }

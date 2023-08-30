@@ -1,11 +1,23 @@
-/* MAIN (from page) */
-.intro {
+/* Page */
+.quotes {
   margin-top: -4rem;
   font-size: 3rem;
   padding: 3rem;
   padding-bottom: 4rem;
   text-align: center;
   border: collapse;
+}
+
+.btn {
+  display: block;
+  margin: 0 auto;
+  border: 1px white solid;
+  padding: 1rem;
+  font-size: 3rem;
+}
+
+.disappear {
+  display: none;
 }
 
 /* AlbumWrapper.js */

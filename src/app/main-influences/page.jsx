@@ -93,6 +93,7 @@ export default function MainInfluencesPage() {
       {showMore3 && albums30_39}
       {showMore3 && quote5}
       {showMore4 && albums40_50}
+      
     </>
   );
 }

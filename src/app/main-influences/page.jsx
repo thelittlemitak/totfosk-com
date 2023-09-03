@@ -15,8 +15,6 @@ export default function MainInfluencesPage() {
   const [showMore4, setShowMore4] = useState(false);
 
   let counter = 0;
-  let scrollPosition = window.scrollY;
-  console.log(scrollPosition);
 
   const mapper = function (start, end) {
     return albums.slice(start, end).map((x) => {
@@ -41,19 +39,6 @@ export default function MainInfluencesPage() {
   const quote3 = <div className={styles.quotes}>{quotes[2]}</div>;
   const quote4 = <div className={styles.quotes}>{quotes[3]}</div>;
   const quote5 = <div className={styles.quotes}>{quotes[4]}</div>;
-
-  useEffect(() => {
-    const handleScroll = () => {
-      console.log("Scroll position:", window.scrollY);
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      // Clean up the event listener when the component unmounts
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -83,6 +68,10 @@ export default function MainInfluencesPage() {
       // }
     };
     window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
   }, []);
 
   return (
@@ -131,3 +120,18 @@ export default function MainInfluencesPage() {
         Toggle
       </button>*/
 }
+
+// useEffect(() => {
+//   const handleScroll = () => {
+//     console.log("Scroll position:", window.scrollY);
+//   };
+
+//   window.addEventListener("scroll", handleScroll);
+
+//   return () => {
+//     // Clean up the event listener when the component unmounts
+//     window.removeEventListener("scroll", handleScroll);
+//   };
+// }, []);
+// let scrollPosition = window.scrollY; * THIS FIVES AN ERROR BECAUSE WINDOW IS NOT DEFINED ON THE SERVER
+// console.log(scrollPosition);

@@ -59,24 +59,28 @@ export default function MainInfluencesPage() {
     const handleScroll = () => {
       if (window.scrollY > 2200) {
         setShowMore1(true);
-      } else {
-        setShowMore1(false);
       }
+      // else {
+      //   setShowMore1(false);
+      // }
       if (window.scrollY > 5400) {
         setShowMore2(true);
-      } else {
-        setShowMore2(false);
       }
+      // else {
+      //   setShowMore2(false);
+      // }
       if (window.scrollY > 8600) {
         setShowMore3(true);
-      } else {
-        setShowMore3(false);
       }
+      // else {
+      //   setShowMore3(false);
+      // }
       if (window.scrollY > 11800) {
         setShowMore4(true);
-      } else {
-        setShowMore4(false);
       }
+      // else {
+      //   setShowMore4(false);
+      // }
     };
     window.addEventListener("scroll", handleScroll);
   }, []);
@@ -93,7 +97,6 @@ export default function MainInfluencesPage() {
       {showMore3 && albums30_39}
       {showMore3 && quote5}
       {showMore4 && albums40_50}
-      
     </>
   );
 }

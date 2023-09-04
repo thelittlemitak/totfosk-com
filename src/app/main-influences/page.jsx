@@ -34,7 +34,7 @@ export default function MainInfluencesPage() {
     const newArr2 = [...newArr];
     setAlbumsState(newArr2);
 
-    setTimeout(() => setWrapperStyleID(1), 3000)
+    setTimeout(() => setWrapperStyleID(1), 2000)
   };
 
   const changerFavorites = function () {
@@ -45,7 +45,7 @@ export default function MainInfluencesPage() {
     const newArr3 = [...albumsV];
     setAlbumsState(newArr3);
 
-    setTimeout(() => setWrapperStyleID(1), 3000)
+    setTimeout(() => setWrapperStyleID(1), 2000)
   };
 
   useEffect(() => console.log("I am rerendering"), [albumsState]);

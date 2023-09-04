@@ -9,7 +9,6 @@ import { useState, useEffect } from "react";
 export default function MainInfluencesPage() {
   const albumsV = albumsImport;
 
-
   const [btnStyle, setBtnStyle] = useState(styles.btn);
   const [btnCounter, setBtnCounter] = useState(0);
   const [showMore1, setShowMore1] = useState(false);
@@ -17,7 +16,7 @@ export default function MainInfluencesPage() {
   const [showMore3, setShowMore3] = useState(false);
   const [showMore4, setShowMore4] = useState(false);
   const [albumsState, setAlbumsState] = useState([...albumsV]);
-  const [listType, setListType] = useState("favorites")
+  const [listType, setListType] = useState("favorites");
 
   const [wrapperStyleID, setWrapperStyleID] = useState(1);
 
@@ -28,24 +27,23 @@ export default function MainInfluencesPage() {
 
   const changerYears = function () {
     setWrapperStyleID(2);
-    setListType("year of release")
+    setListType("year of release");
 
     const newArr = sortByKey(albumsState, "year");
     const newArr2 = [...newArr];
     setAlbumsState(newArr2);
 
-    setTimeout(() => setWrapperStyleID(1), 2000)
+    setTimeout(() => setWrapperStyleID(1), 1400);
   };
 
   const changerFavorites = function () {
     setWrapperStyleID(2);
-    setListType("favorites")
-
+    setListType("favorites");
 
     const newArr3 = [...albumsV];
     setAlbumsState(newArr3);
 
-    setTimeout(() => setWrapperStyleID(1), 2000)
+    setTimeout(() => setWrapperStyleID(1), 1400);
   };
 
   useEffect(() => console.log("I am rerendering"), [albumsState]);

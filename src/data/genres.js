@@ -26,7 +26,9 @@ const genres = {
   cool: "COOL-JAZZ",
   symph: "SYMPHONIC-ROCK",
   metal: "HEAVY-METAL",
-  opera: "ROCK-OPERA"
+  opera: "ROCK-OPERA",
+  rock: "ROCK-N-ROLL",
+  folk: "FOLK"
 };
 
 export default genres;

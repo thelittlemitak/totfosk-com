@@ -5,7 +5,7 @@ const drukqs = {
   artist: "Aphex Twin",
   album: "Drukqs",
   year: "2001",
-  label: "Warp Records",
+  label: "Warp",
   decription:
     "Richard D. James (Aphex Twin) decided to release Drukqs primarily to circumvent a potential leak after he accidentally left behind an MP3 player containing 180 of his unreleased tracks on a plane.",
   favorite: "Mt Saint Michel + Saint Michaels Mount",
@@ -29,7 +29,7 @@ const sweetTrip = {
   artist: "Sweet Trip",
   album: "Velocity : Design : Comfort",
   year: "2003",
-  label: "Darla Records",
+  label: "Darla",
   decription:
     "It was recorded at the home of Roberto Burgos together with second band mate Valerie Cooper (vocals). He interpreted the album as having 'a recurring theme of convincing someone you love to leave it all behind, fall in love with you, and run away to an ideal world'",
   favorite: "Tekka",
@@ -52,7 +52,7 @@ const ornette = {
   artist: "Ornette Coleman",
   album: "The Shape Of Jazz To Come",
   year: "1959",
-  label: "Atlantic Records",
+  label: "Atlantic",
   decription:
     "With trumpeter Don Cherry, bassist Charlie Haden, and drummer Billy Higgins. The album was a breakthrough and helped to establish the free jazz movement.",
   favorite: "All of them",
@@ -118,7 +118,7 @@ const machinarium = {
   artist: "Tomáš Dvořák (Floex)",
   album: "Machinarium",
   year: "2009",
-  label: "Minority Records (video game OST)",
+  label: "Minority (video game OST)",
   decription:
     "In his tracks, Floex creates a unique atmospheric universe, exploring the possibilities of coexistence between electronic and acoustic sound worlds. There is strong emphases placed on natural musicality and humanity on one side and on cutting-edge approach to electronic music production on the other. These polarities just seem to create an interesting tension.",
   favorite: "By the Wall",
@@ -130,7 +130,7 @@ const whiteNoise = {
   artist: "White Noise",
   album: "An Electric Storm",
   year: "1969",
-  label: "Island Records (Universal)",
+  label: "Island (Universal)",
   decription:
     "Although not very successful on its initial release, the album is now considered an important and influential album in the development of electronic music. Important to point out: the one and only Delia Derbyshire was in the project and did most of the sound design.",
   favorite: "The Visitations",
@@ -148,7 +148,7 @@ const braxton = {
   artist: "Anthony Braxton",
   album: "New York, Fall",
   year: "1974",
-  label: "Artista Records (Sony)",
+  label: "Artista (Sony)",
   decription:
     "Braxton often titles his compositions with diagrams or numbers and letters. Some diagrams have a clear meaning or signification, as on 'For Trio, 1977', where the title indicates the physical positions of the performers. The titles can themselves be musical notation indicating to the performer how a piece is played. Some letters are identifiable as the initials of Braxton's friends and musical colleagues, but many titles remain inscrutable to critics.",
   favorite: "All of them",
@@ -161,7 +161,7 @@ const eno = {
   artist: "Brian Eno",
   album: "Another Green World",
   year: "1975",
-  label: "Island Records (Universal)",
+  label: "Island (Universal)",
   decription:
     "Brian Eno originally viewed his new album as an experiment and entered the recording studio with nothing written or prepared beforehand. Employing tactics derived from his Oblique Strategies cards for guidance, Eno utilised a variety of unconventional recording techniques and instrumental approaches.",
   favorite: "All of them",
@@ -174,7 +174,7 @@ const chihiro = {
   artist: "Joe Hisaishi",
   album: "Spirited Away",
   year: "2001",
-  label: "Studio Ghibli Records",
+  label: "Studio Ghibli",
   decription:
     "Performed by New Japan Philharmonic. Spirited Away is frequently regarded as one of the best films of the 21st century as well as one of the greatest animated films ever made. It also bacome the highest-grossing film in Japanese history.",
   favorite: "The dragon boy",
@@ -200,7 +200,7 @@ const shell = {
   artist: "Kenji Kawai (incl. collabs)",
   album: "Ghost In The Shell",
   year: "1995",
-  label: "RCA Records",
+  label: "RCA",
   decription:
     "He (Kenji) used classical Japanese in the opening theme Making of a Cyborg. The composition is a mixture of Bulgarian harmony and traditional Japanese notes; the haunting chorals are a wedding song sung to dispel all evil influences.",
   favorite: "Nightstalker",
@@ -276,11 +276,11 @@ const safriDuo = {
   picID: 34343,
   social: "@safriduoofficial",
 };
-const what = {
+const notUsed = {
   artist: "Sweet trip",
   album: "You Will Never Know Why",
   year: "2009",
-  label: "Darla Records",
+  label: "Darla",
   decription:
     "Songs for the album developed from practice sessions where the band would play with just guitar alone, with them deciding that the more raw and bare and simple songs would be what they would focus",
   favorite: "Acting",
@@ -294,9 +294,9 @@ const moodyBlues = {
   artist: "The moody blues",
   album: "Days Of The Future Passed",
   year: "1967",
-  label: "Deram Records (Decca sublabel)",
+  label: "Deram (Decca sublabel)",
   decription:
-    "With its fusion of orchestral and rock elements, it has been cited as one of the first examples of progressive rock. The label asked them to record an adaptation of Dvořák's Symphony No. 9 for Decca's newly formed division (Deram) in order to demonstrate their latest recording techniques, but they started (without the label's knowledge) recording this instead.",
+    "With its fusion of orchestral and rock elements, it has been cited as one of the first examples of progressive rock. The label asked them to record an adaptation of Dvořák's Symphony No. 9 for Deram in order to demonstrate their latest recording techniques, but they started (without the label's knowledge) recording the album.",
   favorite: "Evening",
   albumCounting: "Second studio album",
   genre: [genres.symph],
@@ -320,7 +320,7 @@ const oldfield = {
   artist: "Mike Olfdield",
   album: "Tubular Bells",
   year: "1973",
-  label: "Virgin Records",
+  label: "Virgin",
   decription:
     "Oldfield, who was 19 years old when it was recorded, played almost all the instruments. He also played at the opening ceremony of 2012 Olympic games and last but not least: it's the opening track of The Exorcist. Once I heard that the reason the director chose that one, it's because the piano pattern is a 3/4+4/4, creating a weird feeling of mistery (seems the melody seems to be the same) which he related to the devil.",
   favorite: "Tubular Bells, Pt. I",
@@ -333,7 +333,7 @@ const requiem = {
   artist: "Clint Mansell",
   album: "Requiem for a Dream",
   year: "2000",
-  label: "Nonesuch Records",
+  label: "Nonesuch",
   decription:
     "Aronofsky saw Requiem as a monster movie, only when something goes bad you hear the music. The soundtrack has been widely praised, and in particular the track Lux Aeterna (which itself is much used in the film) has subsequently been used in various forms of media.",
   favorite: "Ghosts of Things to Come",
@@ -372,7 +372,7 @@ const a74 = {
   artist: "Avenged Sevenfold",
   album: "Avenged Sevenfold",
   year: "2007",
-  label: "Warner Bros & Hopeless Records",
+  label: "Warner Bros & Hopeless",
   decription:
     "With more than 20 session musicians on it, it is the band's first studio album to be solely self-produced. It is also their final studio album to feature The Rev performing on drums, due to his death in December 2009 during production of their follow-up album",
   favorite: "A little piece of heaven",
@@ -385,7 +385,7 @@ const birdman = {
   artist: "Antonio Sanchez",
   album: "Birdman",
   year: "2014",
-  label: "Milan Records",
+  label: "Milan",
   decription:
     "The movie won 4 Oscars, incl. Best Picture, but the OST was not even nominated because, acc. to the committee 'the film also contains over a half an hour of non-original (mostly classical) music cues that are featured very prominently'",
   favorite: "Doors and Distance",
@@ -421,15 +421,16 @@ const limbo = {
 };
 const theWall = {
   artist: "Pink Floyd",
-  album: "X",
-  year: "X",
-  label: "X",
-  decription: "X",
-  favorite: "X",
-  albumCounting: "X",
-  genre: [genres.electronic, genres.classic],
+  album: "The Wall",
+  year: "1979",
+  label: "Harvest/Columbia/Capitol",
+  decription:
+    "It is a rock opera that explores Pink, a jaded rock star whose eventual self-imposed isolation from society forms a figurative wall. It was the last album to feature Pink Floyd as a quartet; keyboardist Richard Wright was fired by Waters during production but stayed on as a salaried musician.",
+  favorite: "Is There Anybody Out There?",
+  albumCounting: "Eleventh studio album",
+  genre: [genres.prorock, genres.classic, genres.symph],
   picID: 2232323,
-  social: "X",
+  social: "@pinkfloyd",
 };
 const modell = {
   artist: "Rod Modell",

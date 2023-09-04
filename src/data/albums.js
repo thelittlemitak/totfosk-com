@@ -41,7 +41,7 @@ const denki = {
   artist: "Denki Groove",
   album: "A",
   year: "1997",
-  label: "Ki/oon (Sony Music Japan)",
+  label: "Ki/oon (Sony)",
   decription: "Not available",
   favorite: "VOLCANIC DRUMBEATS",
   genre: [genres.electronic, genres.jpop, genres.synth],
@@ -88,7 +88,7 @@ const undertale = {
   artist: "Toby Fox",
   album: "Undertale",
   year: "2015",
-  label: "Materia Collective (video game OST)",
+  label: "Materia Collective",
   decription:
     "The game's OST was entirely composed by Fox with FL Studio. A self-taught musician, he composed most of the tracks with little iteration. For each section of the game, he composed the music prior to programming, as it helped 'decide how the scene should go'.",
   favorite: "Core",
@@ -187,7 +187,7 @@ const flea = {
   artist: "Flea",
   album: "Helen Burns",
   year: "2012",
-  label: "Org Music",
+  label: "Org",
   decription:
     "Flea said he had no plans for the album to be anything but to just record it in the back room at his house following a long Chili Peppers tour and as a way for Chris Warren (drum technician and tour keyboard player for the RHCP) to learn how to be a sound engineer.",
   favorite: "333",
@@ -213,7 +213,7 @@ const zimmer = {
   artist: "Hans Zimmer",
   album: "Interstellar",
   year: "2014",
-  label: "WaterTower Music",
+  label: "WaterTower",
   decription:
     "Hans Zimmer contributes one of his most richly imagined and inventive scores, which ranges from a gentle electronic keyboard melody to brassy, Strauss-ian crescendos.",
   favorite: "Mountains",
@@ -253,7 +253,7 @@ const nate = {
   artist: "Nate Smith",
   album: "Pocket Change",
   year: "2018",
-  label: "Waterbaby Music",
+  label: "Waterbaby",
   decription:
     "American drummer, songwriter, producer, and three-time Grammy nominee. He co-wrote and produced the Michael Jackson song 'Heaven Can Wait'.",
   favorite: "What it do",
@@ -410,7 +410,7 @@ const autobahn = {
 const limbo = {
   artist: "Martin Stig Andersen",
   album: "X",
-  year: "X",
+  year: "2011",
   label: "X",
   decription: "X",
   favorite: "X",
@@ -428,14 +428,14 @@ const theWall = {
     "It is a rock opera that explores Pink, a jaded rock star whose eventual self-imposed isolation from society forms a figurative wall. It was the last album to feature Pink Floyd as a quartet; keyboardist Richard Wright was fired by Waters during production but stayed on as a salaried musician.",
   favorite: "Is There Anybody Out There?",
   albumCounting: "Eleventh studio album",
-  genre: [genres.prorock, genres.classic, genres.symph],
+  genre: [genres.prorock, genres.classic, genres.symph, genres.opera],
   picID: 2232323,
   social: "@pinkfloyd",
 };
 const modell = {
   artist: "Rod Modell",
   album: "X",
-  year: "X",
+  year: "2019",
   label: "X",
   decription: "X",
   favorite: "X",
@@ -446,20 +446,21 @@ const modell = {
 };
 const scofield = {
   artist: "John Scofield",
-  album: "X",
-  year: "X",
-  label: "X",
-  decription: "X",
-  favorite: "X",
+  album: "Past Present",
+  year: "2015",
+  label: "Impulse!",
+  decription:
+    "Grammy Award for Best Jazz Instrumental Album. This album reunited Scofield with Lovano and Stewart, who had been members of his quartet. The title track was nominated for Best Improvised Jazz Solo Grammy.",
+  favorite: "Chap Dance",
   albumCounting: "X",
-  genre: [genres.electronic, genres.classic],
+  genre: [genres.jazz],
   picID: 22322231,
   social: "X",
 };
 const chopin = {
   artist: "Chopin",
   album: "X",
-  year: "X",
+  year: "2011",
   label: "X",
   decription: "X",
   favorite: "X",
@@ -470,8 +471,8 @@ const chopin = {
 };
 const amelie = {
   artist: "Yann Tiersen",
-  album: "X",
-  year: "X",
+  album: "Amelie",
+  year: "2001",
   label: "X",
   decription: "X",
   favorite: "X",
@@ -483,7 +484,7 @@ const amelie = {
 const estopa = {
   artist: "Estopa",
   album: "X",
-  year: "X",
+  year: "1999",
   label: "X",
   decription: "X",
   favorite: "X",
@@ -494,8 +495,8 @@ const estopa = {
 };
 const goreshit = {
   artist: "Goreshit",
-  album: "X",
-  year: "X",
+  album: "my love feels all wrong",
+  year: "2015",
   label: "X",
   decription: "X",
   favorite: "X",
@@ -507,7 +508,7 @@ const goreshit = {
 const ffx = {
   artist: "Nobuo Uematsu",
   album: "X",
-  year: "X",
+  year: "2001",
   label: "X",
   decription: "X",
   favorite: "X",
@@ -519,7 +520,7 @@ const ffx = {
 const rush = {
   artist: "Rush",
   album: "2112",
-  year: "X",
+  year: "1976",
   label: "X",
   decription: "X",
   favorite: "X",
@@ -531,8 +532,8 @@ const rush = {
 const lesserOf = {
   artist: "Lesser Of",
   album: "2112",
-  year: "X",
-  label: "X",
+  year: "2021",
+  label: "Das Kollektive",
   decription: "X",
   favorite: "X",
   albumCounting: "X",
@@ -543,7 +544,7 @@ const lesserOf = {
 const apeScape = {
   artist: "Soichi Terada",
   album: "2112",
-  year: "X",
+  year: "1999",
   label: "X",
   decription: "X",
   favorite: "X",
@@ -554,8 +555,8 @@ const apeScape = {
 };
 const erikB = {
   artist: "Erik B & Rakim",
-  album: "2112",
-  year: "X",
+  album: "Follow the Leader",
+  year: "1988",
   label: "X",
   decription: "X",
   favorite: "X",
@@ -567,8 +568,8 @@ const erikB = {
 const chemical = {
   artist: "Chemical Brothers",
   album: "No Geography",
-  year: "X",
-  label: "X",
+  year: "2019",
+  label: "Virgin EMI/Astralwerks",
   decription: "X",
   favorite: "X",
   albumCounting: "X",
@@ -579,8 +580,8 @@ const chemical = {
 const eminem = {
   artist: "Eminem",
   album: "Encore",
-  year: "X",
-  label: "X",
+  year: "2004",
+  label: "AFTERMATH",
   decription: "X",
   favorite: "X",
   albumCounting: "X",
@@ -591,8 +592,8 @@ const eminem = {
 const kalk = {
   artist: "Paul Kalkbrenner",
   album: "Berlin Calling",
-  year: "X",
-  label: "X",
+  year: "2008",
+  label: "BPitch Control",
   decription: "X",
   favorite: "X",
   albumCounting: "X",
@@ -602,9 +603,9 @@ const kalk = {
 };
 const gorillaz = {
   artist: "Gorillaz",
-  album: "2112",
-  year: "X",
-  label: "X",
+  album: "Plastic Beach",
+  year: "2010",
+  label: "Parlophone/Virgin",
   decription: "X",
   favorite: "X",
   albumCounting: "X",
@@ -614,8 +615,8 @@ const gorillaz = {
 };
 const paulita = {
   artist: "Paula Temple",
-  album: "2112",
-  year: "X",
+  album: "Deathvox",
+  year: "2014",
   label: "X",
   decription: "X",
   favorite: "X",
@@ -626,8 +627,8 @@ const paulita = {
 };
 const mcrae = {
   artist: "Carmen McRae",
-  album: "2112",
-  year: "X",
+  album: "Carmen McRae Sings Lover Man and Other Billie Holiday Classics",
+  year: "1962",
   label: "X",
   decription: "X",
   favorite: "X",
@@ -639,7 +640,7 @@ const mcrae = {
 const stardew = {
   artist: "Concerned Ape",
   album: "Stardew Valley",
-  year: "X",
+  year: "2016",
   label: "X",
   decription: "X",
   favorite: "X",

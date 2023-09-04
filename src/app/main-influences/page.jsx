@@ -2,29 +2,67 @@
 
 import AlbumWrapper from "./AlbumWrapper";
 import styles from "./main-influences.module.css";
-import albums from "../../data/albums";
+import albumsImport from "../../data/albums";
 import quotes from "../../data/quotes";
 import { useState, useEffect } from "react";
 
 export default function MainInfluencesPage() {
+  const albumsV = albumsImport;
+
+
   const [btnStyle, setBtnStyle] = useState(styles.btn);
   const [btnCounter, setBtnCounter] = useState(0);
   const [showMore1, setShowMore1] = useState(false);
   const [showMore2, setShowMore2] = useState(false);
   const [showMore3, setShowMore3] = useState(false);
   const [showMore4, setShowMore4] = useState(false);
+  const [albumsState, setAlbumsState] = useState([...albumsV]);
+  const [listType, setListType] = useState("favorites")
+
+  const [wrapperStyleID, setWrapperStyleID] = useState(1);
+
+  function sortByKey(arr, key) {
+    arr.sort((a, b) => a[key] - b[key]);
+    return arr;
+  }
+
+  const changerYears = function () {
+    setWrapperStyleID(2);
+    setListType("year of release")
+
+    const newArr = sortByKey(albumsState, "year");
+    const newArr2 = [...newArr];
+    setAlbumsState(newArr2);
+
+    setTimeout(() => setWrapperStyleID(1), 3000)
+  };
+
+  const changerFavorites = function () {
+    setWrapperStyleID(2);
+    setListType("favorites")
+
+
+    const newArr3 = [...albumsV];
+    setAlbumsState(newArr3);
+
+    setTimeout(() => setWrapperStyleID(1), 3000)
+  };
+
+  useEffect(() => console.log("I am rerendering"), [albumsState]);
 
   let counter = 0;
 
   const mapper = function (start, end) {
-    return albums.slice(start, end).map((x) => {
+    return albumsState.slice(start, end).map((x) => {
       counter++;
       return (
         <AlbumWrapper
+          test={wrapperStyleID}
           imgIDTunnel={x.picID}
           positionTunnel={counter}
           albumInfoTunnel={x}
           key={x.picID}
+          listTypeTunnel={listType}
         ></AlbumWrapper>
       );
     });
@@ -77,6 +115,17 @@ export default function MainInfluencesPage() {
   return (
     <>
       <div className={styles.quotes}>{quotes[0]}</div>
+      <div className={styles.divider}>
+        {/* <div className={styles.empty}></div> */}
+        <div className={styles.btnWrapper}>
+          <button className={styles.button} onClick={changerFavorites}>
+            Favorites
+          </button>
+          <button className={styles.button} onClick={changerYears}>
+            Year of release
+          </button>
+        </div>
+      </div>
       <div className={styles.pageWrapper}>{albums1_9}</div>
       <div className={styles.quotes}>{quotes[1]}</div>
       {showMore1 && albums10_19}

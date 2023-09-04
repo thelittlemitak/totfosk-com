@@ -3,6 +3,8 @@ import styles from "../main-influences.module.css";
 function AlbumDescription(props) {
   let counter = 0;
 
+  console.log(props.listTypeTunnel);
+
   return (
     <div className={styles.albumInfoWrapper}>
       <div
@@ -16,7 +18,7 @@ function AlbumDescription(props) {
       >{`by ${props.albumInfoTunnell2.artist}`}</div>
       <div
         className={styles.labelInfo}
-      >{`${props.albumInfoTunnell2.year}, ${props.albumInfoTunnell2.label}`}</div>
+      >{props.listTypeTunnel === "favorites" ? `${props.albumInfoTunnell2.year}, ${props.albumInfoTunnell2.label}` : `${props.albumInfoTunnell2.label}`}</div>
       <div className={styles.tagsWrapper}>
         {props.albumInfoTunnell2.genre.map((x) => {
           counter++;

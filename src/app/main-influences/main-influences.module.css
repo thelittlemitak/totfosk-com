@@ -24,16 +24,29 @@
 
 .albumWrapper {
   display: grid;
-  grid-template-columns: 8rem 25rem 1fr;
+  grid-template-columns: 10rem 25rem 1fr;
   background-color: rgb(37, 6, 6);
   min-height: 21rem;
   margin-bottom: 5rem;
 }
 
+.animation {
+  animation: slideIn 1s ease-out;
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100;
+  }
+}
+
 /* compontents/Position.js */
 
 .ranking {
-  width: 6rem;
+  width: 100%;
   text-align: center;
   font-size: 3rem;
   justify-self: center;
@@ -84,12 +97,41 @@
   font-size: 1.5rem;
 }
 
-.genre:hover{
+.genre:hover {
   cursor: pointer;
   text-decoration: underline;
 }
 
-.tagsWrapper{
+.tagsWrapper {
   display: flex;
   gap: 2rem;
+}
+
+.button {
+  font-size: 2rem;
+  background-color: white;
+  display: block;
+  color: rgb(60, 49, 49);
+  transition: all 0.3s;
+  padding: 0rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.button:hover {
+  background-color: rgb(37, 6, 6);
+  color: white;
+}
+
+.btnWrapper {
+  display: flex;
+}
+
+.divider {
+  display: flex;
+  justify-content: end;
+}
+
+.empty {
+  background-color: red;
+  width: 50%;
 }

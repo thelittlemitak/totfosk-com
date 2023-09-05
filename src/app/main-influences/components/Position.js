@@ -5,9 +5,11 @@ function Ranking(props) {
   const [rankingType, setRankingType] = useState("#");
 
   return (
-    <div className={styles.ranking}>
-      {typeof props.positionTunnel === "number" ? rankingType : ""}
-      {props.positionTunnel}
+    <div className={styles.rankingCont}>
+      <div className={styles.ranking}>
+        {typeof props.positionTunnel === "number" ? rankingType : ""}
+        {props.positionTunnel}
+      </div>
     </div>
   );
 }

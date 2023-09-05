@@ -113,10 +113,10 @@ export default function MainInfluencesPage() {
             <div className={styles.arrow}>&#x2191;</div>
             <div className={styles.arrow}>&#x2191;</div>
           </div>
-          <button className={styles.button} onClick={changerFavorites}>
+          <button className={listType === "favorites" ? `${styles.button} ${styles.buttonSelected}` : `${styles.button}`} onClick={changerFavorites}>
             Favorites
           </button>
-          <button className={styles.button} onClick={changerYears}>
+          <button className={listType === "year of release" ? `${styles.button} ${styles.buttonSelected}` : `${styles.button}`} onClick={changerYears}>
             Year of release
           </button>
         </div>

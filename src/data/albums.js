@@ -627,7 +627,7 @@ const paulita = {
 };
 const mcrae = {
   artist: "Carmen McRae",
-  album: "Carmen McRae Sings Lover Man and Other Billie Holiday Classics",
+  album: "Sings Billie Holiday",
   year: "1962",
   label: "Columbia",
   decription:

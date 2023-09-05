@@ -12,13 +12,13 @@
   margin-top: 0;
 }
 
-.btn {
+/* .btn {
   display: block;
   margin: 0 auto;
   border: 1px white solid;
   padding: 1rem;
   font-size: 3rem;
-}
+} */
 
 .disappear {
   display: none;
@@ -28,7 +28,7 @@
 
 .albumWrapper {
   display: grid;
-  grid-template-columns: 10rem 25rem 1fr;
+  grid-template-columns: 12rem 25rem 1fr;
   background-color: rgb(37, 6, 6);
   min-height: 21rem;
   margin-bottom: 5rem;
@@ -49,6 +49,12 @@
 
 /* compontents/Position.js */
 
+.rankingCont{
+  width: 8rem;
+  align-self: center;
+  justify-self: center;
+}
+
 .ranking {
   width: 100%;
   text-align: center;
@@ -56,6 +62,7 @@
   justify-self: center;
   align-self: center;
   border: 1px solid white;
+  background-color: rgb(6, 37, 6);
 }
 
 /* compontents/CoverArt.js */
@@ -121,8 +128,13 @@
   align-self: center;
 }
 
+.buttonSelected {
+  background-color: rgb(6, 37, 6);
+  color: white;
+}
+
 .button:hover {
-  background-color: rgb(37, 6, 6);
+  background-color: rgb(6, 37, 6);
   color: white;
 }
 

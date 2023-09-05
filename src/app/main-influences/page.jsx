@@ -72,36 +72,30 @@ export default function MainInfluencesPage() {
   const albums30_39 = mapper(29, 39);
   const albums40_50 = mapper(39, 51);
 
-  const quote3 = <div className={styles.quotes}>{quotes[2]}</div>;
-  const quote4 = <div className={styles.quotes}>{quotes[3]}</div>;
-  const quote5 = <div className={styles.quotes}>{quotes[4]}</div>;
+  const genericQuote = <div className={styles.quotes}>{quotes[2]}</div>;
+
+  const quotePrinter = function (a) {
+    return <div className={styles.quotes}>{quotes[a]}</div>;
+  };
+
+  const quote3 = quotePrinter(2);
+  const quote4 = quotePrinter(3);
+  const quote5 = quotePrinter(4);
 
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 2200) {
         setShowMore1(true);
       }
-      // else {
-      //   setShowMore1(false);
-      // }
       if (window.scrollY > 5400) {
         setShowMore2(true);
       }
-      // else {
-      //   setShowMore2(false);
-      // }
       if (window.scrollY > 8600) {
         setShowMore3(true);
       }
-      // else {
-      //   setShowMore3(false);
-      // }
       if (window.scrollY > 11800) {
         setShowMore4(true);
       }
-      // else {
-      //   setShowMore4(false);
-      // }
     };
     window.addEventListener("scroll", handleScroll);
 
@@ -114,7 +108,6 @@ export default function MainInfluencesPage() {
     <>
       <div className={styles.quotes}>{quotes[0]}</div>
       <div className={styles.divider}>
-        {/* <div className={styles.empty}></div> */}
         <div className={styles.btnWrapper}>
           <button className={styles.button} onClick={changerFavorites}>
             Favorites
@@ -182,3 +175,7 @@ export default function MainInfluencesPage() {
 // }, []);
 // let scrollPosition = window.scrollY; * THIS FIVES AN ERROR BECAUSE WINDOW IS NOT DEFINED ON THE SERVER
 // console.log(scrollPosition);
+
+// else {
+//   setShowMore1(false);
+// }

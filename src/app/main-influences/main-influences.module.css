@@ -8,6 +8,10 @@
   border: collapse;
 }
 
+.quotes:first-child {
+  margin-top: 2rem;
+}
+
 .btn {
   display: block;
   margin: 0 auto;
@@ -124,6 +128,7 @@
 
 .btnWrapper {
   display: flex;
+  gap: 0.3rem;
 }
 
 .divider {

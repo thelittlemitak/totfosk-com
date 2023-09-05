@@ -28,7 +28,13 @@ const genres = {
   metal: "HEAVY-METAL",
   opera: "ROCK-OPERA",
   rock: "ROCK-N-ROLL",
-  folk: "FOLK"
+  folk: "FOLK",
+  rap: "RAP",
+  techno: "TECHNO",
+  dub: "DUB-TECHNO",
+  rumba: "RUMBA-FLAMENCA",
+  break: "BREAKCORE",
+  drumand: "DRUM-N-BASS"
 };
 
 export default genres;

@@ -9,7 +9,7 @@
 }
 
 .quotes:first-child {
-  margin-top: 2rem;
+  margin-top: 0;
 }
 
 .btn {
@@ -118,7 +118,7 @@
   color: rgb(60, 49, 49);
   transition: all 0.3s;
   padding: 0rem 1rem;
-  margin-bottom: 1rem;
+  align-self: center;
 }
 
 .button:hover {
@@ -134,9 +134,30 @@
 .divider {
   display: flex;
   justify-content: end;
+  margin-bottom: 1rem;
 }
 
 .empty {
   background-color: red;
   width: 50%;
+}
+
+.arrow {
+  align-self: center;
+  font-size: 3rem;
+  padding: -0.5rem;
+}
+
+.arrow:first-child {
+  transform: translateY(-1.5px) translateX(4px);
+}
+
+.arrow:last-child {
+  transform: rotate(180deg) translateY(-4.5px);
+}
+
+.arrows {
+  display: flex;
+  gap: -3px;
+  margin-right: 1rem;
 }

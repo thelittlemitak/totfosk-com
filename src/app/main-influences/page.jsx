@@ -78,9 +78,9 @@ export default function MainInfluencesPage() {
     return <div className={styles.quotes}>{quotes[a]}</div>;
   };
 
+  const quote2 = quotePrinter(1);
   const quote3 = quotePrinter(2);
   const quote4 = quotePrinter(3);
-  const quote5 = quotePrinter(4);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -106,9 +106,13 @@ export default function MainInfluencesPage() {
 
   return (
     <>
-      <div className={styles.quotes}>{quotes[0]}</div>
+      <div className={styles.quotes}>A list of the most influential albums of my life.</div>
       <div className={styles.divider}>
         <div className={styles.btnWrapper}>
+          <div className={styles.arrows}>
+            <div className={styles.arrow}>&#x2191;</div>
+            <div className={styles.arrow}>&#x2191;</div>
+          </div>
           <button className={styles.button} onClick={changerFavorites}>
             Favorites
           </button>
@@ -118,13 +122,13 @@ export default function MainInfluencesPage() {
         </div>
       </div>
       <div className={styles.pageWrapper}>{albums1_9}</div>
-      <div className={styles.quotes}>{quotes[1]}</div>
+      <div className={styles.quotes}>{quotes[0]}</div>
       {showMore1 && albums10_19}
-      {showMore1 && quote3}
+      {showMore1 && quote2}
       {showMore2 && albums20_29}
-      {showMore2 && quote4}
+      {showMore2 && quote3}
       {showMore3 && albums30_39}
-      {showMore3 && quote5}
+      {showMore3 && quote4}
       {showMore4 && albums40_50}
     </>
   );

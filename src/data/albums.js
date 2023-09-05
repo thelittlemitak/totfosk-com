@@ -21,7 +21,7 @@ const daveBrubeck = {
   decription:
     "Live recording; described as one of the greatest live jazz albums of all times, the concert ironically had low expectations and Joe Morello was recovering from a flu.",
   favorite: "St. Louis Blues",
-  genre: [genres.cool],
+  genre: [genres.cool, genres.jazz],
   picID: 1289374890124,
   social: "",
 };
@@ -56,7 +56,7 @@ const ornette = {
   decription:
     "With trumpeter Don Cherry, bassist Charlie Haden, and drummer Billy Higgins. The album was a breakthrough and helped to establish the free jazz movement.",
   favorite: "All of them",
-  genre: [genres.free],
+  genre: [genres.free, genres.jazz],
   picID: 7129347109234,
   social: "",
 };
@@ -80,7 +80,7 @@ const weatherday = {
   decription:
     "Words from the artist: `Recorded in my bedroom mostly, but also in a rehearsal space, a cabin in the mountains very far away from where I live, the bog very near from where I live and in the city during the hour everyone slept.´",
   favorite: "My Sputnik Sweetheart",
-  genre: [genres.shoe, genres.noise],
+  genre: [genres.shoe, genres.noise, genres.exp],
   picID: 3289741987324,
   social: "",
 };
@@ -153,7 +153,7 @@ const braxton = {
     "Braxton often titles his compositions with diagrams or numbers and letters. Some diagrams have a clear meaning or signification, as on 'For Trio, 1977', where the title indicates the physical positions of the performers. The titles can themselves be musical notation indicating to the performer how a piece is played. Some letters are identifiable as the initials of Braxton's friends and musical colleagues, but many titles remain inscrutable to critics.",
   favorite: "All of them",
   albumCounting: "16th studio album.",
-  genre: [genres.free],
+  genre: [genres.free, genres.jazz],
   picID: 38748912734,
   social: "",
 };
@@ -166,7 +166,7 @@ const eno = {
     "Brian Eno originally viewed his new album as an experiment and entered the recording studio with nothing written or prepared beforehand. Employing tactics derived from his Oblique Strategies cards for guidance, Eno utilised a variety of unconventional recording techniques and instrumental approaches.",
   favorite: "All of them",
   albumCounting: "3rd studio album.",
-  genre: [genres.exp, genres.avant],
+  genre: [genres.exp, genres.avant, genres.ambient],
   picID: 34234,
   social: "@brianeno",
 };
@@ -192,7 +192,7 @@ const flea = {
     "Flea said he had no plans for the album to be anything but to just record it in the back room at his house following a long Chili Peppers tour and as a way for Chris Warren (drum technician and tour keyboard player for the RHCP) to learn how to be a sound engineer.",
   favorite: "333",
   albumCounting: "Debut studio album.",
-  genre: [genres.exp, genres.noise, genres.piano, genres.japan],
+  genre: [genres.exp, genres.noise, genres.piano],
   picID: 987123,
   social: "@flea333",
 };
@@ -205,7 +205,7 @@ const shell = {
     "He (Kenji) used classical Japanese in the opening theme Making of a Cyborg. The composition is a mixture of Bulgarian harmony and traditional Japanese notes; the haunting chorals are a wedding song sung to dispel all evil influences.",
   favorite: "Nightstalker",
   albumCounting: ost,
-  genre: [genres.ambient, genres.japan, genres.ost],
+  genre: [genres.ambient, genres.japan, genres.ost, genres.folk],
   picID: 447173,
   social: "",
 };
@@ -239,7 +239,7 @@ const camilo = {
   artist: "Michael Camilo & Tomamito",
   album: "Spain Forever",
   year: "2006",
-  label: "Emarcy/Universal.",
+  label: "Emarcy/Universal",
   decription:
     "Guitar and piano had not traditionally merged in fruitful alliances due to the preconception that these instruments’ sonorities would not jell. Michel Camilo & Tomatito overcame that prejudice with absolute respect for each other’s sound and instrument, eventually creating a new canon.",
   favorite: "Gnossiennes No.1' (original composition from Satie)",
@@ -272,7 +272,7 @@ const safriDuo = {
   favorite: "Everything (Epilogue)",
   albumCounting:
     "Seventh studio album. All 6 previous albums were actually classical music.",
-  genre: [genres.electronic],
+  genre: [genres.electronic, genres.classic],
   picID: 34343,
   social: "@safriduoofficial",
 };
@@ -338,7 +338,7 @@ const requiem = {
     "Aronofsky saw Requiem as a monster movie, only when something goes bad you hear the music. The soundtrack has been widely praised, and in particular the track Lux Aeterna (which itself is much used in the film) has subsequently been used in various forms of media.",
   favorite: "Ghosts of Things to Come",
   albumCounting: `${ost} Performed by Kronos Quartet.`,
-  genre: [genres.ost, genres.classic],
+  genre: [genres.ost, genres.classic, genres.exp],
   picID: 4434344,
   social: "@i_was_a_teenage_clint_mansell @kronos_quartet",
 };
@@ -415,7 +415,7 @@ const limbo = {
   decription: "X",
   favorite: "X",
   albumCounting: "X",
-  genre: [genres.electronic, genres.classic],
+  genre: [genres.drone, genres.ambient],
   picID: 3232323,
   social: "X",
 };
@@ -428,7 +428,7 @@ const theWall = {
     "It is a rock opera that explores Pink, a jaded rock star whose eventual self-imposed isolation from society forms a figurative wall. It was the last album to feature Pink Floyd as a quartet; keyboardist Richard Wright was fired by Waters during production but stayed on as a salaried musician.",
   favorite: "Is There Anybody Out There?",
   albumCounting: "Eleventh studio album",
-  genre: [genres.prorock, genres.classic, genres.symph, genres.opera],
+  genre: [genres.prorock, genres.symph, genres.opera],
   picID: 2232323,
   social: "@pinkfloyd",
 };
@@ -440,7 +440,7 @@ const modell = {
   decription: "X",
   favorite: "X",
   albumCounting: "X",
-  genre: [genres.electronic, genres.classic],
+  genre: [genres.dub, genres.techno],
   picID: 2322232223,
   social: "X",
 };
@@ -459,13 +459,13 @@ const scofield = {
 };
 const chopin = {
   artist: "Chopin",
-  album: "X",
+  album: "Essential Classic",
   year: "2011",
   label: "X",
   decription: "X",
   favorite: "X",
   albumCounting: "X",
-  genre: [genres.electronic, genres.classic],
+  genre: [genres.piano, genres.classic],
   picID: 1694872,
   social: "X",
 };
@@ -477,7 +477,7 @@ const amelie = {
   decription: "X",
   favorite: "X",
   albumCounting: "X",
-  genre: [genres.electronic, genres.classic],
+  genre: [genres.ost, genres.classic, genres.folk],
   picID: 23237767,
   social: "X",
 };
@@ -489,7 +489,7 @@ const estopa = {
   decription: "X",
   favorite: "X",
   albumCounting: "X",
-  genre: [genres.electronic, genres.classic],
+  genre: [genres.rock, genres.rumba],
   picID: 11978589,
   social: "X",
 };
@@ -497,23 +497,23 @@ const goreshit = {
   artist: "Goreshit",
   album: "my love feels all wrong",
   year: "2015",
-  label: "X",
+  label: "Self-released",
   decription: "X",
   favorite: "X",
   albumCounting: "X",
-  genre: [genres.electronic, genres.classic],
+  genre: [genres.break],
   picID: 6876768,
   social: "X",
 };
 const ffx = {
   artist: "Nobuo Uematsu",
-  album: "X",
+  album: "Final Fantasy X",
   year: "2001",
   label: "X",
   decription: "X",
   favorite: "X",
   albumCounting: "X",
-  genre: [genres.electronic, genres.classic],
+  genre: [genres.electronic, genres.contemp],
   picID: 5554441,
   social: "X",
 };
@@ -525,7 +525,7 @@ const rush = {
   decription: "X",
   favorite: "X",
   albumCounting: "X",
-  genre: [genres.electronic, genres.classic],
+  genre: [genres.prorock],
   picID: 9879789,
   social: "X",
 };
@@ -537,19 +537,19 @@ const lesserOf = {
   decription: "X",
   favorite: "X",
   albumCounting: "X",
-  genre: [genres.electronic, genres.classic],
+  genre: [genres.techno, genres.electronic],
   picID: 342355,
   social: "X",
 };
 const apeScape = {
   artist: "Soichi Terada",
-  album: "2112",
+  album: "Ape Scape",
   year: "1999",
   label: "X",
   decription: "X",
   favorite: "X",
   albumCounting: "X",
-  genre: [genres.electronic, genres.classic],
+  genre: [genres.electronic, genres.ost, genres.drumand],
   picID: 12313123123,
   social: "X",
 };
@@ -561,7 +561,7 @@ const erikB = {
   decription: "X",
   favorite: "X",
   albumCounting: "X",
-  genre: [genres.electronic, genres.classic],
+  genre: [genres.rap],
   picID: 78979898779,
   social: "X",
 };
@@ -573,7 +573,7 @@ const chemical = {
   decription: "X",
   favorite: "X",
   albumCounting: "X",
-  genre: [genres.electronic, genres.classic],
+  genre: [genres.electronic],
   picID: 86758675876,
   social: "X",
 };
@@ -585,7 +585,7 @@ const eminem = {
   decription: "X",
   favorite: "X",
   albumCounting: "X",
-  genre: [genres.electronic, genres.classic],
+  genre: [genres.rap],
   picID: 8885555,
   social: "X",
 };
@@ -597,7 +597,7 @@ const kalk = {
   decription: "X",
   favorite: "X",
   albumCounting: "X",
-  genre: [genres.electronic, genres.classic],
+  genre: [genres.electronic, genres.techno],
   picID: 4260600220109,
   social: "X",
 };
@@ -609,7 +609,7 @@ const gorillaz = {
   decription: "X",
   favorite: "X",
   albumCounting: "X",
-  genre: [genres.electronic, genres.classic],
+  genre: [genres.electronic, genres.rap],
   picID: 8646291038,
   social: "X",
 };
@@ -621,7 +621,7 @@ const paulita = {
   decription: "X",
   favorite: "X",
   albumCounting: "X",
-  genre: [genres.electronic, genres.classic],
+  genre: [genres.techno, genres.electronic],
   picID: 6565688,
   social: "X",
 };

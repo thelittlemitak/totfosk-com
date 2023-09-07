@@ -25,7 +25,7 @@ function AlbumWrapper(props) {
         listTypeTunnel={props.listTypeTunnel}
         taggerTunnel={props.taggerTunnel}
         tagStyleTunnel={props.tagStyleTunnel}
-        selectedTagTunnel={props.selectedTagTunnel}
+        tagSelectedTunnel={props.tagSelectedTunnel}
       ></AlbumDescription>
     </div>
   );

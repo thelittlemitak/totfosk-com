@@ -9,7 +9,7 @@ const drukqs = {
   decription:
     "Richard D. James (Aphex Twin) decided to release Drukqs primarily to circumvent a potential leak after he accidentally left behind an MP3 player containing 180 of his unreleased tracks on a plane.",
   favorite: "Mt Saint Michel + Saint Michaels Mount",
-  genre: [genres.idm, genres.ambient, genres.jungle],
+  genre: [genres.idm, genres.ambient, genres.jungle].sort(),
   picID: 4434343,
   social: "@instaphex",
 };
@@ -21,7 +21,7 @@ const daveBrubeck = {
   decription:
     "Live recording; described as one of the greatest live jazz albums of all times, the concert ironically had low expectations and Joe Morello was recovering from a flu.",
   favorite: "St. Louis Blues",
-  genre: [genres.cool, genres.jazz],
+  genre: [genres.cool, genres.jazz].sort(),
   picID: 1289374890124,
   social: "",
 };
@@ -33,7 +33,7 @@ const sweetTrip = {
   decription:
     "It was recorded at the home of Roberto Burgos together with second band mate Valerie Cooper (vocals). He interpreted the album as having 'a recurring theme of convincing someone you love to leave it all behind, fall in love with you, and run away to an ideal world'",
   favorite: "Tekka",
-  genre: [genres.idm, genres.noise, genres.glitch, genres.shoe],
+  genre: [genres.idm, genres.noise, genres.glitch, genres.shoe].sort(),
   picID: 179034719,
   social: "",
 };
@@ -44,7 +44,7 @@ const denki = {
   label: "Ki/oon (Sony)",
   decription: "Not available",
   favorite: "VOLCANIC DRUMBEATS",
-  genre: [genres.electronic, genres.jpop, genres.synth],
+  genre: [genres.electronic, genres.jpop, genres.synth].sort(),
   picID: 17234980,
   social: "",
 };
@@ -68,7 +68,7 @@ const mertens = {
   decription:
     "Solo piano and voice compositions, which features haunting keyboard melodies accompanied by Mertens' unique high-pitched tenor voice singing in an invented, personal language.",
   favorite: "Jaat",
-  genre: [genres.piano, genres.minimal, genres.avant],
+  genre: [genres.piano, genres.minimal, genres.avant].sort(),
   picID: 12347129384,
   social: "@wimmertensofficial",
 };
@@ -80,7 +80,7 @@ const weatherday = {
   decription:
     "Words from the artist: `Recorded in my bedroom mostly, but also in a rehearsal space, a cabin in the mountains very far away from where I live, the bog very near from where I live and in the city during the hour everyone slept.´",
   favorite: "My Sputnik Sweetheart",
-  genre: [genres.shoe, genres.noise, genres.exp],
+  genre: [genres.shoe, genres.noise, genres.exp].sort(),
   picID: 3289741987324,
   social: "",
 };
@@ -98,7 +98,7 @@ const undertale = {
     genres.piano,
     genres.drone,
     genres.ost,
-  ],
+  ].sort(),
   picID: 48917347132984,
   social: "",
 };
@@ -110,7 +110,7 @@ const rafael = {
   decription:
     "A personal journey of transience and tumult. His entire studio, audio archives, and possessions were stolen while moving from Seattle to New York, forcing him to rebuild from ground zero. But such a tabula rasa moment also brought with it a chance for renewal, and for reductive experimentation.",
   favorite: "Reprisal",
-  genre: [genres.ambient, genres.drone, genres.noise],
+  genre: [genres.ambient, genres.drone, genres.noise].sort(),
   picID: 34897489714891,
   social: "",
 };
@@ -122,7 +122,7 @@ const machinarium = {
   decription:
     "In his tracks, Floex creates a unique atmospheric universe, exploring the possibilities of coexistence between electronic and acoustic sound worlds. There is strong emphases placed on natural musicality and humanity on one side and on cutting-edge approach to electronic music production on the other. These polarities just seem to create an interesting tension.",
   favorite: "By the Wall",
-  genre: [genres.ambient, genres.contemp, genres.glitch, genres.ost],
+  genre: [genres.ambient, genres.contemp, genres.glitch, genres.ost].sort(),
   picID: 321984712974,
   social: "",
 };
@@ -140,7 +140,7 @@ const whiteNoise = {
     genres.noise,
     genres.idm,
     genres.glitch,
-  ],
+  ].sort(),
   picID: 123081023,
   social: "",
 };
@@ -153,7 +153,7 @@ const braxton = {
     "Braxton often titles his compositions with diagrams or numbers and letters. Some diagrams have a clear meaning or signification, as on 'For Trio, 1977', where the title indicates the physical positions of the performers. The titles can themselves be musical notation indicating to the performer how a piece is played. Some letters are identifiable as the initials of Braxton's friends and musical colleagues, but many titles remain inscrutable to critics.",
   favorite: "All of them",
   albumCounting: "16th studio album.",
-  genre: [genres.free, genres.jazz],
+  genre: [genres.free, genres.jazz].sort(),
   picID: 38748912734,
   social: "",
 };
@@ -166,7 +166,7 @@ const eno = {
     "Brian Eno originally viewed his new album as an experiment and entered the recording studio with nothing written or prepared beforehand. Employing tactics derived from his Oblique Strategies cards for guidance, Eno utilised a variety of unconventional recording techniques and instrumental approaches.",
   favorite: "All of them",
   albumCounting: "3rd studio album.",
-  genre: [genres.exp, genres.avant, genres.ambient],
+  genre: [genres.exp, genres.avant, genres.ambient].sort(),
   picID: 34234,
   social: "@brianeno",
 };
@@ -179,7 +179,7 @@ const chihiro = {
     "Performed by New Japan Philharmonic. Spirited Away is frequently regarded as one of the best films of the 21st century as well as one of the greatest animated films ever made. It also bacome the highest-grossing film in Japanese history.",
   favorite: "The dragon boy",
   albumCounting: ost,
-  genre: [genres.classic, genres.ost, genres.japan],
+  genre: [genres.classic, genres.ost, genres.japan].sort(),
   picID: 283138,
   social: "@joehisaishi.official",
 };
@@ -192,7 +192,7 @@ const flea = {
     "Flea said he had no plans for the album to be anything but to just record it in the back room at his house following a long Chili Peppers tour and as a way for Chris Warren (drum technician and tour keyboard player for the RHCP) to learn how to be a sound engineer.",
   favorite: "333",
   albumCounting: "Debut studio album.",
-  genre: [genres.exp, genres.noise, genres.piano],
+  genre: [genres.exp, genres.noise, genres.piano].sort(),
   picID: 987123,
   social: "@flea333",
 };
@@ -205,7 +205,7 @@ const shell = {
     "He (Kenji) used classical Japanese in the opening theme Making of a Cyborg. The composition is a mixture of Bulgarian harmony and traditional Japanese notes; the haunting chorals are a wedding song sung to dispel all evil influences.",
   favorite: "Nightstalker",
   albumCounting: ost,
-  genre: [genres.ambient, genres.japan, genres.ost, genres.folk],
+  genre: [genres.ambient, genres.japan, genres.ost, genres.folk].sort(),
   picID: 447173,
   social: "",
 };
@@ -218,7 +218,7 @@ const zimmer = {
     "Hans Zimmer contributes one of his most richly imagined and inventive scores, which ranges from a gentle electronic keyboard melody to brassy, Strauss-ian crescendos.",
   favorite: "Mountains",
   albumCounting: ost,
-  genre: [genres.classic, genres.ambient, genres.ost],
+  genre: [genres.classic, genres.ambient, genres.ost].sort(),
   picID: 2312331,
   social: "@hanszimmer",
 };
@@ -231,7 +231,7 @@ const lorn = {
     "Selected commissions, abandoned or rejected themes and broken mantras for moving picture. largely beatless, ambient dives into tape with analog and digital synthesis, drones, dirty power and white noise.",
   favorite: "The Way Will Follow You",
   albumCounting: "N/a",
-  genre: [genres.noise, genres.ambient, genres.drone],
+  genre: [genres.noise, genres.ambient, genres.drone].sort(),
   picID: 34324248,
   social: "@lorn_ws",
 };
@@ -245,7 +245,7 @@ const camilo = {
   favorite: "Gnossiennes No.1' (original composition from Satie)",
   albumCounting:
     "Last installment of the Spain albums by the duo (Spain, Spain Again and Spain Forever)",
-  genre: [genres.piano, genres.classic, genres.guitar],
+  genre: [genres.piano, genres.classic, genres.guitar].sort(),
   picID: 12312371,
   social: "@camilomichel @tomatitoguitarrista58",
 };
@@ -258,7 +258,7 @@ const nate = {
     "American drummer, songwriter, producer, and three-time Grammy nominee. He co-wrote and produced the Michael Jackson song 'Heaven Can Wait'.",
   favorite: "What it do",
   albumCounting: "Third album as leader",
-  genre: [genres.drum],
+  genre: [genres.drum].sort(),
   picID: 731872491,
   social: "@natesmithdrums",
 };
@@ -272,7 +272,7 @@ const safriDuo = {
   favorite: "Everything (Epilogue)",
   albumCounting:
     "Seventh studio album. All 6 previous albums were actually classical music.",
-  genre: [genres.electronic, genres.classic],
+  genre: [genres.electronic, genres.classic].sort(),
   picID: 34343,
   social: "@safriduoofficial",
 };
@@ -286,7 +286,7 @@ const notUsed = {
   favorite: "Acting",
   albumCounting:
     "Third studio album. The cover art is from the 2021 re-mastered version.",
-  genre: [genres.shoe, genres.noise],
+  genre: [genres.shoe, genres.noise].sort(),
   picID: 1231314,
   social: "@sweet_trip_official",
 };
@@ -299,7 +299,7 @@ const moodyBlues = {
     "With its fusion of orchestral and rock elements, it has been cited as one of the first examples of progressive rock. The label asked them to record an adaptation of Dvořák's Symphony No. 9 for Deram in order to demonstrate their latest recording techniques, but they started (without the label's knowledge) recording the album.",
   favorite: "Evening",
   albumCounting: "Second studio album",
-  genre: [genres.symph],
+  genre: [genres.symph].sort(),
   picID: 9898892,
   social: "N/a",
 };
@@ -312,7 +312,7 @@ const toTheMoon = {
     "In GameSpot's Best game of the year, the game won Best Story and was nominated in the categories of Best Music, Most Memorable Moment, Best Writing/Dialogue, Best Ending, and Song of the Year. In 2015, it was included on GamesRadar's top 100 games of all time list.",
   favorite: "Lament of a Stranger",
   albumCounting: "Video game soundtrack. Kan is also the creator of the game.",
-  genre: [genres.ost, genres.piano, genres.contemp],
+  genre: [genres.ost, genres.piano, genres.contemp].sort(),
   picID: 9898934,
   social: "N/a",
 };
@@ -325,7 +325,7 @@ const oldfield = {
     "Oldfield, who was 19 years old when it was recorded, played almost all the instruments. He also played at the opening ceremony of 2012 Olympic games and last but not least: it's the opening track of The Exorcist. Once I heard that the reason the director chose that one, it's because the piano pattern is a 3/4+4/4, creating a weird feeling of mistery (seems the melody seems to be the same) which he related to the devil.",
   favorite: "Tubular Bells, Pt. I",
   albumCounting: "First studio album (and also first Virgin record!).",
-  genre: [genres.exp],
+  genre: [genres.exp].sort(),
   picID: 1223331,
   social: "N/a",
 };
@@ -338,7 +338,7 @@ const requiem = {
     "Aronofsky saw Requiem as a monster movie, only when something goes bad you hear the music. The soundtrack has been widely praised, and in particular the track Lux Aeterna (which itself is much used in the film) has subsequently been used in various forms of media.",
   favorite: "Ghosts of Things to Come",
   albumCounting: `${ost} Performed by Kronos Quartet.`,
-  genre: [genres.ost, genres.classic, genres.exp],
+  genre: [genres.ost, genres.classic, genres.exp].sort(),
   picID: 4434344,
   social: "@i_was_a_teenage_clint_mansell @kronos_quartet",
 };
@@ -351,7 +351,7 @@ const hecker = {
     "The album was recorded primarily in Frikirkjan Church, Reykjavík, by Ben Frost with Hecker playing compositions on the pipe organ which were further complemented by guitar and piano. Afterwards, he returned to his studio in Montreal and worked for a month, undertaking the mixing and completing the record.",
   favorite: "In The Fog I",
   albumCounting: "Sixth studio album.",
-  genre: [genres.noise, genres.ambient, genres.drone],
+  genre: [genres.noise, genres.ambient, genres.drone].sort(),
   picID: 9999,
   social: "@sunblindstudios",
 };
@@ -364,7 +364,7 @@ const tomita = {
     "Regarded as one of the pioneers of electronic music and space music, and as one of the most famous producers of analog synthesizer arrangements. Many of his albums are electronic versions and adaptations of familiar classical music pieces.",
   favorite: "Aranjuez",
   albumCounting: "Seventh studio album.",
-  genre: [genres.electronic, genres.classic],
+  genre: [genres.electronic, genres.classic].sort(),
   picID: 4543589,
   social: "N/a",
 };
@@ -377,7 +377,7 @@ const a74 = {
     "With more than 20 session musicians on it, it is the band's first studio album to be solely self-produced. It is also their final studio album to feature The Rev performing on drums, due to his death in December 2009 during production of their follow-up album",
   favorite: "A little piece of heaven",
   albumCounting: "Fourth studio album",
-  genre: [genres.metal, genres.symph],
+  genre: [genres.metal, genres.symph].sort(),
   picID: 234143124,
   social: "@avengedsevenfold",
 };
@@ -390,7 +390,7 @@ const birdman = {
     "The movie won 4 Oscars, incl. Best Picture, but the OST was not even nominated because, acc. to the committee 'the film also contains over a half an hour of non-original (mostly classical) music cues that are featured very prominently'",
   favorite: "Doors and Distance",
   albumCounting: ost,
-  genre: [genres.drum],
+  genre: [genres.drum].sort(),
   picID: 77757,
   social: "@antoniodrums1",
 };
@@ -403,7 +403,7 @@ const autobahn = {
     "Group's transition from the experimental krautrock style to electronic. The main refrain 'Fahren Fahren Fahren' was often mistaken for the English phrase 'Fun Fun Fun' and thought to be a reference to the 1964 Beach Boys' song 'Fun, Fun, Fun'",
   favorite: "Autobahn",
   albumCounting: "Fourth Studio Album.",
-  genre: [genres.electronic],
+  genre: [genres.electronic].sort(),
   picID: 4237894729,
   social: "X",
 };
@@ -415,7 +415,7 @@ const limbo = {
   decription: "X",
   favorite: "X",
   albumCounting: "X",
-  genre: [genres.drone, genres.ambient],
+  genre: [genres.drone, genres.ambient].sort(),
   picID: 3232323,
   social: "X",
 };
@@ -428,7 +428,7 @@ const theWall = {
     "It is a rock opera that explores Pink, a jaded rock star whose eventual self-imposed isolation from society forms a figurative wall. It was the last album to feature Pink Floyd as a quartet; keyboardist Richard Wright was fired by Waters during production but stayed on as a salaried musician.",
   favorite: "Is There Anybody Out There?",
   albumCounting: "Eleventh studio album",
-  genre: [genres.prorock, genres.symph, genres.opera],
+  genre: [genres.prorock, genres.symph, genres.opera].sort(),
   picID: 2232323,
   social: "@pinkfloyd",
 };
@@ -440,7 +440,7 @@ const modell = {
   decription: "X",
   favorite: "X",
   albumCounting: "X",
-  genre: [genres.dub, genres.techno],
+  genre: [genres.dub, genres.electronic, genres.techno].sort(),
   picID: 2322232223,
   social: "X",
 };
@@ -453,7 +453,7 @@ const scofield = {
     "Grammy Award for Best Jazz Instrumental Album. This album reunited Scofield with Lovano and Stewart, who had been members of his quartet. The title track was nominated for Best Improvised Jazz Solo Grammy.",
   favorite: "Chap Dance",
   albumCounting: "X",
-  genre: [genres.jazz],
+  genre: [genres.jazz].sort(),
   picID: 22322231,
   social: "X",
 };
@@ -465,7 +465,7 @@ const chopin = {
   decription: "X",
   favorite: "X",
   albumCounting: "X",
-  genre: [genres.piano, genres.classic],
+  genre: [genres.piano, genres.classic].sort(),
   picID: 1694872,
   social: "X",
 };
@@ -477,7 +477,7 @@ const amelie = {
   decription: "X",
   favorite: "X",
   albumCounting: "X",
-  genre: [genres.ost, genres.classic, genres.folk],
+  genre: [genres.ost, genres.classic, genres.folk].sort(),
   picID: 23237767,
   social: "X",
 };
@@ -489,7 +489,7 @@ const estopa = {
   decription: "X",
   favorite: "X",
   albumCounting: "X",
-  genre: [genres.rock, genres.rumba],
+  genre: [genres.rock, genres.rumba].sort(),
   picID: 11978589,
   social: "X",
 };
@@ -501,7 +501,7 @@ const goreshit = {
   decription: "X",
   favorite: "X",
   albumCounting: "X",
-  genre: [genres.break],
+  genre: [genres.break].sort(),
   picID: 6876768,
   social: "X",
 };
@@ -513,7 +513,7 @@ const ffx = {
   decription: "X",
   favorite: "X",
   albumCounting: "X",
-  genre: [genres.electronic, genres.contemp],
+  genre: [genres.electronic, genres.contemp].sort(),
   picID: 5554441,
   social: "X",
 };
@@ -525,7 +525,7 @@ const rush = {
   decription: "X",
   favorite: "X",
   albumCounting: "X",
-  genre: [genres.prorock],
+  genre: [genres.prorock].sort(),
   picID: 9879789,
   social: "X",
 };
@@ -537,7 +537,7 @@ const lesserOf = {
   decription: "X",
   favorite: "X",
   albumCounting: "X",
-  genre: [genres.techno, genres.electronic],
+  genre: [genres.techno, genres.electronic].sort(),
   picID: 342355,
   social: "X",
 };
@@ -549,7 +549,7 @@ const apeScape = {
   decription: "X",
   favorite: "X",
   albumCounting: "X",
-  genre: [genres.electronic, genres.ost, genres.drumand],
+  genre: [genres.electronic, genres.ost, genres.drumand].sort(),
   picID: 12313123123,
   social: "X",
 };
@@ -561,7 +561,7 @@ const erikB = {
   decription: "X",
   favorite: "X",
   albumCounting: "X",
-  genre: [genres.rap],
+  genre: [genres.rap].sort(),
   picID: 78979898779,
   social: "X",
 };
@@ -573,7 +573,7 @@ const chemical = {
   decription: "X",
   favorite: "X",
   albumCounting: "X",
-  genre: [genres.electronic],
+  genre: [genres.electronic].sort(),
   picID: 86758675876,
   social: "X",
 };
@@ -585,7 +585,7 @@ const eminem = {
   decription: "X",
   favorite: "X",
   albumCounting: "X",
-  genre: [genres.rap],
+  genre: [genres.rap].sort(),
   picID: 8885555,
   social: "X",
 };
@@ -597,7 +597,7 @@ const kalk = {
   decription: "X",
   favorite: "X",
   albumCounting: "X",
-  genre: [genres.electronic, genres.techno],
+  genre: [genres.electronic, genres.techno].sort(),
   picID: 4260600220109,
   social: "X",
 };
@@ -609,7 +609,7 @@ const gorillaz = {
   decription: "X",
   favorite: "X",
   albumCounting: "X",
-  genre: [genres.electronic, genres.rap],
+  genre: [genres.electronic, genres.rap].sort(),
   picID: 8646291038,
   social: "X",
 };
@@ -621,7 +621,7 @@ const paulita = {
   decription: "X",
   favorite: "X",
   albumCounting: "X",
-  genre: [genres.techno, genres.electronic],
+  genre: [genres.techno, genres.electronic].sort(),
   picID: 6565688,
   social: "X",
 };
@@ -634,7 +634,7 @@ const mcrae = {
     "Scott Yanow of Allmusic said that the album was one of McRae's best recordings of the 1960s. McRae always considered Billie Holiday to be her primary influence, so a tribute album was a natural project for her.",
   favorite: "Them There Eyes",
   albumCounting: "X",
-  genre: [genres.jazz],
+  genre: [genres.jazz].sort(),
   picID: 987987986,
   social: "X",
 };
@@ -647,7 +647,7 @@ const stardewValley = {
     "Made only by one person, Stardew Valley has been cited as one of the greatest video games of all time, with praise directed towards its music, characters, and relaxing qualities. Eric Baron used it as an exercise to improve his own programming and game design skills.",
   favorite: "Fall (The Smell of Mushroom",
   albumCounting: "X",
-  genre: [genres.electronic, genres.folk, genres.ambient],
+  genre: [genres.electronic, genres.folk, genres.ambient].sort(),
   picID: 5554444333,
   social: "X",
 };
@@ -660,7 +660,7 @@ const direStraits = {
     "Greatest hits album by British rock band. The first track on the album, Sultans of Swing, was re-released as a single in the UK in November 1988 to promote the album. The version of Money for Nothing omits the controversial Verse 2 lyrics entirely.",
   favorite: "Walk of Life",
   albumCounting: "Greatest hits compilation",
-  genre: [genres.rock],
+  genre: [genres.rock].sort(),
   picID: 342342342,
   social: "X",
 };

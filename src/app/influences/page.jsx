@@ -18,21 +18,29 @@ export default function MainInfluencesPage() {
   const [albumsState, setAlbumsState] = useState([...albumsV]);
   const [listType, setListType] = useState("favorites");
   const [tagStyle, setTagStyle] = useState(styles.genre);
+  const [tagSelected, setTagSelected] = useState("");
 
   const [wrapperStyleID, setWrapperStyleID] = useState(1);
 
   const tagger = function (e) {
-    const test = e.target.innerHTML
+    const test = e.target.innerHTML;
+    setTagSelected(test);
     const taggedArray = albumsState.filter((albumObj) =>
       albumObj.genre.includes(test)
     );
 
-    console.log(albumsState);
-    console.log(taggedArray);
+    // console.log(albumsState);
+    // console.log(taggedArray);
+    console.log(tagSelected);
     setAlbumsState(taggedArray);
     setWrapperStyleID(2);
     setTimeout(() => setWrapperStyleID(1), 1400);
   };
+
+  useEffect(() => {
+    console.log(`this is ${tagSelected} from the use Effect`);
+    console.log(tagSelected);
+  }, [tagSelected]);
 
   function sortByKey(arr, key) {
     arr.sort((a, b) => a[key] - b[key]);
@@ -46,6 +54,7 @@ export default function MainInfluencesPage() {
     const newArr = sortByKey(albumsState, "year");
     const newArr2 = [...newArr];
     setAlbumsState(newArr2);
+    setTagSelected("");
 
     setTimeout(() => setWrapperStyleID(1), 1400);
   };
@@ -56,6 +65,7 @@ export default function MainInfluencesPage() {
 
     const newArr3 = [...albumsV];
     setAlbumsState(newArr3);
+    setTagSelected("");
 
     setTimeout(() => setWrapperStyleID(1), 1400);
   };
@@ -77,6 +87,7 @@ export default function MainInfluencesPage() {
           listTypeTunnel={listType}
           taggerTunnel={tagger}
           tagStyleTunnel={tagStyle}
+          tagSelectedTunnel={tagSelected}
         ></AlbumWrapper>
       );
     });

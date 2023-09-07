@@ -22,10 +22,11 @@ function AlbumDescription(props) {
       <div className={styles.tagsWrapper}>
         {props.albumInfoTunnell2.genre.map((x) => {
           counter++;
+          console.log(props.tagSelectedTunnel)
           return (
             <div
               className={
-                props.selectedTagTunnel === x
+                props.tagSelectedTunnel == x
                   ? styles.genreSelected
                   : styles.genre
               }

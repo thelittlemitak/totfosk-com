@@ -1,4 +1,4 @@
-import styles from "../main-influences.module.css";
+import styles from "../influences.module.css";
 import { useEffect, useState } from "react";
 
 function Ranking(props) {

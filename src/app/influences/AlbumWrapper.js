@@ -1,6 +1,6 @@
 import CoverArt from "./components/CoverArt";
 import AlbumDescription from "./components/AlbumDescription";
-import styles from "./main-influences.module.css";
+import styles from "./influences.module.css";
 import Position from "./components/Position";
 import { useEffect, useState } from "react";
 
@@ -23,6 +23,9 @@ function AlbumWrapper(props) {
         albumInfoTunnell2={props.albumInfoTunnel}
         key={props.albumInfoTunnel.picID}
         listTypeTunnel={props.listTypeTunnel}
+        taggerTunnel={props.taggerTunnel}
+        tagStyleTunnel={props.tagStyleTunnel}
+        selectedTagTunnel={props.selectedTagTunnel}
       ></AlbumDescription>
     </div>
   );

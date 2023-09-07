@@ -22,7 +22,7 @@ export default function RootLayout({
         <header className={styles.headerFooter}>
           <nav className={styles.navBar}>
             <Link href="/">Home</Link>
-            <Link href="/main-influences">Main influences</Link>
+            <Link href="/influences">Main influences</Link>
           </nav>
         </header>
         <main>{children}</main>

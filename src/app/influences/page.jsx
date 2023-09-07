@@ -1,7 +1,7 @@
 "use client";
 
 import AlbumWrapper from "./AlbumWrapper";
-import styles from "./main-influences.module.css";
+import styles from "./influences.module.css";
 import albumsImport from "../../data/albums";
 import quotes from "../../data/quotes";
 import { useState, useEffect } from "react";
@@ -17,8 +17,22 @@ export default function MainInfluencesPage() {
   const [showMore4, setShowMore4] = useState(false);
   const [albumsState, setAlbumsState] = useState([...albumsV]);
   const [listType, setListType] = useState("favorites");
+  const [tagStyle, setTagStyle] = useState(styles.genre);
 
   const [wrapperStyleID, setWrapperStyleID] = useState(1);
+
+  const tagger = function (e) {
+    const test = e.target.innerHTML
+    const taggedArray = albumsState.filter((albumObj) =>
+      albumObj.genre.includes(test)
+    );
+
+    console.log(albumsState);
+    console.log(taggedArray);
+    setAlbumsState(taggedArray);
+    setWrapperStyleID(2);
+    setTimeout(() => setWrapperStyleID(1), 1400);
+  };
 
   function sortByKey(arr, key) {
     arr.sort((a, b) => a[key] - b[key]);
@@ -61,6 +75,8 @@ export default function MainInfluencesPage() {
           albumInfoTunnel={x}
           key={x.picID}
           listTypeTunnel={listType}
+          taggerTunnel={tagger}
+          tagStyleTunnel={tagStyle}
         ></AlbumWrapper>
       );
     });
@@ -71,6 +87,12 @@ export default function MainInfluencesPage() {
   const albums20_29 = mapper(19, 29);
   const albums30_39 = mapper(29, 39);
   const albums40_50 = mapper(39, 51);
+
+  // const [albums1_9, setAlbums1_9] = useState(mapper(0, 9));
+  // const [albums10_19, setAlbums10_19] = useState(mapper(9, 19));
+  // const [albums20_29, setAlbums20_29] = useState(mapper(19, 29));
+  // const [albums30_39, setAlbums30_39] = useState(mapper(29, 39));
+  // const [albums40_50, setAlbums40_50] = useState(mapper(39, 51));
 
   const genericQuote = <div className={styles.quotes}>{quotes[2]}</div>;
 
@@ -106,17 +128,33 @@ export default function MainInfluencesPage() {
 
   return (
     <>
-      <div className={styles.quotes}>A list of the most influential albums of my life.</div>
+      <div className={styles.quotes}>
+        A list of the most influential albums of my life.
+      </div>
       <div className={styles.divider}>
         <div className={styles.btnWrapper}>
           <div className={styles.arrows}>
             <div className={styles.arrow}>&#x2191;</div>
             <div className={styles.arrow}>&#x2191;</div>
           </div>
-          <button className={listType === "favorites" ? `${styles.button} ${styles.buttonSelected}` : `${styles.button}`} onClick={changerFavorites}>
+          <button
+            className={
+              listType === "favorites"
+                ? `${styles.button} ${styles.buttonSelected}`
+                : `${styles.button}`
+            }
+            onClick={changerFavorites}
+          >
             Favorites
           </button>
-          <button className={listType === "year of release" ? `${styles.button} ${styles.buttonSelected}` : `${styles.button}`} onClick={changerYears}>
+          <button
+            className={
+              listType === "year of release"
+                ? `${styles.button} ${styles.buttonSelected}`
+                : `${styles.button}`
+            }
+            onClick={changerYears}
+          >
             Year of release
           </button>
         </div>

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "../main-influences.module.css";
+import styles from "../influences.module.css";
 
 function CoverArt(props) {
   const sourceID = props.imgIDTunnell2;

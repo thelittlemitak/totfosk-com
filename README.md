@@ -6,7 +6,7 @@ Here we are! This a website where I put my favorite albums and some explanation 
 
 The plan for now is practice the new NextJS 13 App Router, Tailwind and maybe I will add some backend.
 
-# 04/09/23: Looking good! Already worth checking the functionality from /main-influences
+04/09/23: Looking good! Already worth checking the functionality from /main-influences
 
 Next JS 13 tips:
 - The window object is the reference to an open window in a browser. Therefore, the window object is only available on the client-side. This error occurs when you try to access the window object in the server-side code.

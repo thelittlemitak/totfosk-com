@@ -486,10 +486,11 @@ const amelie = {
 };
 const estopa = {
   artist: "Estopa",
-  album: "X",
+  album: "Estopa",
   year: "1999",
-  label: "X",
-  decription: "X",
+  label: "Sony/BMG",
+  decription:
+    "'Estopa' is the debut album of the Spanish Rumba/Rock duo, Estopa. It managed to sell 1,200,000 copies, still holding the record for sales by a debut group to this day.",
   favorite: "X",
   albumCounting: "X",
   genre: [genres.rock, genres.rumba].sort(),

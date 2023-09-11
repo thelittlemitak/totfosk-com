@@ -421,7 +421,145 @@ const coltrane = {
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 8098089,
 }
+const frusciante = {
+  track: "Before the Beginning",
+  album: "The Empyrean",
+  artist: "John Frusciante",
+  year: "2009",
+  explanation: "I found it and it was amazing",
+  listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
+  key: 8098089,
+}
 
+const scofield = {
+  track: "Icons of the Fair",
+  album: "Combo 66",
+  artist: "John Scofield",
+  year: "2018",
+  explanation: "I found it and it was amazing",
+  listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
+  key: 8098089,
+}
+
+const kenIshii = {
+  track: "Extra",
+  album: "Jelly Tones",
+  artist: "Ken Ishii",
+  year: "1995",
+  explanation: "I found it and it was amazing",
+  listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
+  key: 8098089,
+}
+
+const ledZeppelin = {
+  track: "Moby Dick (Live)",
+  album: "How the West Was Won (Live)",
+  artist: "Led Zeppelin",
+  year: "xxxxx",
+  explanation: "I found it and it was amazing",
+  listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
+  key: 8098089,
+};
+
+const lesserOf = {
+  track: "A Broken Mirror Cuts Your Face",
+  album: "A Broken Mirror Cuts Your Face",
+  artist: "Lesser Of",
+  year: "2022",
+  explanation: "I found it and it was amazing",
+  listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
+  key: 8098089,
+};
+
+const lori = {
+  track: "Mi Realidad",
+  album: "Cuando el Destino Nos Alcance",
+  artist: "Lori Meyers",
+  year: "2010",
+  explanation: "I found it and it was amazing",
+  listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
+  key: 8098089,
+};
+
+const luigi = {
+  track: "Salina",
+  album: "Deep Blue: volume 3",
+  artist: "Luigi Tozzi",
+  year: "2021",
+  explanation: "I found it and it was amazing",
+  listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
+  key: 8098089,
+};
+
+const lynyrd = {
+  track: "Simple Man",
+  album: "Pronounced Leh-Nerd Skin-Nerd",
+  artist: "Lynyrd Skynyrd",
+  year: "1973",
+  explanation: "I found it and it was amazing",
+  listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
+  key: 8098089,
+};
+
+const m83 = {
+  track: "Outro",
+  album: "Hurry up, We're Dreaming",
+  artist: "M83",
+  year: "2011",
+  explanation: "I found it and it was amazing",
+  listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
+  key: 8098089,
+};
+
+// const xxx = {
+//   track: "xxxxx",
+//   album: "xxxxx",
+//   artist: "xxxxx",
+//   year: "xxxxx",
+//   explanation: "I found it and it was amazing",
+//   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
+//   key: 8098089,
+// };
+
+// const xxx = {
+//   track: "xxxxx",
+//   album: "xxxxx",
+//   artist: "xxxxx",
+//   year: "xxxxx",
+//   explanation: "I found it and it was amazing",
+//   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
+//   key: 8098089,
+// };
+
+// const xxx = {
+//   track: "xxxxx",
+//   album: "xxxxx",
+//   artist: "xxxxx",
+//   year: "xxxxx",
+//   explanation: "I found it and it was amazing",
+//   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
+//   key: 8098089,
+// };
+
+// const xxx = {
+//   track: "xxxxx",
+//   album: "xxxxx",
+//   artist: "xxxxx",
+//   year: "xxxxx",
+//   explanation: "I found it and it was amazing",
+//   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
+//   key: 8098089,
+// };
+
+// const xxx = {
+//   track: "xxxxx",
+//   album: "xxxxx",
+//   artist: "xxxxx",
+//   year: "xxxxx",
+//   explanation: "I found it and it was amazing",
+//   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
+//   key: 8098089,
+// };
 
 const singles = [
   farAboveTheClouds,
@@ -461,7 +599,17 @@ const singles = [
   rachmaninov,
   jamesBrown,
   jeanCaffeine,
-  jimi
+  jimi,
+  coltrane,
+  frusciante,
+  scofield,
+  kenIshii,
+  ledZeppelin,
+  lori,
+  lesserOf,
+  luigi,
+  lynyrd,
+
 ];
 
 export default singles;

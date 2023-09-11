@@ -9,3 +9,22 @@
   display: flex;
   justify-content: space-around;
 }
+
+.dropDownTitle {
+  cursor: default;
+}
+
+.dropDownNav {
+  flex-direction: column;
+  background-color: white;
+  position: absolute;
+  transition: all 0.5s;
+  opacity: 0;
+  visibility: hidden;
+  display: flex;
+}
+
+.dropDownTitle:hover .dropDownNav {
+  opacity: 100;
+  visibility: visible;
+}

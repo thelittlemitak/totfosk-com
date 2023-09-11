@@ -6,7 +6,7 @@ import albumsImport from "../../data/albums";
 import quotes from "../../data/quotes";
 import { useState, useEffect } from "react";
 
-export default function MainInfluencesPage() {
+export default function Albums() {
   const albumsV = albumsImport;
 
   const [btnStyle, setBtnStyle] = useState(styles.btn);

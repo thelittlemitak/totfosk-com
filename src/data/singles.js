@@ -609,7 +609,7 @@ const singles = [
   lesserOf,
   luigi,
   lynyrd,
-
+  m83
 ];
 
 export default singles;

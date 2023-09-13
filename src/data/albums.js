@@ -534,16 +534,16 @@ const rush = {
   picID: 9879789,
   social: "X",
 };
-const lesserOf = {
-  artist: "Lesser Of",
-  album: "2112",
-  year: "2021",
-  label: "Das Kollektive",
+const yves = {
+  artist: "Yves Tumor",
+  album: "Safe in the Hands of Love",
+  year: "2018",
+  label: "WARP",
   decription: "X",
   favorite: "X",
   albumCounting: "X",
   genre: [genres.techno, genres.electronic].sort(),
-  picID: 342355,
+  picID: 3423551,
   social: "X",
 };
 const apeScape = {
@@ -698,7 +698,7 @@ const albums = [
   erikB,
   weatherday,
   undertale,
-  lesserOf,
+  yves,
   rafael,
   braxton,
   modell,

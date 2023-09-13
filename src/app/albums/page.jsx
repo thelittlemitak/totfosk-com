@@ -180,13 +180,16 @@ export default function Albums() {
       {showMore3 && quote4}
       {showMore4 && albums40_50}
       <ol className={styles.bottomUl}>
-        <li type="circle"> Austin Wintory - Journey (2012)</li>
-        <li type="circle"> El canto del loco - Estados de Ánimo</li>
-        <li type="circle">Howard Shore - The Lord of the Rings</li>
-        <li type="circle">Gang Starr - Step In the Arena</li>
-        <li type="circle">Madonna - Confessions on a Dance Floor</li>
+        <li type="circle">Austin Wintory - Journey (2012)</li>
+        <li type="circle">El canto del loco - Estados de Ánimo (2003)</li>
+        <li type="circle">Howard Shore - The Lord of the Rings(2001-2-3)</li>
+        <li type="circle">Gang Starr - Step In the Arena (1991)</li>
+        <li type="circle">Neil Diamond - Touching You, Touching Me (1969)</li>
+        <li type="circle">Traffic - Mr. Fantasy (1967)</li>
+        <li type="circle">Yves Tumor - Safe in the Hands of Love (2018)</li>
+
       </ol>
-        <p className={styles.almostAlert}>almost made it...</p>
+      <p className={styles.almostAlert}>almost made it...</p>
     </>
   );
 }

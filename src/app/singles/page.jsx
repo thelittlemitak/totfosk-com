@@ -27,19 +27,21 @@ export default function Singles() {
     });
   };
 
-  const singles1_9 = mapper(0, 9);
-  const singles10_19 = mapper(9, 19);
-  const singles20_29 = mapper(19, 29);
-  const singles30_39 = mapper(29, 39);
-  const singles40_50 = mapper(39, 51);
+  const singles1_19 = mapper(0, 19);
+  const singles20_39 = mapper(19, 39);
+  const singles40_59 = mapper(39, 59);
+  const singles60_79 = mapper(59, 79);
+  const singles80_100 = mapper(79, 100);
+
+
 
   return (
     <div className={styles.listWrapper}>
-      {singles1_9}
-      {singles10_19}
-      {singles20_29}
-      {singles30_39}
-      {singles40_50}
+      {singles1_19}
+      {singles20_39}
+      {singles40_59}
+      {singles60_79}
+      {singles80_100}
     </div>
   );
 }

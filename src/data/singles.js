@@ -511,15 +511,15 @@ const m83 = {
   key: 8098089,
 };
 
-// const xxx = {
-//   track: "xxxxx",
-//   album: "xxxxx",
-//   artist: "xxxxx",
-//   year: "xxxxx",
-//   explanation: "I found it and it was amazing",
-//   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-//   key: 8098089,
-// };
+const isaoTomita = {
+  track: "xxxxx",
+  album: "xxxxx",
+  artist: "xxxxx",
+  year: "xxxxx",
+  explanation: "I found it and it was amazing",
+  listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
+  key: 8098089,
+};
 
 // const xxx = {
 //   track: "xxxxx",

@@ -179,6 +179,14 @@ export default function Albums() {
       {showMore3 && albums30_39}
       {showMore3 && quote4}
       {showMore4 && albums40_50}
+      <ol className={styles.bottomUl}>
+        <li type="circle"> Austin Wintory - Journey (2012)</li>
+        <li type="circle"> El canto del loco - Estados de Ánimo</li>
+        <li type="circle">Howard Shore - The Lord of the Rings</li>
+        <li type="circle">Gang Starr - Step In the Arena</li>
+        <li type="circle">Madonna - Confessions on a Dance Floor</li>
+      </ol>
+        <p className={styles.almostAlert}>almost made it...</p>
     </>
   );
 }

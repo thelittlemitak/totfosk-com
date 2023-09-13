@@ -49,7 +49,7 @@
 
 /* compontents/Position.js */
 
-.rankingCont{
+.rankingCont {
   width: 8rem;
   align-self: center;
   justify-self: center;
@@ -136,6 +136,7 @@
 .buttonSelected {
   background-color: rgb(6, 37, 6);
   color: white;
+  cursor: default;
 }
 
 .button:hover {
@@ -177,4 +178,23 @@
   display: flex;
   gap: -3px;
   margin-right: 1rem;
+}
+
+.bottomUl {
+  margin-left: 3rem;
+  font-size: 2rem;
+}
+
+.bottomUl li {
+  margin-left: 3rem;
+}
+
+.bottomUl li:last-child {
+  margin-bottom: 2rem;
+}
+
+.almostAlert{
+  font-size: 3rem;
+  font-weight: 500;
+  margin-left: 2rem;
 }

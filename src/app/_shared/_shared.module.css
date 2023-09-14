@@ -1,0 +1,53 @@
+/* ! Sorter */
+
+.divider {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 1rem;
+}
+
+.btnWrapper {
+  display: flex;
+  gap: 0.3rem;
+}
+
+.arrow {
+  align-self: center;
+  font-size: 3rem;
+  padding: -0.5rem;
+}
+
+.arrow:first-child {
+  transform: translateY(-1.5px) translateX(4px);
+}
+
+.arrow:last-child {
+  transform: rotate(180deg) translateY(-4.5px);
+}
+
+.arrows {
+  display: flex;
+  gap: -3px;
+  margin-right: 1rem;
+}
+
+.button {
+  font-size: 2rem;
+  background-color: white;
+  display: block;
+  color: rgb(60, 49, 49);
+  transition: all 0.3s;
+  padding: 0rem 1rem;
+  align-self: center;
+}
+
+.buttonSelected {
+  background-color: rgb(6, 37, 6);
+  color: white;
+  cursor: default;
+}
+
+.button:hover {
+  background-color: rgb(6, 37, 6);
+  color: white;
+}

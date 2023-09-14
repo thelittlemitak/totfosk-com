@@ -4,7 +4,7 @@ const mikeOldfield = {
   artist: "Mike Oldfield",
   year: "1998",
   explanation:
-    "I found it and it was amazing. I found it and it was amazing. I found it and it was amazing. ",
+    "I found it and it was amazing. I found it and it was amazing. I found it and it was amazing. I found it and it was amazing. I found it and it was amazing. I found it and it was amazing. ",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
 
   key: 127394,
@@ -14,7 +14,8 @@ const inkeys = {
   album: "Girl/Boy",
   artist: "Aphex Twin",
   year: "1996",
-  explanation: "I found it and it was amazing",
+  explanation:
+    "I found it and it was amazing. I found it and it was amazing. I found it and it was amazing. I found it and it was amazing. I found it and it was amazing. I found it and it was amazing. ",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
 
   key: 67547,
@@ -24,7 +25,8 @@ const barac = {
   album: "Verniana EP",
   artist: "Barac",
   year: "2015",
-  explanation: "I found it and it was amazing",
+  explanation:
+    "I found it and it was amazing. I found it and it was amazing. I found it and it was amazing. ",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
 
   key: 32424,
@@ -60,7 +62,7 @@ const bennyGreb = {
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
 
-  key: 1231,
+  key: 674657,
 };
 
 const bobMarley = {
@@ -71,7 +73,7 @@ const bobMarley = {
   explanation: "Released on 1992",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
 
-  key: 1231,
+  key: 34,
 };
 
 const brianEno = {
@@ -82,7 +84,7 @@ const brianEno = {
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
 
-  key: 1231,
+  key: 662,
 };
 
 const buzzcocks = {
@@ -93,7 +95,7 @@ const buzzcocks = {
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
 
-  key: 8098089,
+  key: 64757,
 };
 
 const cami = {
@@ -104,7 +106,7 @@ const cami = {
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
 
-  key: 8098089,
+  key: 25425387,
 };
 
 const chemical = {
@@ -115,7 +117,7 @@ const chemical = {
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
 
-  key: 8098089,
+  key: 142341328,
 };
 
 const childishJapes = {
@@ -126,7 +128,7 @@ const childishJapes = {
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
 
-  key: 8098089,
+  key: 5887563443,
 };
 
 const clairo = {
@@ -137,7 +139,7 @@ const clairo = {
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
 
-  key: 8098089,
+  key: 143296,
 };
 
 const claudio = {
@@ -148,7 +150,7 @@ const claudio = {
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
 
-  key: 8098089,
+  key: 98674132,
 };
 
 const requiem = {
@@ -159,7 +161,7 @@ const requiem = {
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
 
-  key: 8098089,
+  key: 14329867,
 };
 
 const feliciano = {
@@ -169,7 +171,7 @@ const feliciano = {
   year: "1983",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 68971432,
 };
 
 const daftPunk = {
@@ -179,7 +181,7 @@ const daftPunk = {
   year: "2007",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=x84m3YyO2oU",
-  key: 8098089,
+  key: 42359867,
 };
 
 const danzig = {
@@ -189,7 +191,7 @@ const danzig = {
   year: "1988",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 8674123,
 };
 
 const darkness = {
@@ -199,7 +201,7 @@ const darkness = {
   year: "2003",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 41329687,
 };
 
 const gilmour = {
@@ -209,7 +211,7 @@ const gilmour = {
   year: "2017",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 657423,
 };
 const demisRoussos = {
   track: "She Came Up From the North",
@@ -218,7 +220,7 @@ const demisRoussos = {
   year: "1971",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=HSuANA1jQRo",
-  key: 8098089,
+  key: 4123765,
 };
 
 const doors = {
@@ -228,7 +230,7 @@ const doors = {
   year: "1967",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=VScSEXRwUqQ",
-  key: 8098089,
+  key: 867924,
 };
 
 const eiffel65 = {
@@ -238,7 +240,7 @@ const eiffel65 = {
   year: "1998",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 14238967,
 };
 
 const tank = {
@@ -248,7 +250,7 @@ const tank = {
   year: "1970",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 89675423,
 };
 
 const eskorbuto = {
@@ -258,7 +260,7 @@ const eskorbuto = {
   year: "1985",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 41329687,
 };
 
 const debussy = {
@@ -268,7 +270,7 @@ const debussy = {
   year: "1997 (1906)",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 8679243,
 };
 
 const funkadelic = {
@@ -278,7 +280,7 @@ const funkadelic = {
   year: "1971",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 14239867999,
 };
 
 const genesis = {
@@ -288,7 +290,7 @@ const genesis = {
   year: "1976",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 89765423,
 };
 
 const gits = {
@@ -298,7 +300,7 @@ const gits = {
   year: "1992",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 42539867,
 };
 
 const gorillaz = {
@@ -308,7 +310,7 @@ const gorillaz = {
   year: "2005",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 98674321,
 };
 
 const gwen = {
@@ -318,7 +320,7 @@ const gwen = {
   year: "2004",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 14238976,
 };
 
 const hansZimmer = {
@@ -328,7 +330,7 @@ const hansZimmer = {
   year: "2001",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 896754,
 };
 
 const herbie = {
@@ -338,7 +340,7 @@ const herbie = {
   year: "1973",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 14239867,
 };
 
 const horacio = {
@@ -348,7 +350,7 @@ const horacio = {
   year: "2004",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 98761423,
 };
 
 const rachmaninov = {
@@ -358,7 +360,7 @@ const rachmaninov = {
   year: "2005",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 12349867,
 };
 
 const jamesBrown = {
@@ -368,7 +370,7 @@ const jamesBrown = {
   year: "1986",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 78566345,
 };
 
 const elvis = {
@@ -378,7 +380,7 @@ const elvis = {
   year: "1969",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 68573564,
 };
 
 const jeanCaffeine = {
@@ -388,7 +390,7 @@ const jeanCaffeine = {
   year: "1998",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 56345423,
 };
 
 const jimi = {
@@ -398,7 +400,7 @@ const jimi = {
   year: "1998 (1967)",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 2453587,
 };
 
 const coltrane = {
@@ -408,7 +410,7 @@ const coltrane = {
   year: "1960",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 258697,
 };
 const frusciante = {
   track: "Before the Beginning",
@@ -417,7 +419,7 @@ const frusciante = {
   year: "2009",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 68972534,
 };
 
 const scofield = {
@@ -427,7 +429,7 @@ const scofield = {
   year: "2018",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 259678,
 };
 
 const kenIshii = {
@@ -437,7 +439,7 @@ const kenIshii = {
   year: "1995",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 98675234,
 };
 
 const ledZeppelin = {
@@ -447,7 +449,7 @@ const ledZeppelin = {
   year: "xxxxx",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 6543,
 };
 
 const lesserOf = {
@@ -457,7 +459,7 @@ const lesserOf = {
   year: "2022",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 809856089,
 };
 
 const lori = {
@@ -467,7 +469,7 @@ const lori = {
   year: "2010",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 465725,
 };
 
 const luigi = {
@@ -477,7 +479,7 @@ const luigi = {
   year: "2021",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 34346556,
 };
 
 const lynyrd = {
@@ -487,7 +489,7 @@ const lynyrd = {
   year: "1973",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 8778443,
 };
 
 const m83 = {
@@ -497,7 +499,7 @@ const m83 = {
   year: "2011",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 34347667,
 };
 
 const isaoTomita = {
@@ -507,7 +509,7 @@ const isaoTomita = {
   year: "xxxxx",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 566464,
 };
 
 const marcman = {
@@ -517,7 +519,7 @@ const marcman = {
   year: "2013",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=iF2ujAcRYg0",
-  key: 8098089,
+  key: 453252345,
 };
 
 const guiliana = {
@@ -527,7 +529,7 @@ const guiliana = {
   year: "2014",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=iF2ujAcRYg0",
-  key: 8098089,
+  key: 626265,
 };
 
 const villalobos = {
@@ -537,7 +539,7 @@ const villalobos = {
   year: "2006",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 377374,
 };
 
 const metallica = {
@@ -547,7 +549,7 @@ const metallica = {
   year: "1984",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 48,
 };
 
 const mitaka = {
@@ -557,7 +559,7 @@ const mitaka = {
   year: "2009",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 787835,
 };
 
 const moderat = {
@@ -567,7 +569,7 @@ const moderat = {
   year: "2009",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 67553456,
 };
 
 const theMoodyBlues = {
@@ -577,7 +579,7 @@ const theMoodyBlues = {
   year: "1965",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 78583,
 };
 
 const nana = {
@@ -587,7 +589,7 @@ const nana = {
   year: "1967",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 54645654,
 };
 
 const nas = {
@@ -597,7 +599,7 @@ const nas = {
   year: "xxxxx",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 786863,
 };
 
 const nellyFurtado = {
@@ -607,7 +609,7 @@ const nellyFurtado = {
   year: "2006",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 3455348,
 };
 
 const ffix = {
@@ -617,7 +619,7 @@ const ffix = {
   year: "2001",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 657675234,
 };
 
 const ornette = {
@@ -627,7 +629,7 @@ const ornette = {
   year: "1982",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 2344233,
 };
 
 const pinkFloyd = {
@@ -637,7 +639,7 @@ const pinkFloyd = {
   year: "1987",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 3333,
 };
 
 const primus = {
@@ -647,7 +649,7 @@ const primus = {
   year: "1997",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 4444,
 };
 
 const prince = {
@@ -657,7 +659,7 @@ const prince = {
   year: "1992",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 5555,
 };
 
 const rabbeat = {
@@ -667,7 +669,7 @@ const rabbeat = {
   year: "2019",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 6666,
 };
 
 const queen = {
@@ -677,7 +679,7 @@ const queen = {
   year: "1975",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 77777,
 };
 
 const answeringMaschine = {
@@ -687,7 +689,7 @@ const answeringMaschine = {
   year: "1984",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 8888,
 };
 
 const rinoGaetano = {
@@ -697,7 +699,7 @@ const rinoGaetano = {
   year: "1995 (1975)",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 9999,
 };
 
 const rolyPorter = {
@@ -707,7 +709,7 @@ const rolyPorter = {
   year: "2016",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 80980254389,
 };
 
 const rosaAnschutz = {
@@ -717,7 +719,7 @@ const rosaAnschutz = {
   year: "2019",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 45645644,
 };
 
 const safriDuo = {
@@ -727,7 +729,7 @@ const safriDuo = {
   year: "2004",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 22234,
 };
 
 const sewerlvst = {
@@ -737,7 +739,7 @@ const sewerlvst = {
   year: "2020",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 5454536,
 };
 
 const squarepusher = {
@@ -747,7 +749,7 @@ const squarepusher = {
   year: "1997",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 6775756,
 };
 
 const steveGadd = {
@@ -757,7 +759,7 @@ const steveGadd = {
   year: "2016",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 5345345326,
 };
 
 const steveVai = {
@@ -767,7 +769,7 @@ const steveVai = {
   year: "1995",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 67567542,
 };
 
 const strokes = {
@@ -777,7 +779,7 @@ const strokes = {
   year: "2003",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 3453457245,
 };
 
 const sweetTrip = {
@@ -787,7 +789,7 @@ const sweetTrip = {
   year: "2021",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 255255274,
 };
 
 const byob = {
@@ -797,7 +799,7 @@ const byob = {
   year: "2005",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 655656654,
 };
 
 const timHecker = {
@@ -807,7 +809,7 @@ const timHecker = {
   year: "2011",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 3434434532,
 };
 
 const t47 = {
@@ -817,7 +819,7 @@ const t47 = {
   year: "2011",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 65656562345,
 };
 
 const nin = {
@@ -827,7 +829,7 @@ const nin = {
   year: "1997",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 45454534,
 };
 
 const moulinRouge = {
@@ -837,7 +839,7 @@ const moulinRouge = {
   year: "2001",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 3434344334,
 };
 
 const stevieSting = {
@@ -847,7 +849,7 @@ const stevieSting = {
   year: "2013",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 4545454545,
 };
 
 const dettmann = {
@@ -857,7 +859,7 @@ const dettmann = {
   year: "2013",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 5656565665,
 };
 
 const venetian = {
@@ -867,7 +869,7 @@ const venetian = {
   year: "2018",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 7667676767,
 };
 
 const yes = {
@@ -877,7 +879,7 @@ const yes = {
   year: "1969",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 78878778,
 };
 
 const harley = {
@@ -887,7 +889,7 @@ const harley = {
   year: "1971",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 8989988998,
 };
 
 const miserables = {
@@ -897,7 +899,7 @@ const miserables = {
   year: "xxxxx",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 999563,
 };
 
 const metal = {
@@ -907,7 +909,7 @@ const metal = {
   year: "2015 (1998)",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 2345432,
 };
 
 const a001 = {
@@ -917,7 +919,7 @@ const a001 = {
   year: "2016",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 345634,
 };
 
 const snts = {
@@ -927,7 +929,7 @@ const snts = {
   year: "2018",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 456745,
 };
 
 const buriedSecrets = {
@@ -937,7 +939,7 @@ const buriedSecrets = {
   year: "2019",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 5678675,
 };
 
 const mortalKombat = {
@@ -947,7 +949,7 @@ const mortalKombat = {
   year: "1994",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 6789876,
 };
 
 const dob = {
@@ -957,7 +959,7 @@ const dob = {
   year: "1999",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 789087,
 };
 
 const privatePress = {
@@ -967,7 +969,7 @@ const privatePress = {
   year: "2020",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 97890,
 };
 
 const wydechUgory = {
@@ -977,7 +979,7 @@ const wydechUgory = {
   year: "2020",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 8756678,
 };
 
 const madonna = {
@@ -987,7 +989,7 @@ const madonna = {
   year: "2005",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 7654567,
 };
 
 const pac2 = {
@@ -997,7 +999,7 @@ const pac2 = {
   year: "N/a",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 6534456,
 };
 
 const operaPrima = {
@@ -1007,7 +1009,7 @@ const operaPrima = {
   year: "2004",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 5432345,
 };
 
 const subways = {
@@ -1017,7 +1019,7 @@ const subways = {
   year: "2015",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8098089,
+  key: 22233,
 };
 
 const singles = [

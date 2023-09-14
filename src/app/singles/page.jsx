@@ -4,9 +4,39 @@ import SingleWrapper from "./SingleWrapper";
 import styles from "./singles.module.css";
 import singlesImport from "../../data/singles";
 import { useState, useEffect } from "react";
+import Sorter from "../_shared/components/Sorter";
+import sortByKey from "../_shared/functions/sortByKey";
 
 export default function Singles() {
-  const [singlesState, setSinglesState] = useState(singlesImport);
+  const singlesV = singlesImport;
+  console.log(singlesV);
+  const [singlesState, setSinglesState] = useState([...singlesImport]);
+  const [listType, setListType] = useState("favorites");
+  const [wrapperStyleID, setWrapperStyleID] = useState(1);
+  const [tagSelected, setTagSelected] = useState("");
+
+  const changerYears = function () {
+    setWrapperStyleID(2);
+    setListType("year of release");
+
+    const newArr = sortByKey(singlesState, "year");
+    const newArr2 = [...newArr];
+    setSinglesState(newArr2);
+    setTagSelected("");
+
+    setTimeout(() => setWrapperStyleID(1), 1400);
+  };
+
+  const changerFavorites = function () {
+    setWrapperStyleID(2);
+    setListType("favorites");
+
+    const newArr3 = [...singlesV];
+    setSinglesState(newArr3);
+    setTagSelected("");
+
+    setTimeout(() => setWrapperStyleID(1), 1400);
+  };
 
   let counter = 0;
 
@@ -22,6 +52,7 @@ export default function Singles() {
           yearTunnel={x.year}
           explanationTunnel={x.explanation}
           key={x.key}
+          test={wrapperStyleID}
         ></SingleWrapper>
       );
     });
@@ -33,15 +64,20 @@ export default function Singles() {
   const singles60_79 = mapper(59, 79);
   const singles80_100 = mapper(79, 100);
 
-
-
   return (
-    <div className={styles.listWrapper}>
-      {singles1_19}
-      {singles20_39}
-      {singles40_59}
-      {singles60_79}
-      {singles80_100}
-    </div>
+    <>
+      <Sorter
+        listTypeTunnel={listType}
+        changerFTunnel={changerFavorites}
+        changerYTunnel={changerYears}
+      ></Sorter>
+      <div className={styles.listWrapper}>
+        {singles1_19}
+        {singles20_39}
+        {singles40_59}
+        {singles60_79}
+        {singles80_100}
+      </div>
+    </>
   );
 }

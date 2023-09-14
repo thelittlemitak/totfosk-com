@@ -1,4 +1,4 @@
-import styles from "../influences.module.css";
+import styles from "../albums.module.css";
 
 function AlbumDescription(props) {
   let counter = 0;
@@ -22,7 +22,6 @@ function AlbumDescription(props) {
       <div className={styles.tagsWrapper}>
         {props.albumInfoTunnell2.genre.map((x) => {
           counter++;
-          console.log(props.tagSelectedTunnel)
           return (
             <div
               className={

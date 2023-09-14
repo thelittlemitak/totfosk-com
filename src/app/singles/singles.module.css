@@ -1,12 +1,59 @@
 .singleWrapper {
-  background-color: white;
+  background-color: rgb(37, 6, 6);
   display: grid;
   grid-template-columns: 80% 20%;
   font-size: 3rem;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
+}
+
+.animation {
+  animation: slideIn 1s ease-out;
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100;
+  }
+}
+
+.textFlex {
+  padding-left: 3rem;
+}
+
+.listWrapper {
+  margin-top: 5rem;
 }
 
 .explanation {
+  /* grid-column: 1/3; */
+  padding-left: 2rem;
+  background-color: rgb(6, 37, 6);
+  padding-left: 5rem;
+
+
+}
+
+.explanationWrapper {
   grid-column: 1/3;
-  background-color: aqua;
+  background-color: rgb(6, 37, 6);
+}
+
+.filler {
+  background-color: rgb(6, 37, 6);
+
+}
+
+.textWrap {
+  margin-left: 1rem;
+}
+
+.artistAlbum{
+  padding-left: 1rem;
+}
+
+.positionTitle{
+  font-size: 4rem;
 }

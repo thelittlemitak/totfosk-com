@@ -1,6 +1,6 @@
 import CoverArt from "./components/CoverArt";
 import AlbumDescription from "./components/AlbumDescription";
-import styles from "./influences.module.css";
+import styles from "./albums.module.css";
 import Position from "./components/Position";
 import { useEffect, useState } from "react";
 

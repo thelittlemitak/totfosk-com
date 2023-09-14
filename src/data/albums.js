@@ -461,10 +461,10 @@ const scofield = {
 const chopin = {
   artist: "Chopin",
   album: "Essential Classic",
-  year: "2011",
+  year: "1839",
   label: "Essential Classic",
   decription:
-    "Before his death, Chopin expressed the wish to destroy his unpublished musical works but his mother and sister did not abide by that wish. They decided to move forward with publishing the compositions that had not yet come to light. Today many of the waltzes, polonaises, and nocturnes attributed to Chopin were published after his death.",
+    "2011 recording. Before his death, Chopin expressed the wish to destroy his unpublished musical works but his mother and sister did not abide by that wish. They decided to move forward with publishing the compositions that had not yet come to light. Today many of the waltzes, polonaises, and nocturnes attributed to Chopin were published after his death.",
   favorite: "Piano Prelude No.15 'raindrop'",
   albumCounting: "X",
   genre: [genres.piano, genres.classic].sort(),

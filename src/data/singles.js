@@ -4,7 +4,7 @@ const mikeOldfield = {
   artist: "Mike Oldfield",
   year: "1998",
   explanation:
-    "I found it and it was amazing. I found it and it was amazing. I found it and it was amazing. I found it and it was amazing. I found it and it was amazing. I found it and it was amazing. ",
+    "During elementary school years, I spent countless hours alone with my grandma. She had a stereo and a collection of CDs from my aunt. I remember going through ALL of them, track by track, until I found this one... I spent years listening to this track in loop. I was so young that I couldn't even tell that what I was hearing was Mike's guitar solo. For me it was just perfection. Funnywise, next time I heard the words `Tubular Bells` it was 15 years later, when I was studying progressive Rock at Uni. The name came out and I went home to find this track again. I almost freak out when I found it.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
 
   key: 127394,

@@ -66,6 +66,9 @@ export default function Singles() {
 
   return (
     <>
+      <div className={styles.quotes}>
+        A list of the most influential albums of my life.
+      </div>
       <Sorter
         listTypeTunnel={listType}
         changerFTunnel={changerFavorites}

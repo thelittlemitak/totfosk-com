@@ -124,7 +124,7 @@ export default function Albums() {
   return (
     <>
       <div className={styles.quotes}>
-        A list of the most influential albums of my life.
+        A list of the most influential singles of my life.
       </div>
       <Sorter
         listTypeTunnel={listType}

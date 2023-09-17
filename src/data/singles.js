@@ -437,7 +437,8 @@ const kenIshii = {
   album: "Jelly Tones",
   artist: "Ken Ishii",
   year: "1995",
-  explanation: "I found it and it was amazing",
+  explanation:
+    "I was living in Granada while studying and I knew that Industrial Copera invited Ken Ishii. At that time I didn't know who he was so I checked on YouTube and found the videoclip of this track... Needless to say, it has probably been the videoclip that has blown my mind the most in my entire life.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 98675234,
 };

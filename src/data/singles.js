@@ -448,7 +448,7 @@ const ledZeppelin = {
   album: "How the West Was Won (Live)",
   artist: "Led Zeppelin",
   year: "1972",
-  explanation: "I found it and it was amazing",
+  explanation: "I could talk a hundred hours about this one... But I will summarize it all to an interesting fact: Like John Bonham, I also fear flying with plains, and this is the song that I listen since I sit in the plain until it takes off. Always!",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 6543,
 };

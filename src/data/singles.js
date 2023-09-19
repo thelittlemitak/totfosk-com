@@ -448,7 +448,8 @@ const ledZeppelin = {
   album: "How the West Was Won (Live)",
   artist: "Led Zeppelin",
   year: "1972",
-  explanation: "I could talk a hundred hours about this one... But I will summarize it all to an interesting fact: Like John Bonham, I also fear flying with plains, and this is the song that I listen since I sit in the plain until it takes off. Always!",
+  explanation:
+    "I could talk a hundred hours about this one... But I will summarize it all to an interesting fact: Like John Bonham, I also fear flying with plains, and this is the song that I listen since I sit in the plain until it takes off. Always!",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 6543,
 };
@@ -498,7 +499,8 @@ const m83 = {
   album: "Hurry up, We're Dreaming",
   artist: "M83",
   year: "2011",
-  explanation: "I found it and it was amazing",
+  explanation:
+    "Found this one in a VIMEO video where they mixed images from Yosemite. It really had a huge impact on me. I even went to San Francisco once just to go there... and they roads were closed because of the snow.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 34347667,
 };

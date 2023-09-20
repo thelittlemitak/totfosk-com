@@ -27,9 +27,15 @@ export default function RootLayout({
             <div className={styles.dropDownTitle}>
               Influences
               <div className={styles.dropDownNav}>
-                <Link href="/albums">Albums</Link>
-                <Link href="/concerts">Concerts</Link>
-                <Link href="/singles">Singles</Link>
+                <Link href="/albums" className={styles.dropLinks}>
+                  Albums
+                </Link>
+                <Link href="/concerts" className={styles.dropLinks}>
+                  Concerts
+                </Link>
+                <Link href="/singles" className={styles.dropLinks}>
+                  Singles
+                </Link>
               </div>
             </div>
           </nav>

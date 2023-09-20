@@ -14,21 +14,37 @@
 
 .dropDownTitle {
   cursor: default;
+  position: relative;
 }
 
 .dropDownNav {
   flex-direction: column;
-  background-color: white;
+  background-color: rgb(6, 37, 6);
   position: absolute;
+  margin: 0 50%;
+  transform: translateX(-50%);
   transition: all 0.5s;
   opacity: 0;
   visibility: hidden;
   display: flex;
+  color: rgb(200, 200, 200);
+  padding: 0 2rem;
+  translate: 0% -5%;
+}
+
+.dropLinks {
+  padding: 1rem 0;
+}
+
+.dropLinks:hover {
+  color: rgb(200, 200, 200);
+  text-decoration: underline;
 }
 
 .dropDownTitle:hover .dropDownNav {
   opacity: 100;
   visibility: visible;
+  translate: 0% 5%;
 }
 
 /* ! Page  */

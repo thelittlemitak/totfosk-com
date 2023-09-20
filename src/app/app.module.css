@@ -1,3 +1,5 @@
+/* ! Nav bar  */
+
 .headerFooter {
   background-color: rgb(37, 6, 6);
   text-align: center;
@@ -27,4 +29,32 @@
 .dropDownTitle:hover .dropDownNav {
   opacity: 100;
   visibility: visible;
+}
+
+/* ! Page  */
+.mainText {
+  font-size: 3rem;
+  margin: 2% 10% 1% 10%;
+}
+
+.secondaryText {
+  font-size: 3rem;
+  margin: 2% 10% 1% 10%;
+}
+
+.form {
+  margin: 0 auto;
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  font-size: 3rem;
+  /* background-color: rgb(6, 37, 6); */
+  padding: 2rem 2.6rem;
+}
+
+.submitBtn {
+  background-color: rgb(6, 37, 6);
+  padding: 0rem 1rem;
+  margin: 0 auto;
+  margin-top: 2rem;
 }

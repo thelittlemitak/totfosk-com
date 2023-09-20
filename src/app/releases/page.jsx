@@ -1,4 +1,4 @@
-const Concerts = function () {
+const Releases = function () {
   return <div>Hi !</div>;
 };
 

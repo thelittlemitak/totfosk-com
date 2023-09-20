@@ -2,15 +2,17 @@
 
 import SingleWrapper from "./SingleWrapper";
 import styles from "./singles.module.css";
-import singlesImport from "../../data/singles";
+import {singles} from "../../data/singles";
 import { useState, useEffect } from "react";
 import Sorter from "../_shared/components/Sorter";
 import sortByKey from "../_shared/functions/sortByKey";
+import MissingList from "../_shared/components/MissingList";
+import { missingSingles } from "../../data/missing";
 
 export default function Singles() {
-  const singlesV = singlesImport;
+  const singlesV = singles;
   console.log(singlesV);
-  const [singlesState, setSinglesState] = useState([...singlesImport]);
+  const [singlesState, setSinglesState] = useState([...singles]);
   const [listType, setListType] = useState("favorites");
   const [wrapperStyleID, setWrapperStyleID] = useState(1);
   const [tagSelected, setTagSelected] = useState("");
@@ -81,16 +83,7 @@ export default function Singles() {
         {singles60_79}
         {singles80_100}
       </div>
-      <ol className={styles.bottomUl}>
-        <li type="circle">Austin Wintory - Journey (2012)</li>
-        <li type="circle">El canto del loco - Estados de Ánimo (2003)</li>
-        <li type="circle">Howard Shore - The Lord of the Rings(2001-2-3)</li>
-        <li type="circle">Gang Starr - Step In the Arena (1991)</li>
-        <li type="circle">Neil Diamond - Touching You, Touching Me (1969)</li>
-        <li type="circle">Traffic - Mr. Fantasy (1967)</li>
-        <li type="circle">Yves Tumor - Safe in the Hands of Love (2018)</li>
-      </ol>
-      <p className={styles.almostAlert}>almost made it...</p>
+      <MissingList list={missingSingles}></MissingList>
     </>
   );
 }

@@ -22,6 +22,8 @@ export default function RootLayout({
         <header className={styles.headerFooter}>
           <nav className={styles.navBar}>
             <Link href="/">Home</Link>
+            <Link href="/releases">Releases</Link>
+            <Link href="/teaching">Teaching</Link>
             <div className={styles.dropDownTitle}>
               Influences
               <div className={styles.dropDownNav}>
@@ -33,7 +35,7 @@ export default function RootLayout({
           </nav>
         </header>
         <main>{children}</main>
-        <footer className={styles.headerFooter}>[This is a footer]</footer>
+        <footer className={styles.headerFooter}>© Copyright Tot Fosk</footer>
       </body>
     </html>
   );

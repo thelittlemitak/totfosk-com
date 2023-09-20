@@ -6,7 +6,9 @@ import albumsImport from "../../data/albums";
 import quotes from "../../data/quotes";
 import { useState, useEffect } from "react";
 import Sorter from "../_shared/components/Sorter";
-import sortByKey from "../_shared/functions/sortByKey"
+import sortByKey from "../_shared/functions/sortByKey";
+import MissingList from "../_shared/components/MissingList";
+import {missingAlbums} from "../../data/missing";
 
 export default function Albums() {
   const albumsV = albumsImport;
@@ -140,16 +142,7 @@ export default function Albums() {
       {showMore3 && albums30_39}
       {showMore3 && quote4}
       {showMore4 && albums40_50}
-      <ol className={styles.bottomUl}>
-        <li type="circle">Austin Wintory - Journey (2012)</li>
-        <li type="circle">El canto del loco - Estados de Ánimo (2003)</li>
-        <li type="circle">Howard Shore - The Lord of the Rings(2001-2-3)</li>
-        <li type="circle">Gang Starr - Step In the Arena (1991)</li>
-        <li type="circle">Neil Diamond - Touching You, Touching Me (1969)</li>
-        <li type="circle">Traffic - Mr. Fantasy (1967)</li>
-        <li type="circle">Yves Tumor - Safe in the Hands of Love (2018)</li>
-      </ol>
-      <p className={styles.almostAlert}>almost made it...</p>
+      <MissingList list={missingAlbums}></MissingList>
     </>
   );
 }
@@ -202,8 +195,8 @@ export default function Albums() {
 //   setShowMore1(false);
 // }
 
-
-{/* <div className={styles.divider}>
+{
+  /* <div className={styles.divider}>
         <div className={styles.btnWrapper}>
           <div className={styles.arrows}>
             <div className={styles.arrow}>&#x2191;</div>
@@ -230,8 +223,8 @@ export default function Albums() {
             Year of release
           </button>
         </div>
-      </div> */}
-
+      </div> */
+}
 
 // const [albums1_9, setAlbums1_9] = useState(mapper(0, 9));
 // const [albums10_19, setAlbums10_19] = useState(mapper(9, 19));

@@ -127,22 +127,3 @@
   background-color: red;
   width: 50%;
 }
-
-.bottomUl {
-  margin-left: 3rem;
-  font-size: 2rem;
-}
-
-.bottomUl li {
-  margin-left: 3rem;
-}
-
-.bottomUl li:last-child {
-  margin-bottom: 2rem;
-}
-
-.almostAlert{
-  font-size: 3rem;
-  font-weight: 500;
-  margin-left: 2rem;
-}

@@ -241,7 +241,8 @@ const doors = {
   album: "The Doors",
   artist: "The Doors",
   year: "1967",
-  explanation: "My youth in a track.",
+  explanation:
+    "As with Led Zeppelin, the Door's was not added to favorite Albums but this two are by far the two most impactful bands of my live. So I just picked the most heard track of each band.",
   listen: "https://www.youtube.com/watch?v=VScSEXRwUqQ",
   key: 867924,
 };
@@ -284,8 +285,7 @@ const debussy = {
   album: "Piano Favorites",
   artist: "Claude Debussy (François-Joël Thiollier",
   year: "1906",
-  explanation:
-    "I think I heard this track a 100 times in one day once. Just a constant loop. It's also short.",
+  explanation: "I think I heard this track a 100 times in one day once.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 8679243,
 };
@@ -445,7 +445,7 @@ const frusciante = {
   artist: "John Frusciante",
   year: "2009",
   explanation:
-    "Funny to have this one and the original (from Funkadelik) on the list. They transmit something different and yet amazing.",
+    "Recommended to me by one of my best friends. He came home once and told me: `dig this, because I just cried with it`.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 68972534,
 };
@@ -521,7 +521,7 @@ const lynyrd = {
   album: "Pronounced Leh-Nerd Skin-Nerd",
   artist: "Lynyrd Skynyrd",
   year: "1973",
-  explanation: "Beautiful track. Needless to say.",
+  explanation: "Beautiful lovely track. Period.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 8778443,
 };
@@ -625,7 +625,8 @@ const nana = {
   album: "I Nana Mouskouri Tragouda Hadjidaki",
   artist: "Nana Mouskouri",
   year: "1967",
-  explanation: "I found it and it was amazing",
+  explanation:
+    "This track broke my heart when I heard it the first time. I found it randomly on the record collection I once bought.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 54645654,
 };
@@ -655,7 +656,8 @@ const ffix = {
   album: "FFIX - Piano Collections",
   artist: "Nobuo Uematsu",
   year: "2001",
-  explanation: "I found it and it was amazing",
+  explanation:
+    "Believe it or not, once I was able to play 70% of this track (until the last fast part starts again). I should get back to it!!!",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 657675234,
 };
@@ -665,7 +667,7 @@ const ornette = {
   album: "The Complete Science Fiction Sessions",
   artist: "Ornette Coleman",
   year: "1982",
-  explanation: "I found it and it was amazing",
+  explanation: "No words needed/can discribe this.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 2344233,
 };
@@ -685,7 +687,8 @@ const primus = {
   album: "The Brown Album",
   artist: "Primus",
   year: "1997",
-  explanation: "I found it and it was amazing",
+  explanation:
+    "I always wished I had discovered this track when I was 100% into rock n' roll.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 4444,
 };
@@ -735,7 +738,8 @@ const rinoGaetano = {
   album: "La Storia",
   artist: "Rino Gaetano",
   year: "1975",
-  explanation: "I found it and it was amazing",
+  explanation:
+    "I was at a restaurant when I heard it for the first time and had to ask the waiter to tell me the name. I was blown away. What an artist!",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 9999,
 };
@@ -796,7 +800,8 @@ const steveGadd = {
   album: "Way Back Home Live at Rochester",
   artist: "Steve Gadd Band",
   year: "2016",
-  explanation: "I found it and it was amazing",
+  explanation:
+    "Steve Gadd is so good and influential that after hearing this track a few times I used many of the fills he play unconsciously on an album I recorded for a punk band. The musicality just sticks with you.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 5345345326,
 };
@@ -806,7 +811,8 @@ const steveVai = {
   album: "Alien Love Secrets",
   artist: "Steve Vai",
   year: "1995",
-  explanation: "I found it and it was amazing",
+  explanation:
+    "The long solo and the amount of different guitar colours put this live performance to the top of the ever recorded guitar solos.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 67567542,
 };
@@ -826,7 +832,8 @@ const sweetTrip = {
   album: "You WIll Never Know Why",
   artist: "Sweet Trip",
   year: "2021",
-  explanation: "I found it and it was amazing",
+  explanation:
+    "I didn't want to repeat artists from the Albums lists but this is too good.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 255255274,
 };
@@ -866,7 +873,8 @@ const nin = {
   album: "Lost Highway (OST with VA)",
   artist: "Nine Inch Nails",
   year: "1997",
-  explanation: "I found it and it was amazing",
+  explanation:
+    "When I started playing drums for Lunakid, one of the main inspirations of artist director Kons was NIN. I went to look for their music and I came upon this one. Funnywise, he didn't know about this one yet. We were both amazed...",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 45454534,
 };
@@ -886,7 +894,8 @@ const stevieSting = {
   album: "The 25th Anniversay R&R Hall of Fame",
   artist: "Stevie Wonder & Sting",
   year: "2013",
-  explanation: "I found it and it was amazing",
+  explanation:
+    "This was the first time that I heard Stanley Randolf. Oh my God those drums...",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 4545454545,
 };
@@ -916,7 +925,7 @@ const yes = {
   album: "Yes",
   artist: "Yes",
   year: "1969",
-  explanation: "I found it and it was amazing",
+  explanation: "Best rock song ever. Period.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 78878778,
 };
@@ -926,7 +935,8 @@ const harley = {
   album: "The Hard Ride",
   artist: "The Sounds Of Harley",
   year: "1971",
-  explanation: "I found it and it was amazing",
+  explanation:
+    "I remember going crazy at the cinema watching Once Upon A Time in Hollywood to catch my phone in order to Shazam this...",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 8989988998,
 };
@@ -1065,15 +1075,13 @@ const subways = {
   key: 22233,
 };
 
-const singles = [
+export const singles = [
   mikeOldfield,
   wydechUgory,
   yes,
   nin,
   ledZeppelin,
   steveVai,
-  claudio,
-  feliciano,
   doors,
   debussy,
   genesis,
@@ -1098,12 +1106,14 @@ const singles = [
   madonna,
   pac2,
   operaPrima,
+  // childishJapes,
+  // danzig,
+  // feliciano,
+  // claudio,
   // nellyFurtado,
   // subways,
-  // childishJapes,
   // buzzcocks,
   // moulinRouge,
-  // danzig,
   // guiliana,
   // metal,
   // eiffel65,
@@ -1145,7 +1155,7 @@ const singles = [
   // tank,
 ];
 
-const electronicMusic = [
+export const electronicMusic = [
   daftPunk,
   t47,
   inkeys,
@@ -1170,5 +1180,3 @@ const electronicMusic = [
   buriedSecrets,
   luigi,
 ];
-
-export default singles;

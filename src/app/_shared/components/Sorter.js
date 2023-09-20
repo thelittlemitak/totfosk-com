@@ -26,7 +26,7 @@ export default function Sorter(props) {
           }
           onClick={props.changerYTunnel}
         >
-          Year of release
+          Release date
         </button>
       </div>
     </div>

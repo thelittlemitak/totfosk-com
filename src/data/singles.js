@@ -15,7 +15,7 @@ const inkeys = {
   artist: "Aphex Twin",
   year: "1996",
   explanation:
-    "I found it and it was amazing. I found it and it was amazing. I found it and it was amazing. I found it and it was amazing. I found it and it was amazing. I found it and it was amazing. ",
+    "It was one of the first times I was listening to an Aphex Twin set on my headphones when this track came it. At the same time, I was riding my bike and I just arrived to Teufelsberg. The mix of the track with the view (nature + architecture) really hit me.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
 
   key: 67547,
@@ -26,7 +26,7 @@ const barac = {
   artist: "Barac",
   year: "2015",
   explanation:
-    "I found it and it was amazing. I found it and it was amazing. I found it and it was amazing. ",
+    "Probably my favorite rominimal track. A friend and I had a DJ/producer duo in my early twenties and this was the music we were playing.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
 
   key: 32424,
@@ -37,7 +37,7 @@ const battleRoyale = {
   album: "Battle Royale",
   artist: "Orchestre Philharmonique National de Varsovie",
   year: "2000",
-  explanation: "I found it and it was amazing",
+  explanation: "I love this movie!",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
 
   key: 98769678,
@@ -48,7 +48,7 @@ const beattles = {
   album: "Abbey Road",
   artist: "The Beatles",
   year: "1969",
-  explanation: "I found it and it was amazing",
+  explanation: "The track from Beatles I listened the most.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
 
   key: 67657,
@@ -59,7 +59,8 @@ const bennyGreb = {
   album: "Grebfruit 2",
   artist: "Benny Greb",
   year: "2017",
-  explanation: "I found it and it was amazing",
+  explanation:
+    "Original track is from Genesis but I think this version is very good. All done with only Benny's vocals and drumming.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
 
   key: 674657,
@@ -70,7 +71,8 @@ const bobMarley = {
   album: "Songs of Freedom",
   artist: "Bob Marley",
   year: "1973",
-  explanation: "Released on 1992",
+  explanation:
+    "Bob Marley is too good. I remember they played this track while I was in a lost beach bar at night in Thailand.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
 
   key: 34,
@@ -81,7 +83,8 @@ const brianEno = {
   album: "Apollo: Atmospheres and Soundtracks",
   artist: "Brian Eno",
   year: "2017",
-  explanation: "I found it and it was amazing",
+  explanation:
+    "First introduction to Brian Eno was actually hearing this song in a horror movie (28 days later).",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
 
   key: 662,
@@ -92,7 +95,8 @@ const buzzcocks = {
   album: "Love Bites",
   artist: "Buzzcocks",
   year: "1978",
-  explanation: "I found it and it was amazing",
+  explanation:
+    "My favorite track from the style. Got it to practice for a recording I had to do.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
 
   key: 64757,
@@ -103,7 +107,8 @@ const cami = {
   album: "Monstruo",
   artist: "Cami",
   year: "2020",
-  explanation: "I found it and it was amazing",
+  explanation:
+    "Great track that I use from time to time at 120dbs in my studio when I want to freak out with a nice voice.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
 
   key: 25425387,
@@ -114,7 +119,8 @@ const chemical = {
   album: "Brotherhood",
   artist: "The Chemical Brothers",
   year: "2008",
-  explanation: "I found it and it was amazing",
+  explanation:
+    "Mindblowing track from The Chemical Brothers. Got it recommended by a friend of my sister in Granada. Someone called Felipe. Hi Felipe!!!",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
 
   key: 142341328,
@@ -125,7 +131,8 @@ const childishJapes = {
   album: "After You're Born",
   artist: "Childish Japes",
   year: "2017",
-  explanation: "I found it and it was amazing",
+  explanation:
+    "I always followed the drummer but didn't expect this masterpiece. I think the vocals of this track are mindblowing.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
 
   key: 5887563443,
@@ -136,7 +143,7 @@ const clairo = {
   album: "Diary 001",
   artist: "Clairo",
   year: "2018",
-  explanation: "I found it and it was amazing",
+  explanation: "Addictive simple track.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
 
   key: 143296,
@@ -147,7 +154,8 @@ const claudio = {
   album: "Grandes Exitos en Español",
   artist: "Claudio Baglioni",
   year: "2005",
-  explanation: "I found it and it was amazing",
+  explanation:
+    "I found this one randomly in a big record collection I bought. Really speaks to my heart!",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
 
   key: 98674132,
@@ -169,7 +177,8 @@ const feliciano = {
   album: "Me enamoré",
   artist: "Jose Feliciano",
   year: "1983",
-  explanation: "I found it and it was amazing",
+  explanation:
+    "My father had this one in loop while we were once travelling with a car through Spanish lost villages.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 68971432,
 };
@@ -179,7 +188,8 @@ const daftPunk = {
   album: "Alive 2007",
   artist: "Daft Punk",
   year: "2007",
-  explanation: "I found it and it was amazing",
+  explanation:
+    "I remember a friend and I watching the YouTube video of this one all the time. It actually sounds different than what's heard on the CD so I wonder what they actually played on that live...",
   listen: "https://www.youtube.com/watch?v=x84m3YyO2oU",
   key: 42359867,
 };
@@ -189,7 +199,8 @@ const danzig = {
   album: "Danzig",
   artist: "Danzig",
   year: "1988",
-  explanation: "I found it and it was amazing",
+  explanation:
+    "I played GTA San Andreas with Radio X alone just to hear this track as much as possible.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 8674123,
 };
@@ -199,7 +210,8 @@ const darkness = {
   album: "Permission to Land",
   artist: "The Darkness",
   year: "2003",
-  explanation: "I found it and it was amazing",
+  explanation:
+    "This was rolling all the time on MTV when I was young (and MTV was MTV).",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 41329687,
 };
@@ -209,7 +221,7 @@ const gilmour = {
   album: "Live at Pompeii",
   artist: "David Gilmour",
   year: "2017",
-  explanation: "I found it and it was amazing",
+  explanation: "Best guitar solo on the planet.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 657423,
 };
@@ -218,7 +230,8 @@ const demisRoussos = {
   album: "Fire and Ice",
   artist: "Damis Roussos",
   year: "1971",
-  explanation: "I found it and it was amazing",
+  explanation:
+    "Also found randomly in the record collection that I bought. Him and Nana are the best!",
   listen: "https://www.youtube.com/watch?v=HSuANA1jQRo",
   key: 4123765,
 };
@@ -228,7 +241,7 @@ const doors = {
   album: "The Doors",
   artist: "The Doors",
   year: "1967",
-  explanation: "I found it and it was amazing",
+  explanation: "My youth in a track.",
   listen: "https://www.youtube.com/watch?v=VScSEXRwUqQ",
   key: 867924,
 };
@@ -238,7 +251,8 @@ const eiffel65 = {
   album: "Blue",
   artist: "Eiffel 65",
   year: "1998",
-  explanation: "I found it and it was amazing",
+  explanation:
+    "I don't remember exactly when or how did I find this one but it somehow reminds me what I was feeling as a kid.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 14238967,
 };
@@ -248,7 +262,8 @@ const tank = {
   album: "Emerson, Lake & Palmer",
   artist: "Emerson, Lake & Palmer",
   year: "1970",
-  explanation: "I found it and it was amazing",
+  explanation:
+    "One of the few recorded solos that I heard a lot, before YouTube changed everything.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 89675423,
 };
@@ -258,7 +273,8 @@ const eskorbuto = {
   album: "Anti Todo",
   artist: "Eskorbuto",
   year: "1985",
-  explanation: "I found it and it was amazing",
+  explanation:
+    "My friends and I always listened to Eskorbuto. We had a punk vibe but it didn't last long.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 41329687,
 };
@@ -268,7 +284,8 @@ const debussy = {
   album: "Piano Favorites",
   artist: "Claude Debussy (François-Joël Thiollier",
   year: "1906",
-  explanation: "I found it and it was amazing",
+  explanation:
+    "I think I heard this track a 100 times in one day once. Just a constant loop. It's also short.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 8679243,
 };
@@ -278,7 +295,8 @@ const funkadelic = {
   album: "Maggot Brain",
   artist: "Funkadelic",
   year: "1971",
-  explanation: "I found it and it was amazing",
+  explanation:
+    "When I thought that John Frusciante's version could not be matched, found the original and could not believe how good it was.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 14239867999,
 };
@@ -288,7 +306,7 @@ const genesis = {
   album: "A Trick of the Tail",
   artist: "Genesis",
   year: "1976",
-  explanation: "I found it and it was amazing",
+  explanation: "I still cannot believe how good this track is.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 89765423,
 };
@@ -298,7 +316,8 @@ const gits = {
   album: "Frenching the Bully",
   artist: "The Gits",
   year: "1992",
-  explanation: "I found it and it was amazing",
+  explanation:
+    "I found this one in a documentary because the singer had a horrible life story ending. Then I loved this one and tried to learn it at the beginning of my drumming years but it was too fast.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 42539867,
 };
@@ -308,7 +327,8 @@ const gorillaz = {
   album: "Demon Days",
   artist: "Gorillaz",
   year: "2005",
-  explanation: "I found it and it was amazing",
+  explanation:
+    "I think we all agree that when this appeared on MTV it just blew everyone's mind.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 98674321,
 };
@@ -318,7 +338,8 @@ const gwen = {
   album: "Love Angel Music Baby",
   artist: "Gwen Stefani",
   year: "2004",
-  explanation: "I found it and it was amazing",
+  explanation:
+    "Also from the MTV times. That was my dancing music when I was 12.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 14238976,
 };
@@ -328,7 +349,8 @@ const hansZimmer = {
   album: "Black Hawk Down",
   artist: "Hans Zimmer",
   year: "2001",
-  explanation: "I found it and it was amazing",
+  explanation:
+    "If I don't listen to this track often, the melody just pops in my mind.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 896754,
 };
@@ -338,7 +360,8 @@ const herbie = {
   album: "Head Hunters",
   artist: "Herbie Hancock",
   year: "1973",
-  explanation: "I found it and it was amazing",
+  explanation:
+    "I remember my sound teacher showing me this when I was 18. Didn't like it at that time. I didn't even consider non-techno music to be relevant to me. Later...",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 14239867,
 };
@@ -348,7 +371,8 @@ const horacio = {
   album: "Italuba",
   artist: "Horacio Hernandez",
   year: "2004",
-  explanation: "I found it and it was amazing",
+  explanation:
+    "I bought this track on iTunes because I was looking for the most crazy difficult drumming. Didn't like at first but after studying latin Jazz for a while I realized who amazing this is.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 98761423,
 };
@@ -358,7 +382,7 @@ const rachmaninov = {
   album: "The Very Best of Rachmaninov",
   artist: "Finnish National Opera Chorus",
   year: "2005",
-  explanation: "I found it and it was amazing",
+  explanation: "This is just too good. Period.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 12349867,
 };
@@ -368,7 +392,7 @@ const jamesBrown = {
   album: "In the Jungle Groove",
   artist: "James Brown",
   year: "1986",
-  explanation: "I found it and it was amazing",
+  explanation: "My favorite drum break and track from James Brown.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 78566345,
 };
@@ -378,7 +402,8 @@ const elvis = {
   album: "Back In Memphis",
   artist: "Elvis",
   year: "1969",
-  explanation: "I found it and it was amazing",
+  explanation:
+    "One of my fathers favorite tracks. It has a weird volume change at the end with a nice story behind it.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 68573564,
 };
@@ -388,7 +413,8 @@ const jeanCaffeine = {
   album: "Downtime Turn Around and Go Backwards",
   artist: "Jean Caffeine",
   year: "1998",
-  explanation: "I found it and it was amazing",
+  explanation:
+    "My favorite afterparty song ever. It has all the good and bad feelings a killer minimal microhouse track needs.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 56345423,
 };
@@ -398,7 +424,8 @@ const jimi = {
   album: "BBC Sessions",
   artist: "Jimi Hendrix",
   year: "1967",
-  explanation: "I found it and it was amazing",
+  explanation:
+    "A friend showed to me and planted a seed on me (as he says). Years later, I appreciated the recommendation and found one of the most amazing solos I ever heard.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 2453587,
 };
@@ -408,7 +435,7 @@ const coltrane = {
   album: "My Favorite Things",
   artist: "John Coltrane",
   year: "1960",
-  explanation: "I found it and it was amazing",
+  explanation: "The piano solo is mesmerizing.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 258697,
 };
@@ -417,7 +444,8 @@ const frusciante = {
   album: "The Empyrean",
   artist: "John Frusciante",
   year: "2009",
-  explanation: "I found it and it was amazing",
+  explanation:
+    "Funny to have this one and the original (from Funkadelik) on the list. They transmit something different and yet amazing.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 68972534,
 };
@@ -427,7 +455,8 @@ const scofield = {
   album: "Combo 66",
   artist: "John Scofield",
   year: "2018",
-  explanation: "I found it and it was amazing",
+  explanation:
+    "The combination of Bill Steward and Scofield is just on the top.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 259678,
 };
@@ -459,7 +488,8 @@ const lesserOf = {
   album: "A Broken Mirror Cuts Your Face",
   artist: "Lesser Of",
   year: "2022",
-  explanation: "I found it and it was amazing",
+  explanation:
+    "Probably the best example of Dark Ambient Drone Hard Industrial Techno.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 809856089,
 };
@@ -469,7 +499,8 @@ const lori = {
   album: "Cuando el Destino Nos Alcance",
   artist: "Lori Meyers",
   year: "2010",
-  explanation: "I found it and it was amazing",
+  explanation:
+    "I was the sound technician of a band of the same small town in Granada and always reminds me those amazing times.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 465725,
 };
@@ -479,7 +510,8 @@ const luigi = {
   album: "Deep Blue: volume 3",
   artist: "Luigi Tozzi",
   year: "2021",
-  explanation: "I found it and it was amazing",
+  explanation:
+    "This is just insane. Not my style of electronic music and I still thing this is a masterpiece production.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 34346556,
 };
@@ -489,7 +521,7 @@ const lynyrd = {
   album: "Pronounced Leh-Nerd Skin-Nerd",
   artist: "Lynyrd Skynyrd",
   year: "1973",
-  explanation: "I found it and it was amazing",
+  explanation: "Beautiful track. Needless to say.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 8778443,
 };
@@ -520,7 +552,8 @@ const marcman = {
   album: "Adult Only Shape 2",
   artist: "Marcman",
   year: "2013",
-  explanation: "I found it and it was amazing",
+  explanation:
+    "While my friend and I had this DJ duo we were both absessed with Marcman. Top producers in Romania.",
   listen: "https://www.youtube.com/watch?v=iF2ujAcRYg0",
   key: 453252345,
 };
@@ -530,7 +563,8 @@ const guiliana = {
   album: "My Life Starts Now",
   artist: "Mark Guiliana",
   year: "2014",
-  explanation: "I found it and it was amazing",
+  explanation:
+    "Not my favorite track but the inspiration of using pads and a drum solo on top was very important to me since I did (directly or inderectly) something similar afterwards.",
   listen: "https://www.youtube.com/watch?v=iF2ujAcRYg0",
   key: 626265,
 };
@@ -540,7 +574,8 @@ const villalobos = {
   album: "Salvador",
   artist: "Ricardo Villalobos",
   year: "2006",
-  explanation: "I found it and it was amazing",
+  explanation:
+    "Being from Ibiza and born in the 90s you have Villalobos as your rock hero. And this is track is one of the best examples of his crazy influence on Rominimal.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 377374,
 };
@@ -550,7 +585,7 @@ const metallica = {
   album: "Ride the Lightning",
   artist: "Metallica",
   year: "1984",
-  explanation: "I found it and it was amazing",
+  explanation: "Let's break a hotel room with this.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 48,
 };
@@ -656,7 +691,7 @@ const primus = {
 };
 
 const prince = {
-  track: "I Wanna Melt WIth U",
+  track: "I Wanna Melt With U",
   album: "Love Symbol Album",
   artist: "Prince",
   year: "1992",
@@ -670,7 +705,7 @@ const rabbeat = {
   album: "Open EP",
   artist: "RaBBeat",
   year: "2019",
-  explanation: "I found it and it was amazing",
+  explanation: "Killer techno track.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 6666,
 };
@@ -680,7 +715,7 @@ const queen = {
   album: "A Night at the Opera",
   artist: "Queen",
   year: "1975",
-  explanation: "I found it and it was amazing",
+  explanation: "The one to go on a karaoke!",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 77777,
 };
@@ -740,7 +775,8 @@ const sewerlvst = {
   album: "Draining Love Story",
   artist: "Sewerlvst",
   year: "2020",
-  explanation: "I found it and it was amazing",
+  explanation:
+    "I think we all freaked out when we discovered this track as an instruction to BreakCore. There's no way back after hearing this.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 5454536,
 };
@@ -750,7 +786,7 @@ const squarepusher = {
   album: "Hard Normal Daddy",
   artist: "Squarepusher",
   year: "1997",
-  explanation: "I found it and it was amazing",
+  explanation: "At least, I think I heard this track 1000 times this year 2023",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 6775756,
 };
@@ -766,7 +802,7 @@ const steveGadd = {
 };
 
 const steveVai = {
-  track: "Tender SUrrender",
+  track: "Tender Surrender",
   album: "Alien Love Secrets",
   artist: "Steve Vai",
   year: "1995",
@@ -836,7 +872,7 @@ const nin = {
 };
 
 const moulinRouge = {
-  track: "El Tange de Roxanne",
+  track: "El Tango de Roxanne",
   album: "Moulin Rouge",
   artist: "VA (Jose Feliciano, Sting, actors from the movie)",
   year: "2001",
@@ -940,7 +976,8 @@ const buriedSecrets = {
   album: "Train To Netherworld EP",
   artist: "Buried Secrets",
   year: "2019",
-  explanation: "I found it and it was amazing",
+  explanation:
+    "Once I cried listening to this one before sleeping. That's my brain on... nothing. That's me with techno!",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 5678675,
 };
@@ -950,7 +987,8 @@ const mortalKombat = {
   album: "Techno Syndrome",
   artist: "The Immortals",
   year: "1994",
-  explanation: "I found it and it was amazing",
+  explanation:
+    "Never played the video game but I did Karate as a kid and they always put this one on the ceremonies. Fight!!!",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 6789876,
 };
@@ -960,7 +998,8 @@ const dob = {
   album: "Planet Dob OST",
   artist: "Date of Birth",
   year: "1999",
-  explanation: "I found it and it was amazing",
+  explanation:
+    "This is just too addictive. Found on Youtube's PS2 DJ compilation from dedeco",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 789087,
 };
@@ -970,7 +1009,7 @@ const privatePress = {
   album: "Cyberpunk 2077 OST",
   artist: "Private Press",
   year: "2020",
-  explanation: "I found it and it was amazing",
+  explanation: "Found on the TV show. Obsessed with this track since day 1.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 97890,
 };
@@ -980,7 +1019,8 @@ const wydechUgory = {
   album: "Cyberpunk 2077 OST",
   artist: "Wydech/Ugory",
   year: "2020",
-  explanation: "I found it and it was amazing",
+  explanation:
+    "Found on the TV show. When a good track matches a good anime scene there's nothing more powerful.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 8756678,
 };
@@ -1027,105 +1067,108 @@ const subways = {
 
 const singles = [
   mikeOldfield,
-  inkeys,
-  barac,
-  battleRoyale,
-  beattles,
-  bennyGreb,
-  bobMarley,
-  brianEno,
-  buzzcocks,
-  cami,
-  chemical,
-  childishJapes,
-  clairo,
+  wydechUgory,
+  yes,
+  nin,
+  ledZeppelin,
+  steveVai,
   claudio,
-  requiem,
   feliciano,
-  daftPunk,
-  danzig,
-  darkness,
-  gilmour,
-  demisRoussos,
   doors,
-  eiffel65,
-  elvis,
-  eskorbuto,
   debussy,
-  funkadelic,
   genesis,
-  gits,
-  gorillaz,
-  gwen,
-  hansZimmer,
-  herbie,
-  horacio,
   rachmaninov,
-  jamesBrown,
-  jeanCaffeine,
   jimi,
   coltrane,
   frusciante,
-  scofield,
-  kenIshii,
-  ledZeppelin,
-  lori,
-  lesserOf,
-  luigi,
   lynyrd,
   m83,
-  marcman,
-  guiliana,
-  villalobos,
   metallica,
-  mitaka,
-  theMoodyBlues,
   nana,
-  nas,
-  nellyFurtado,
   ffix,
   ornette,
-  pinkFloyd,
   primus,
-  prince,
-  rabbeat,
-  queen,
-  answeringMaschine,
   rinoGaetano,
-  rolyPorter,
-  safriDuo,
-  rosaAnschutz,
-  sewerlvst,
-  squarepusher,
   steveGadd,
-  steveVai,
   sweetTrip,
   strokes,
-  byob,
-  timHecker,
-  t47,
-  nin,
-  moulinRouge,
   stevieSting,
-  venetian,
-  dettmann,
-  moderat,
-  tank,
-  yes,
   harley,
   miserables,
-  metal,
-  a001,
-  snts,
-  buriedSecrets,
-  mortalKombat,
-  dob,
-  privatePress,
-  wydechUgory,
   madonna,
   pac2,
   operaPrima,
-  subways,
+  // nellyFurtado,
+  // subways,
+  // childishJapes,
+  // buzzcocks,
+  // moulinRouge,
+  // danzig,
+  // guiliana,
+  // metal,
+  // eiffel65,
+  // elvis,
+  // eskorbuto,
+  // funkadelic,
+  // theMoodyBlues,
+  // brianEno,
+  // battleRoyale,
+  // beattles,
+  // bennyGreb,
+  // bobMarley,
+  // cami,
+  // clairo,
+  // isaoTomita,
+  // darkness,
+  // gilmour,
+  // demisRoussos,
+  // jamesBrown,
+  // scofield,
+  // lori,
+  // gits,
+  // gorillaz,
+  // gwen,
+  // hansZimmer,
+  // herbie,
+  // horacio,
+  // marcman,
+  // nas,
+  // pinkFloyd,
+  // prince,
+  // queen,
+  // answeringMaschine,
+  // rolyPorter,
+  // safriDuo,
+  // rosaAnschutz,
+  // byob,
+  // moderat,
+  // tank,
+];
+
+const electronicMusic = [
+  daftPunk,
+  t47,
+  inkeys,
+  barac,
+  dob,
+  snts,
+  a001,
+  privatePress,
+  chemical,
+  rabbeat,
+  jeanCaffeine,
+  villalobos,
+  marcman,
+  mortalKombat,
+  mitaka,
+  sewerlvst,
+  venetian,
+  dettmann,
+  squarepusher,
+  lesserOf,
+  kenIshii,
+  buriedSecrets,
+  luigi,
 ];
 
 export default singles;

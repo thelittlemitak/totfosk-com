@@ -1,4 +1,4 @@
-import styles from "../albums.module.css";
+import styles from "../_shared.module.css";
 import { useEffect, useState } from "react";
 
 function Ranking(props) {

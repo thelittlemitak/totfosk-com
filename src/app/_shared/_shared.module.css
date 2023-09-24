@@ -72,3 +72,22 @@
   font-weight: 500;
   margin-left: 2rem;
 }
+
+/* ! Position */
+
+
+.rankingCont {
+  width: 8rem;
+  align-self: center;
+  justify-self: center;
+}
+
+.ranking {
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  justify-self: center;
+  align-self: center;
+  /* border: 1px solid white; */
+  background-color: rgb(6, 37, 6);
+}

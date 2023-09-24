@@ -1,7 +1,7 @@
 import CoverArt from "./components/CoverArt";
 import AlbumDescription from "./components/AlbumDescription";
 import styles from "./albums.module.css";
-import Position from "./components/Position";
+import Position from "../_shared/components/Position";
 import { useEffect, useState } from "react";
 
 function AlbumWrapper(props) {

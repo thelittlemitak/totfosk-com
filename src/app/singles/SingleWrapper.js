@@ -2,6 +2,7 @@
 
 import styles from "./singles.module.css";
 import { useState } from "react";
+import Position from "../_shared/components/Position";
 
 export default function SingleWrapper(props) {
   let style;
@@ -21,18 +22,20 @@ export default function SingleWrapper(props) {
       setExplanationStyle(`${styles.explanation} ${styles.visible}`);
     } else {
       setExplanationStyle(`${styles.explanation}`);
-
     }
-  
   };
 
   return (
     <>
       <div className={style}>
         <div className={styles.textFlex}>
-          <div className={styles.positionTitle}>
-            {`${props.counterTunnel} ${props.trackTunnel}`}
-          </div>
+          <Position
+            positionTunnel={
+              props.listTypeTunnel === "favorites"
+                ? props.positionTunnel
+                : props.yearTunnel
+            }
+          ></Position>
           <div className={styles.artistAlbum}>
             {`by ${props.artistTunnel} (${props.albumTunnel})`}
           </div>

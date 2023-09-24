@@ -47,7 +47,7 @@ export default function Singles() {
       counter++;
       return (
         <SingleWrapper
-          counterTunnel={counter}
+          positionTunnel={counter}
           trackTunnel={x.track}
           albumTunnel={x.album}
           artistTunnel={x.artist}
@@ -55,6 +55,8 @@ export default function Singles() {
           explanationTunnel={x.explanation}
           key={x.key}
           test={wrapperStyleID}
+          listTypeTunnel={listType}
+
         ></SingleWrapper>
       );
     });

@@ -30,8 +30,8 @@ export default function RootLayout({
                 <Link href="/albums" className={styles.dropLinks}>
                   Albums
                 </Link>
-                <Link href="/concerts" className={styles.dropLinks}>
-                  Concerts
+                <Link href="/electronic" className={styles.dropLinks}>
+                  Electronic
                 </Link>
                 <Link href="/singles" className={styles.dropLinks}>
                   Singles

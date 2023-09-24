@@ -725,7 +725,7 @@ const albums = [
   toTheMoon,
   autobahn,
   whiteNoise,
-  stardewValley,
+  ledZeppelin,
   gorillaz,
   a74,
   mertens,

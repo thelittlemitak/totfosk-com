@@ -22,7 +22,7 @@
   display: flex;
   align-items: center;
   display: grid;
-  grid-template-columns: 12rem 1fr 1.2fr 12rem 15rem;
+  grid-template-columns: 12rem 1fr 1.2fr 12rem 0.3fr;
 }
 
 .explanation {
@@ -97,12 +97,13 @@
   transform: translateX(-50%);
   top: 90%; */
   /* background-color: rgb(6, 37, 6); */
-  width: 12rem;
-  font-size: 2rem;
-  margin-right: 1rem;
+  width: 15rem;
+  font-size: 2.2rem;
   height: 100%;
   align-self: center;
   transition: all 0.3s;
+  padding: 0 1rem;
+  padding-top: 3.1rem;
 }
 
 .arrowDown {

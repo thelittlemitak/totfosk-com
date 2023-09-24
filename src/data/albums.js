@@ -671,6 +671,20 @@ const direStraits = {
   social: "X",
 };
 
+const ledZeppelin = {
+  artist: "Led Zeppelin",
+  album: "How the West Was Won (Live)",
+  year: "2003",
+  label: "Atlantic",
+  decription:
+    "The recordings are taken from two 1972 performances in California. Guitarist Jimmy Page considers Led Zeppelin at this point to have been at their artistic peak. ",
+  favorite: "Moby Dick",
+  albumCounting: "Greatest hits compilation",
+  genre: [genres.rock].sort(),
+  picID: 3123127981,
+  social: "X",
+};
+
 const albums = [
   // 1-9
   theWall,

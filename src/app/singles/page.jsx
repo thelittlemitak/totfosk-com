@@ -77,7 +77,7 @@ export default function Singles() {
         changerFTunnel={changerFavorites}
         changerYTunnel={changerYears}
       ></Sorter>
-      <div className={styles.listWrapper}>
+      <div>
         {singles1_19}
         {singles20_39}
         {singles40_59}

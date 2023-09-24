@@ -5,6 +5,8 @@ import { useState } from "react";
 import Position from "../_shared/components/Position";
 
 export default function SingleWrapper(props) {
+  const [arrow, setArrow] = useState("↓");
+  const [arrowStyle, setArrowStyle] = useState(styles.arrowDown);
   let style;
 
   if (props.test === 1) {
@@ -22,6 +24,12 @@ export default function SingleWrapper(props) {
       setExplanationStyle(`${styles.explanation} ${styles.visible}`);
     } else {
       setExplanationStyle(`${styles.explanation}`);
+    }
+    if (arrowStyle === styles.arrowDown) {
+      setArrowStyle(`${styles.arrowDown} ${styles.arrowDisappearance}`);
+    } else {
+      setArrowStyle(`${styles.arrowDown}`);
+
     }
   };
 
@@ -43,7 +51,8 @@ export default function SingleWrapper(props) {
           </div>
           <div className={styles.artistAlbum}>{props.yearTunnel}</div>
           <button className={styles.bonusBtn} onClick={expander}>
-            Learn more
+            <div>Know more</div>
+            <div className={arrowStyle}>{arrow}</div>
           </button>
         </div>
       </div>

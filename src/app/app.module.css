@@ -73,4 +73,10 @@
   padding: 0rem 1rem;
   margin: 0 auto;
   margin-top: 2rem;
+  cursor: pointer;
+}
+
+.ins {
+  padding-left: 1rem;
+  color: rgb(6, 37, 6);
 }

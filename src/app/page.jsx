@@ -10,16 +10,16 @@ export default function HomePage() {
       </div>
       <form className={styles.form}>
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required />
+        <input className={styles.ins} type="email" id="email" name="email" placeholder="email@mail.com" required />
 
         <label for="city">City:</label>
-        <input type="text" id="city" name="city" required />
+        <input className={styles.ins} type="text" id="city" name="city" placeholder="Menorca" required />
 
         <input type="submit" value="Submit" className={styles.submitBtn}/>
       </form>
       <div className={styles.secondaryText}>
         Also, if you subscribe, you will be getting my self-released music for
-        free before anyone else.
+        free directly to your mailbox.
       </div>
     </>
   );

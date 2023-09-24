@@ -2,4 +2,4 @@ const Teaching = function () {
   return <div>Hi !</div>;
 };
 
-export default Releases;
+export default Teaching;

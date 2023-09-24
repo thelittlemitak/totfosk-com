@@ -2,4 +2,4 @@ const Concerts = function () {
   return <div>Hi !</div>;
 };
 
-export default Releases;
+export default Concerts;

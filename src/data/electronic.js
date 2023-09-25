@@ -7,6 +7,7 @@ const daftPunk = {
     "I remember a friend and I watching the YouTube video of this one all the time. It actually sounds different than what's heard on the CD so I wonder what they actually played on that live...",
   listen: "https://www.youtube.com/watch?v=x84m3YyO2oU",
   key: 42359867,
+  picture: 29839183,
 };
 
 const t47 = {
@@ -17,6 +18,7 @@ const t47 = {
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 65656562345,
+  picture: 238423084,
 };
 
 const inkeys = {
@@ -29,6 +31,7 @@ const inkeys = {
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
 
   key: 67547,
+  picture: 987,
 };
 const barac = {
   track: "Minem Monem",
@@ -40,6 +43,7 @@ const barac = {
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
 
   key: 32424,
+  picture: 1802391,
 };
 
 const mortalKombat = {
@@ -51,6 +55,7 @@ const mortalKombat = {
     "Never played the video game but I did Karate as a kid and they always put this one on the ceremonies. Fight!!!",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 6789876,
+  picture: 29839183,
 };
 
 const dob = {
@@ -62,6 +67,7 @@ const dob = {
     "This is just too addictive. Found on Youtube's PS2 DJ compilation from dedeco",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 789087,
+  picture: 54322345,
 };
 
 const privatePress = {
@@ -72,6 +78,7 @@ const privatePress = {
   explanation: "Found on the TV show. Obsessed with this track since day 1.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 97890,
+  picture: 65566556,
 };
 
 const a001 = {
@@ -82,16 +89,18 @@ const a001 = {
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 345634,
+  picture: 999888,
 };
 
 const snts = {
-  track: "Alog (SNTS Remix)",
+  track: "Alog",
   album: "Sentiment Of Callousness Remixed",
-  artist: "OAKE",
+  artist: "OAKE (SNTS Remix)",
   year: "2018",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 456745,
+  picture: 9871234,
 };
 
 const buriedSecrets = {
@@ -103,6 +112,7 @@ const buriedSecrets = {
     "Once I cried listening to this one before sleeping. That's my brain on... nothing. That's me with techno!",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 5678675,
+  picture: 29839183,
 };
 
 const chemical = {
@@ -115,6 +125,7 @@ const chemical = {
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
 
   key: 142341328,
+  picture: 88858585,
 };
 
 const rabbeat = {
@@ -125,6 +136,7 @@ const rabbeat = {
   explanation: "Killer techno track.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 6666,
+  picture: 29839183,
 };
 
 const jeanCaffeine = {
@@ -136,6 +148,7 @@ const jeanCaffeine = {
     "My favorite afterparty song ever. It has all the good and bad feelings a killer minimal microhouse track needs.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 56345423,
+  picture: 29839183,
 };
 
 const villalobos = {
@@ -147,6 +160,7 @@ const villalobos = {
     "Being from Ibiza and born in the 90s you have Villalobos as your rock hero. And this is track is one of the best examples of his crazy influence on Rominimal.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 377374,
+  picture: 29839183,
 };
 
 const marcman = {
@@ -158,6 +172,7 @@ const marcman = {
     "While my friend and I had this DJ duo we were both absessed with Marcman. Top producers in Romania.",
   listen: "https://www.youtube.com/watch?v=iF2ujAcRYg0",
   key: 453252345,
+  picture: 29839183,
 };
 
 const mitaka = {
@@ -168,6 +183,7 @@ const mitaka = {
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 787835,
+  picture: 29839183,
 };
 
 const moderat = {
@@ -178,6 +194,7 @@ const moderat = {
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 433443,
+  picture: 29839183,
 };
 
 const sewerlvst = {
@@ -189,6 +206,7 @@ const sewerlvst = {
     "I think we all freaked out when we discovered this track as an instruction to BreakCore. There's no way back after hearing this.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 5454536,
+  picture: 29839183,
 };
 
 const squarepusher = {
@@ -199,6 +217,7 @@ const squarepusher = {
   explanation: "At least, I think I heard this track 1000 times this year 2023",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 6775756,
+  picture: 29839183,
 };
 
 const dettmann = {
@@ -209,6 +228,7 @@ const dettmann = {
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 5656565665,
+  picture: 29839183,
 };
 
 const venetian = {
@@ -219,6 +239,7 @@ const venetian = {
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 7667676767,
+  picture: 29839183,
 };
 
 const lesserOf = {
@@ -230,6 +251,7 @@ const lesserOf = {
     "Probably the best example of Dark Ambient Drone Hard Industrial Techno.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 809856089,
+  picture: 29839183,
 };
 
 const kenIshii = {
@@ -241,6 +263,7 @@ const kenIshii = {
     "I was living in Granada while studying and I knew that Industrial Copera invited Ken Ishii. At that time I didn't know who he was so I checked on YouTube and found the videoclip of this track... Needless to say, it has probably been the videoclip that has blown my mind the most in my entire life.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 98675234,
+  picture: 29839183,
 };
 
 const luigi = {
@@ -252,6 +275,7 @@ const luigi = {
     "This is just insane. Not my style of electronic music and I still thing this is a masterpiece production.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 34346556,
+  picture: 29839183,
 };
 
 export const electronicMusic = [

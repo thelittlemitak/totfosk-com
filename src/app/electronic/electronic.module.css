@@ -9,10 +9,10 @@
   background-color: rgb(6, 37, 6);
   font-size: 2rem;
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 7rem 7rem 7rem 1fr;
   align-items: center;
   padding: 2rem 4rem 1rem 4rem;
-  height: 35rem;
+  height: 80rem;
 }
 
 .electroWrapper div {
@@ -30,6 +30,12 @@
 }
 
 .artist {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.album {
   background-color: rgb(37, 6, 6);
   height: 100%;
   display: flex;
@@ -38,8 +44,10 @@
   padding: 0 2rem;
 }
 
-.album {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.descrition {
+  margin-top: 1rem;
+}
+
+.coverArt {
+  margin: 0rem auto 1rem auto;
 }

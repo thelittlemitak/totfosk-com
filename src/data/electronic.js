@@ -112,7 +112,7 @@ const buriedSecrets = {
     "Once I cried listening to this one before sleeping. That's my brain on... nothing. That's me with techno!",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 5678675,
-  picture: 29839183,
+  picture: 3749250235,
 };
 
 const chemical = {
@@ -136,7 +136,7 @@ const rabbeat = {
   explanation: "Killer techno track.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 6666,
-  picture: 29839183,
+  picture: 88866886,
 };
 
 const jeanCaffeine = {
@@ -148,7 +148,7 @@ const jeanCaffeine = {
     "My favorite afterparty song ever. It has all the good and bad feelings a killer minimal microhouse track needs.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 56345423,
-  picture: 29839183,
+  picture: 888888888,
 };
 
 const villalobos = {
@@ -160,7 +160,7 @@ const villalobos = {
     "Being from Ibiza and born in the 90s you have Villalobos as your rock hero. And this is track is one of the best examples of his crazy influence on Rominimal.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 377374,
-  picture: 29839183,
+  picture: 555555,
 };
 
 const marcman = {
@@ -172,7 +172,7 @@ const marcman = {
     "While my friend and I had this DJ duo we were both absessed with Marcman. Top producers in Romania.",
   listen: "https://www.youtube.com/watch?v=iF2ujAcRYg0",
   key: 453252345,
-  picture: 29839183,
+  picture: 12344311234,
 };
 
 const mitaka = {
@@ -183,7 +183,7 @@ const mitaka = {
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 787835,
-  picture: 29839183,
+  picture: 555445,
 };
 
 const moderat = {
@@ -206,7 +206,7 @@ const sewerlvst = {
     "I think we all freaked out when we discovered this track as an instruction to BreakCore. There's no way back after hearing this.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 5454536,
-  picture: 29839183,
+  picture: 542352345,
 };
 
 const squarepusher = {
@@ -217,7 +217,7 @@ const squarepusher = {
   explanation: "At least, I think I heard this track 1000 times this year 2023",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 6775756,
-  picture: 29839183,
+  picture: 4554325345,
 };
 
 const dettmann = {
@@ -239,7 +239,7 @@ const venetian = {
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 7667676767,
-  picture: 29839183,
+  picture: 43234234,
 };
 
 const lesserOf = {
@@ -251,7 +251,7 @@ const lesserOf = {
     "Probably the best example of Dark Ambient Drone Hard Industrial Techno.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 809856089,
-  picture: 29839183,
+  picture: 54545,
 };
 
 const kenIshii = {
@@ -263,7 +263,7 @@ const kenIshii = {
     "I was living in Granada while studying and I knew that Industrial Copera invited Ken Ishii. At that time I didn't know who he was so I checked on YouTube and found the videoclip of this track... Needless to say, it has probably been the videoclip that has blown my mind the most in my entire life.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 98675234,
-  picture: 29839183,
+  picture: 23475,
 };
 
 const luigi = {
@@ -275,7 +275,7 @@ const luigi = {
     "This is just insane. Not my style of electronic music and I still thing this is a masterpiece production.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 34346556,
-  picture: 29839183,
+  picture: 70912790,
 };
 
 export const electronicMusic = [
@@ -292,11 +292,11 @@ export const electronicMusic = [
   jeanCaffeine,
   villalobos,
   marcman,
-  mortalKombat,
+  // mortalKombat,
   mitaka,
   sewerlvst,
   venetian,
-  dettmann,
+  // dettmann,
   squarepusher,
   lesserOf,
   kenIshii,

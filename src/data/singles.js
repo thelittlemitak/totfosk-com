@@ -359,7 +359,7 @@ const jimi = {
   explanation:
     "A friend showed to me and planted a seed on me (as he says). Years later, I appreciated the recommendation and found one of the most amazing solos I ever heard.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  picID: 2453587,
+  picID: 454545,
 };
 
 const coltrane = {
@@ -369,7 +369,7 @@ const coltrane = {
   year: "1960",
   explanation: "The piano solo is mesmerizing.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  picID: 258697,
+  picID: 341241,
 };
 const frusciante = {
   track: "Before the Beginning",
@@ -379,7 +379,7 @@ const frusciante = {
   explanation:
     "Recommended to me by one of my best friends. He came home once and told me: `dig this, because I just cried with it`.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  picID: 68972534,
+  picID: 45545,
 };
 
 const scofield = {
@@ -422,7 +422,7 @@ const lynyrd = {
   year: "1973",
   explanation: "Beautiful lovely track. Period.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  picID: 8778443,
+  picID: 74532,
 };
 
 const m83 = {
@@ -433,7 +433,7 @@ const m83 = {
   explanation:
     "Found this one in a VIMEO video where they mixed images from Yosemite. It really had a huge impact on me. I even went to San Francisco once just to go there... and they roads were closed because of the snow.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  picID: 34347667,
+  picID: 653466,
 };
 
 const isaoTomita = {
@@ -464,7 +464,7 @@ const metallica = {
   year: "1984",
   explanation: "Let's break a hotel room with this.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  picID: 48,
+  picID: 98731123,
 };
 
 const theMoodyBlues = {
@@ -485,7 +485,7 @@ const nana = {
   explanation:
     "This track broke my heart when I heard it the first time. I found it randomly on the record collection I once bought.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  picID: 54645654,
+  picID: 89675423,
 };
 
 const nas = {
@@ -516,7 +516,7 @@ const ffix = {
   explanation:
     "Believe it or not, once I was able to play 70% of this track (until the last fast part starts again). I should get back to it!!!",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  picID: 657675234,
+  picID: 978041234,
 };
 
 const ornette = {
@@ -526,7 +526,7 @@ const ornette = {
   year: "1982",
   explanation: "No words needed/can discribe this.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  picID: 2344233,
+  picID: 1234143,
 };
 
 const pinkFloyd = {
@@ -547,7 +547,7 @@ const primus = {
   explanation:
     "I always wished I had discovered this track when I was 100% into rock n' roll.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  picID: 4444,
+  picID: 712934124,
 };
 
 const prince = {
@@ -582,7 +582,7 @@ const answeringMaschine = {
 
 const rinoGaetano = {
   track: "Ma Il Cielo E' Sempre Più Blue",
-  album: "La Storia",
+  album: "Gianna e le altre...",
   artist: "Rino Gaetano",
   year: "1975",
   explanation:

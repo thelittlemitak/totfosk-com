@@ -32,6 +32,11 @@ const singles = {
       "Childish Japes - Go Own Them All (feat. Dave Vives) (After You're Born, 2017)",
     key: 2893,
   },
+  rage: {
+    title:
+      "Rage Against the Machine - Know You Enemy (Rage Against the Machine, 1991)",
+    key: 2893,
+  },
 };
 
 export const missingAlbums = [
@@ -45,4 +50,5 @@ export const missingAlbums = [
 export const missingSingles = [
   singles.danzig,
   singles.japes,
+  singles.rage
 ];

@@ -69,6 +69,7 @@ export default function Albums() {
   const mapper = function (start, end) {
     return albumsState.slice(start, end).map((x) => {
       counter++;
+      // 
       return (
         <AlbumWrapper
           test={wrapperStyleID}

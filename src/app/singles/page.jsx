@@ -2,7 +2,7 @@
 
 import SingleWrapper from "./SingleWrapper";
 import styles from "./singles.module.css";
-import {singles} from "../../data/singles";
+import { singles } from "../../data/singles";
 import { useState, useEffect } from "react";
 import Sorter from "../_shared/components/Sorter";
 import sortByKey from "../_shared/functions/sortByKey";
@@ -53,7 +53,8 @@ export default function Singles() {
           artistTunnel={x.artist}
           yearTunnel={x.year}
           explanationTunnel={x.explanation}
-          key={x.key}
+          key={x.picID}
+          picIDTunnel={x.picID}
           test={wrapperStyleID}
           listTypeTunnel={listType}
         ></SingleWrapper>

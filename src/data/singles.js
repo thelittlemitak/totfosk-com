@@ -7,7 +7,7 @@ const mikeOldfield = {
     "During elementary school years, I spent countless hours alone with my grandma. She had a stereo and a collection of CDs from my aunt. I remember going through ALL of them, track by track, until I found this one... I spent years listening to this track in loop. I was so young that I couldn't even tell that what I was hearing was Mike's guitar solo. For me it was just perfection. Funnywise, next time I heard the words `Tubular Bells` it was 15 years later, when I was studying progressive Rock at Uni. The name came out and I went home to find this track again. I almost freak out when I found it.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
 
-  key: 127394,
+  picID: 127394,
 };
 
 const battleRoyale = {
@@ -18,7 +18,7 @@ const battleRoyale = {
   explanation: "I love this movie!",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
 
-  key: 98769678,
+  picID: 98769678,
 };
 
 const beattles = {
@@ -29,7 +29,7 @@ const beattles = {
   explanation: "The track from Beatles I listened the most.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
 
-  key: 67657,
+  picID: 67657,
 };
 
 const bennyGreb = {
@@ -41,7 +41,7 @@ const bennyGreb = {
     "Original track is from Genesis but I think this version is very good. All done with only Benny's vocals and drumming.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
 
-  key: 674657,
+  picID: 674657,
 };
 
 const bobMarley = {
@@ -53,7 +53,7 @@ const bobMarley = {
     "Bob Marley is too good. I remember they played this track while I was in a lost beach bar at night in Thailand.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
 
-  key: 34,
+  picID: 34,
 };
 
 const brianEno = {
@@ -65,7 +65,7 @@ const brianEno = {
     "First introduction to Brian Eno was actually hearing this song in a horror movie (28 days later).",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
 
-  key: 662,
+  picID: 662,
 };
 
 const buzzcocks = {
@@ -77,7 +77,7 @@ const buzzcocks = {
     "My favorite track from the style. Got it to practice for a recording I had to do.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
 
-  key: 64757,
+  picID: 64757,
 };
 
 const cami = {
@@ -89,7 +89,7 @@ const cami = {
     "Great track that I use from time to time at 120dbs in my studio when I want to freak out with a nice voice.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
 
-  key: 25425387,
+  picID: 25425387,
 };
 
 const childishJapes = {
@@ -101,7 +101,7 @@ const childishJapes = {
     "I always followed the drummer but didn't expect this masterpiece. I think the vocals of this track are mindblowing.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
 
-  key: 5887563443,
+  picID: 5887563443,
 };
 
 const clairo = {
@@ -112,7 +112,7 @@ const clairo = {
   explanation: "Addictive simple track.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
 
-  key: 143296,
+  picID: 143296,
 };
 
 const claudio = {
@@ -124,7 +124,7 @@ const claudio = {
     "I found this one randomly in a big record collection I bought. Really speaks to my heart!",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
 
-  key: 98674132,
+  picID: 98674132,
 };
 
 const requiem = {
@@ -135,7 +135,7 @@ const requiem = {
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
 
-  key: 14329867,
+  picID: 14329867,
 };
 
 const feliciano = {
@@ -146,7 +146,7 @@ const feliciano = {
   explanation:
     "My father had this one in loop while we were once travelling with a car through Spanish lost villages.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 68971432,
+  picID: 68971432,
 };
 
 const danzig = {
@@ -157,7 +157,7 @@ const danzig = {
   explanation:
     "I played GTA San Andreas with Radio X alone just to hear this track as much as possible.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8674123,
+  picID: 8674123,
 };
 
 const darkness = {
@@ -168,7 +168,7 @@ const darkness = {
   explanation:
     "This was rolling all the time on MTV when I was young (and MTV was MTV).",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 41329687,
+  picID: 41329687,
 };
 
 const gilmour = {
@@ -178,7 +178,7 @@ const gilmour = {
   year: "2017",
   explanation: "Best guitar solo on the planet.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 657423,
+  picID: 657423,
 };
 const demisRoussos = {
   track: "She Came Up From the North",
@@ -188,7 +188,7 @@ const demisRoussos = {
   explanation:
     "Also found randomly in the record collection that I bought. Him and Nana are the best!",
   listen: "https://www.youtube.com/watch?v=HSuANA1jQRo",
-  key: 4123765,
+  picID: 4123765,
 };
 
 const doors = {
@@ -199,7 +199,7 @@ const doors = {
   explanation:
     "As with Led Zeppelin, the Door's was not added to favorite Albums but this two are by far the two most impactful bands of my live. So I just picked the most heard track of each band.",
   listen: "https://www.youtube.com/watch?v=VScSEXRwUqQ",
-  key: 867924,
+  picID: 867924,
 };
 
 const eiffel65 = {
@@ -210,7 +210,7 @@ const eiffel65 = {
   explanation:
     "I don't remember exactly when or how did I find this one but it somehow reminds me what I was feeling as a kid.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 14238967,
+  picID: 14238967,
 };
 
 const tank = {
@@ -221,7 +221,7 @@ const tank = {
   explanation:
     "One of the few recorded solos that I heard a lot, before YouTube changed everything.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 89675423,
+  picID: 89675423,
 };
 
 const eskorbuto = {
@@ -232,7 +232,7 @@ const eskorbuto = {
   explanation:
     "My friends and I always listened to Eskorbuto. We had a punk vibe but it didn't last long.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 41329687,
+  picID: 41329687,
 };
 
 const debussy = {
@@ -242,7 +242,7 @@ const debussy = {
   year: "1906",
   explanation: "I think I heard this track a 100 times in one day once.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8679243,
+  picID: 8679243,
 };
 
 const funkadelic = {
@@ -253,7 +253,7 @@ const funkadelic = {
   explanation:
     "When I thought that John Frusciante's version could not be matched, found the original and could not believe how good it was.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 14239867999,
+  picID: 14239867999,
 };
 
 const genesis = {
@@ -263,7 +263,7 @@ const genesis = {
   year: "1976",
   explanation: "I still cannot believe how good this track is.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 89765423,
+  picID: 89765423,
 };
 
 const gits = {
@@ -274,7 +274,7 @@ const gits = {
   explanation:
     "I found this one in a documentary because the singer had a horrible life story ending. Then I loved this one and tried to learn it at the beginning of my drumming years but it was too fast.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 42539867,
+  picID: 42539867,
 };
 
 const gorillaz = {
@@ -285,7 +285,7 @@ const gorillaz = {
   explanation:
     "I think we all agree that when this appeared on MTV it just blew everyone's mind.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 98674321,
+  picID: 98674321,
 };
 
 const gwen = {
@@ -296,7 +296,7 @@ const gwen = {
   explanation:
     "Also from the MTV times. That was my dancing music when I was 12.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 14238976,
+  picID: 14238976,
 };
 
 const hansZimmer = {
@@ -307,7 +307,7 @@ const hansZimmer = {
   explanation:
     "If I don't listen to this track often, the melody just pops in my mind.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 896754,
+  picID: 896754,
 };
 
 const herbie = {
@@ -318,7 +318,7 @@ const herbie = {
   explanation:
     "I remember my sound teacher showing me this when I was 18. Didn't like it at that time. I didn't even consider non-techno music to be relevant to me. Later...",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 14239867,
+  picID: 14239867,
 };
 
 const horacio = {
@@ -329,7 +329,7 @@ const horacio = {
   explanation:
     "I bought this track on iTunes because I was looking for the most crazy difficult drumming. Didn't like at first but after studying latin Jazz for a while I realized who amazing this is.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 98761423,
+  picID: 98761423,
 };
 
 const rachmaninov = {
@@ -339,7 +339,7 @@ const rachmaninov = {
   year: "2005",
   explanation: "This is just too good. Period.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 12349867,
+  picID: 12349867,
 };
 
 const jamesBrown = {
@@ -349,7 +349,7 @@ const jamesBrown = {
   year: "1986",
   explanation: "My favorite drum break and track from James Brown.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 78566345,
+  picID: 78566345,
 };
 
 const elvis = {
@@ -360,7 +360,7 @@ const elvis = {
   explanation:
     "One of my fathers favorite tracks. It has a weird volume change at the end with a nice story behind it.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 68573564,
+  picID: 68573564,
 };
 
 const jimi = {
@@ -371,7 +371,7 @@ const jimi = {
   explanation:
     "A friend showed to me and planted a seed on me (as he says). Years later, I appreciated the recommendation and found one of the most amazing solos I ever heard.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 2453587,
+  picID: 2453587,
 };
 
 const coltrane = {
@@ -381,7 +381,7 @@ const coltrane = {
   year: "1960",
   explanation: "The piano solo is mesmerizing.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 258697,
+  picID: 258697,
 };
 const frusciante = {
   track: "Before the Beginning",
@@ -391,7 +391,7 @@ const frusciante = {
   explanation:
     "Recommended to me by one of my best friends. He came home once and told me: `dig this, because I just cried with it`.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 68972534,
+  picID: 68972534,
 };
 
 const scofield = {
@@ -402,7 +402,7 @@ const scofield = {
   explanation:
     "The combination of Bill Steward and Scofield is just on the top.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 259678,
+  picID: 259678,
 };
 
 const ledZeppelin = {
@@ -413,7 +413,7 @@ const ledZeppelin = {
   explanation:
     "I could talk a hundred hours about this one... But I will summarize it all to an interesting fact: Like John Bonham, I also fear flying with plains, and this is the song that I listen since I sit in the plain until it takes off. Always!",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 6543,
+  picID: 6543,
 };
 
 const lori = {
@@ -424,7 +424,7 @@ const lori = {
   explanation:
     "I was the sound technician of a band of the same small town in Granada and always reminds me those amazing times.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 465725,
+  picID: 465725,
 };
 
 const lynyrd = {
@@ -434,7 +434,7 @@ const lynyrd = {
   year: "1973",
   explanation: "Beautiful lovely track. Period.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8778443,
+  picID: 8778443,
 };
 
 const m83 = {
@@ -445,7 +445,7 @@ const m83 = {
   explanation:
     "Found this one in a VIMEO video where they mixed images from Yosemite. It really had a huge impact on me. I even went to San Francisco once just to go there... and they roads were closed because of the snow.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 34347667,
+  picID: 34347667,
 };
 
 const isaoTomita = {
@@ -455,7 +455,7 @@ const isaoTomita = {
   year: "xxxxx",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 566464,
+  picID: 566464,
 };
 
 const guiliana = {
@@ -466,7 +466,7 @@ const guiliana = {
   explanation:
     "Not my favorite track but the inspiration of using pads and a drum solo on top was very important to me since I did (directly or inderectly) something similar afterwards.",
   listen: "https://www.youtube.com/watch?v=iF2ujAcRYg0",
-  key: 626265,
+  picID: 626265,
 };
 
 const metallica = {
@@ -476,7 +476,7 @@ const metallica = {
   year: "1984",
   explanation: "Let's break a hotel room with this.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 48,
+  picID: 48,
 };
 
 const theMoodyBlues = {
@@ -486,7 +486,7 @@ const theMoodyBlues = {
   year: "1965",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 78583,
+  picID: 78583,
 };
 
 const nana = {
@@ -497,7 +497,7 @@ const nana = {
   explanation:
     "This track broke my heart when I heard it the first time. I found it randomly on the record collection I once bought.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 54645654,
+  picID: 54645654,
 };
 
 const nas = {
@@ -507,7 +507,7 @@ const nas = {
   year: "2012",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 786863,
+  picID: 786863,
 };
 
 const nellyFurtado = {
@@ -517,7 +517,7 @@ const nellyFurtado = {
   year: "2006",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 3455348,
+  picID: 3455348,
 };
 
 const ffix = {
@@ -528,7 +528,7 @@ const ffix = {
   explanation:
     "Believe it or not, once I was able to play 70% of this track (until the last fast part starts again). I should get back to it!!!",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 657675234,
+  picID: 657675234,
 };
 
 const ornette = {
@@ -538,7 +538,7 @@ const ornette = {
   year: "1982",
   explanation: "No words needed/can discribe this.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 2344233,
+  picID: 2344233,
 };
 
 const pinkFloyd = {
@@ -548,7 +548,7 @@ const pinkFloyd = {
   year: "1987",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 3333,
+  picID: 3333,
 };
 
 const primus = {
@@ -559,7 +559,7 @@ const primus = {
   explanation:
     "I always wished I had discovered this track when I was 100% into rock n' roll.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 4444,
+  picID: 4444,
 };
 
 const prince = {
@@ -569,7 +569,7 @@ const prince = {
   year: "1992",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 5555,
+  picID: 5555,
 };
 
 const queen = {
@@ -579,7 +579,7 @@ const queen = {
   year: "1975",
   explanation: "The one to go on a karaoke!",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 77777,
+  picID: 77777,
 };
 
 const answeringMaschine = {
@@ -589,7 +589,7 @@ const answeringMaschine = {
   year: "1984",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8888,
+  picID: 8888,
 };
 
 const rinoGaetano = {
@@ -600,7 +600,7 @@ const rinoGaetano = {
   explanation:
     "I was at a restaurant when I heard it for the first time and had to ask the waiter to tell me the name. I was blown away. What an artist!",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 9999,
+  picID: 9999,
 };
 
 const rolyPorter = {
@@ -610,7 +610,7 @@ const rolyPorter = {
   year: "2016",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 80980254389,
+  picID: 80980254389,
 };
 
 const rosaAnschutz = {
@@ -620,7 +620,7 @@ const rosaAnschutz = {
   year: "2019",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 45645644,
+  picID: 45645644,
 };
 
 const safriDuo = {
@@ -630,7 +630,7 @@ const safriDuo = {
   year: "2004",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 22234,
+  picID: 22234,
 };
 
 const steveGadd = {
@@ -641,7 +641,7 @@ const steveGadd = {
   explanation:
     "Steve Gadd is so good and influential that after hearing this track a few times I used many of the fills he play unconsciously on an album I recorded for a punk band. The musicality just sticks with you.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 5345345326,
+  picID: 5345345326,
 };
 
 const steveVai = {
@@ -652,7 +652,7 @@ const steveVai = {
   explanation:
     "The long solo and the amount of different guitar colours put this live performance to the top of the ever recorded guitar solos.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 67567542,
+  picID: 67567542,
 };
 
 const strokes = {
@@ -662,7 +662,7 @@ const strokes = {
   year: "2003",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 3453457245,
+  picID: 3453457245,
 };
 
 const sweetTrip = {
@@ -673,7 +673,7 @@ const sweetTrip = {
   explanation:
     "I didn't want to repeat artists from the Albums lists but this is too good.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 255255274,
+  picID: 255255274,
 };
 
 const byob = {
@@ -683,7 +683,7 @@ const byob = {
   year: "2005",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 655656654,
+  picID: 655656654,
 };
 
 const timHecker = {
@@ -693,7 +693,7 @@ const timHecker = {
   year: "2011",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 3434434532,
+  picID: 3434434532,
 };
 
 const nin = {
@@ -704,7 +704,7 @@ const nin = {
   explanation:
     "When I started playing drums for Lunakid, one of the main inspirations of artist director Kons was NIN. I went to look for their music and I came upon this one. Funnywise, he didn't know about this one yet. We were both amazed...",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 45454534,
+  picID: 45454534,
 };
 
 const moulinRouge = {
@@ -714,7 +714,7 @@ const moulinRouge = {
   year: "2001",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 3434344334,
+  picID: 3434344334,
 };
 
 const stevieSting = {
@@ -725,7 +725,7 @@ const stevieSting = {
   explanation:
     "This was the first time that I heard Stanley Randolf. Oh my God those drums...",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 4545454545,
+  picID: 4545454545,
 };
 
 const yes = {
@@ -735,7 +735,7 @@ const yes = {
   year: "1969",
   explanation: "Best rock song ever. Period.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 78878778,
+  picID: 78878778,
 };
 
 const harley = {
@@ -746,7 +746,7 @@ const harley = {
   explanation:
     "I remember going crazy at the cinema watching Once Upon A Time in Hollywood to catch my phone in order to Shazam this...",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8989988998,
+  picID: 8989988998,
 };
 
 const miserables = {
@@ -756,7 +756,7 @@ const miserables = {
   year: "2012",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 999563,
+  picID: 999563,
 };
 
 const metal = {
@@ -766,7 +766,7 @@ const metal = {
   year: "1998",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 2345432,
+  picID: 2345432,
 };
 
 const wydechUgory = {
@@ -777,7 +777,7 @@ const wydechUgory = {
   explanation:
     "Found on the TV show. When a good track matches a good anime scene there's nothing more powerful.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 8756678,
+  picID: 8756678,
 };
 
 const madonna = {
@@ -787,7 +787,7 @@ const madonna = {
   year: "2005",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 7654567,
+  picID: 7654567,
 };
 
 const pac2 = {
@@ -797,7 +797,7 @@ const pac2 = {
   year: "2006",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 6534456,
+  picID: 6534456,
 };
 
 const operaPrima = {
@@ -807,7 +807,7 @@ const operaPrima = {
   year: "2004",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 5432345,
+  picID: 5432345,
 };
 
 const subways = {
@@ -817,7 +817,7 @@ const subways = {
   year: "2015",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  key: 22233,
+  picID: 22233,
 };
 
 export const singles = [

@@ -1,4 +1,4 @@
-import CoverArt from "./components/CoverArt";
+import CoverArt from "../_shared/components/CoverArt";
 import AlbumDescription from "./components/AlbumDescription";
 import styles from "./albums.module.css";
 import Position from "../_shared/components/Position";
@@ -18,7 +18,7 @@ function AlbumWrapper(props) {
   return (
     <div className={style}>
       <Position positionTunnel={props.listTypeTunnel === "favorites" ? position : props.albumInfoTunnel.year}></Position>
-      <CoverArt imgIDTunnell2={props.imgIDTunnel}></CoverArt>
+      <CoverArt imgIDTunnell2={props.imgIDTunnel} widthTunnel={250} heightTunnel={250} type={"albums"}></CoverArt>
       <AlbumDescription
         albumInfoTunnell2={props.albumInfoTunnel}
         key={props.albumInfoTunnel.picID}

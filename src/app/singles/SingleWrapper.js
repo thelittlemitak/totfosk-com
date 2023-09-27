@@ -3,6 +3,8 @@
 import styles from "./singles.module.css";
 import { useState } from "react";
 import Position from "../_shared/components/Position";
+import Image from "next/image";
+import CoverArt from "../_shared/components/CoverArt";
 
 export default function SingleWrapper(props) {
   const [arrow, setArrow] = useState("↓");
@@ -29,7 +31,6 @@ export default function SingleWrapper(props) {
       setArrowStyle(`${styles.arrowDown} ${styles.arrowDisappearance}`);
     } else {
       setArrowStyle(`${styles.arrowDown}`);
-
     }
   };
 
@@ -45,8 +46,15 @@ export default function SingleWrapper(props) {
                 : props.yearTunnel
             }
           ></Position>
-          <div className={styles.positionTitle}>{`${props.trackTunnel}`}</div>
-          <div className={styles.artistAlbum}>
+          <CoverArt
+            imgIDTunnell2={props.picIDTunnel}
+            widthTunnel={150}
+            heightTunnel={150}
+            type={"singles"}
+          ></CoverArt>
+          <div>
+            <div className={styles.positionTitle}>{`${props.trackTunnel}`}</div>
+            <div className={styles.artistAlbum}></div>
             {`by ${props.artistTunnel} (${props.albumTunnel})`}
           </div>
           <div className={styles.artistAlbum}>{props.yearTunnel}</div>

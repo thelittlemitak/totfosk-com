@@ -6,8 +6,7 @@ const mikeOldfield = {
   explanation:
     "During elementary school years, I spent countless hours alone with my grandma. She had a stereo and a collection of CDs from my aunt. I remember going through ALL of them, track by track, until I found this one... I spent years listening to this track in loop. I was so young that I couldn't even tell that what I was hearing was Mike's guitar solo. For me it was just perfection. Funnywise, next time I heard the words `Tubular Bells` it was 15 years later, when I was studying progressive Rock at Uni. The name came out and I went home to find this track again. I almost freak out when I found it.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-
-  picID: 127394,
+  picID: 121212,
 };
 
 const battleRoyale = {
@@ -17,7 +16,6 @@ const battleRoyale = {
   year: "2000",
   explanation: "I love this movie!",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-
   picID: 98769678,
 };
 
@@ -28,7 +26,6 @@ const beattles = {
   year: "1969",
   explanation: "The track from Beatles I listened the most.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-
   picID: 67657,
 };
 
@@ -40,7 +37,6 @@ const bennyGreb = {
   explanation:
     "Original track is from Genesis but I think this version is very good. All done with only Benny's vocals and drumming.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-
   picID: 674657,
 };
 
@@ -52,7 +48,6 @@ const bobMarley = {
   explanation:
     "Bob Marley is too good. I remember they played this track while I was in a lost beach bar at night in Thailand.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-
   picID: 34,
 };
 
@@ -64,7 +59,6 @@ const brianEno = {
   explanation:
     "First introduction to Brian Eno was actually hearing this song in a horror movie (28 days later).",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-
   picID: 662,
 };
 
@@ -76,7 +70,6 @@ const buzzcocks = {
   explanation:
     "My favorite track from the style. Got it to practice for a recording I had to do.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-
   picID: 64757,
 };
 
@@ -88,7 +81,6 @@ const cami = {
   explanation:
     "Great track that I use from time to time at 120dbs in my studio when I want to freak out with a nice voice.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-
   picID: 25425387,
 };
 
@@ -100,7 +92,6 @@ const childishJapes = {
   explanation:
     "I always followed the drummer but didn't expect this masterpiece. I think the vocals of this track are mindblowing.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-
   picID: 5887563443,
 };
 
@@ -111,7 +102,6 @@ const clairo = {
   year: "2018",
   explanation: "Addictive simple track.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-
   picID: 143296,
 };
 
@@ -123,7 +113,6 @@ const claudio = {
   explanation:
     "I found this one randomly in a big record collection I bought. Really speaks to my heart!",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-
   picID: 98674132,
 };
 
@@ -134,7 +123,6 @@ const requiem = {
   year: "2000",
   explanation: "I found it and it was amazing",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-
   picID: 14329867,
 };
 
@@ -199,7 +187,7 @@ const doors = {
   explanation:
     "As with Led Zeppelin, the Door's was not added to favorite Albums but this two are by far the two most impactful bands of my live. So I just picked the most heard track of each band.",
   listen: "https://www.youtube.com/watch?v=VScSEXRwUqQ",
-  picID: 867924,
+  picID: 8888998,
 };
 
 const eiffel65 = {
@@ -242,7 +230,7 @@ const debussy = {
   year: "1906",
   explanation: "I think I heard this track a 100 times in one day once.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  picID: 8679243,
+  picID: 8555800,
 };
 
 const funkadelic = {
@@ -263,7 +251,7 @@ const genesis = {
   year: "1976",
   explanation: "I still cannot believe how good this track is.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  picID: 89765423,
+  picID: 834759834,
 };
 
 const gits = {
@@ -318,7 +306,7 @@ const herbie = {
   explanation:
     "I remember my sound teacher showing me this when I was 18. Didn't like it at that time. I didn't even consider non-techno music to be relevant to me. Later...",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  picID: 14239867,
+  picID: 767673434,
 };
 
 const horacio = {
@@ -339,7 +327,7 @@ const rachmaninov = {
   year: "2005",
   explanation: "This is just too good. Period.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  picID: 12349867,
+  picID: 2341234,
 };
 
 const jamesBrown = {
@@ -652,7 +640,7 @@ const steveVai = {
   explanation:
     "The long solo and the amount of different guitar colours put this live performance to the top of the ever recorded guitar solos.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  picID: 67567542,
+  picID: 819237189723,
 };
 
 const strokes = {
@@ -704,7 +692,7 @@ const nin = {
   explanation:
     "When I started playing drums for Lunakid, one of the main inspirations of artist director Kons was NIN. I went to look for their music and I came upon this one. Funnywise, he didn't know about this one yet. We were both amazed...",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  picID: 45454534,
+  picID: 989898,
 };
 
 const moulinRouge = {
@@ -735,7 +723,7 @@ const yes = {
   year: "1969",
   explanation: "Best rock song ever. Period.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  picID: 78878778,
+  picID: 343422234,
 };
 
 const harley = {

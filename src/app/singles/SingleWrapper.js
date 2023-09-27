@@ -52,12 +52,13 @@ export default function SingleWrapper(props) {
             heightTunnel={150}
             type={"singles"}
           ></CoverArt>
-          <div>
-            <div className={styles.positionTitle}>{`${props.trackTunnel}`}</div>
-            <div className={styles.artistAlbum}></div>
-            {`by ${props.artistTunnel} (${props.albumTunnel})`}
+          <div className={styles.container}>
+            <div className={styles.title}>{`${props.trackTunnel}`}</div>
+            <div className={styles.artistAlbum}>
+              {`by ${props.artistTunnel} (${props.albumTunnel})`}
+            </div>
           </div>
-          <div className={styles.artistAlbum}>{props.yearTunnel}</div>
+          <div className={styles.year}>{props.yearTunnel}</div>
           <button className={styles.bonusBtn} onClick={expander}>
             <div>Know more</div>
             <div className={arrowStyle}>{arrow}</div>

@@ -1,6 +1,5 @@
 .singleWrapper {
   background-color: rgb(37, 6, 6);
-  font-size: 3rem;
   position: relative;
   margin-bottom: 1rem;
 }
@@ -22,7 +21,7 @@
   display: flex;
   align-items: center;
   display: grid;
-  grid-template-columns: 12rem 1fr 1.2fr 12rem 0.3fr;
+  grid-template-columns: 15rem 15rem 1fr 15rem 20rem;
 }
 
 .explanation {
@@ -71,14 +70,8 @@
   margin-left: 1rem;
 }
 
-.artistAlbum {
-  font-size: 2.2rem;
-  padding-right: 3rem;
-  /* grid-column: -2/-1; */
-}
-
-.positionTitle {
-  font-size: 3rem;
+.title {
+  font-size: 4rem;
   padding-right: 3rem;
 }
 
@@ -127,4 +120,18 @@
 .secondRow {
   display: flex;
   flex-direction: column;
+}
+
+.container {
+  margin-left: 5rem;
+}
+
+.artistAlbum  {
+  font-size: 2.2rem;
+  padding-right: 3rem;
+  /* grid-column: -2/-1; */
+}
+
+.year {
+  font-size: 3rem;
 }

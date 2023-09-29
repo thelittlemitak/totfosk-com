@@ -26,16 +26,24 @@ const albums = {
 };
 
 const singles = {
-  danzig: { title: "Danzig - Mother (Danzig, 1988)", key: 2893 },
+  danzig: { title: "Danzig - Mother (Danzig, 1988)", key: 32 },
   japes: {
     title:
       "Childish Japes - Go Own Them All (feat. Dave Vives) (After You're Born, 2017)",
-    key: 2893,
+    key: 23,
   },
   rage: {
     title:
       "Rage Against the Machine - Know You Enemy (Rage Against the Machine, 1991)",
-    key: 2893,
+    key: 2323,
+  },
+  primus: {
+    title: "Primus - Shake Hands with Beef (Brown Album, 1997)",
+    key: 7878,
+  },
+  reptilia: {
+    title: "The Strokes - Reptilia (Room on Fire, 2003)",
+    key: 123321,
   },
 };
 
@@ -50,5 +58,7 @@ export const missingAlbums = [
 export const missingSingles = [
   singles.danzig,
   singles.japes,
-  singles.rage
+  singles.rage,
+  singles.primus,
+  singles.reptilia
 ];

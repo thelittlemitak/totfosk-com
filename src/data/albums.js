@@ -685,6 +685,20 @@ const ledZeppelin = {
   social: "X",
 };
 
+const madonna = {
+  artist: "Madonna",
+  album: "Confessions on a Dance Floor",
+  year: "2005",
+  label: "Warner",
+  decription:
+    "The album was mainly recorded at Stuart Price's home-studio, who stayed up all nights working on the songs. Musically, the record is structured like a DJ's set. The songs are sequenced and blended so that they are played continuously without any gaps.",
+  favorite: "Moby Dick",
+  albumCounting: "Greatest hits compilation",
+  genre: [genres.electronic].sort(),
+  picID: 972349742,
+  social: "X",
+};
+
 const albums = [
   // 1-9
   theWall,
@@ -733,7 +747,7 @@ const albums = [
   flea,
   apeScape,
   eno,
-  shell,
+  madonna,
   direStraits,
   camilo,
   nate,

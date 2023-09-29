@@ -661,7 +661,7 @@ const sweetTrip = {
   explanation:
     "I didn't want to repeat artists from the Albums lists but this is too good.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  picID: 255255274,
+  picID: 343443,
 };
 
 const byob = {
@@ -713,7 +713,7 @@ const stevieSting = {
   explanation:
     "This was the first time that I heard Stanley Randolf. Oh my God those drums...",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  picID: 4545454545,
+  picID: 1234124,
 };
 
 const yes = {
@@ -808,6 +808,16 @@ const subways = {
   picID: 22233,
 };
 
+const shell = {
+  track: "Nightstalker",
+  album: "Ghost In The Shell",
+  artist: "Kenji Kawai (incl. collabs)",
+  year: "1995",
+  explanation: "I found it and it was amazing",
+  listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
+  picID: 447173,
+};
+
 export const singles = [
   mikeOldfield,
   wydechUgory,
@@ -828,17 +838,17 @@ export const singles = [
   nana,
   ffix,
   ornette,
-  primus,
+  // primus,
   rinoGaetano,
   steveGadd,
   sweetTrip,
-  strokes,
+  // strokes,
   stevieSting,
-  harley,
+  // harley,
   miserables,
-  madonna,
-  pac2,
-  operaPrima,
+  shell,
+  // pac2,
+  // operaPrima,
   // childishJapes,
   // danzig,
   // feliciano,

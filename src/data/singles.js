@@ -4,7 +4,7 @@ const mikeOldfield = {
   artist: "Mike Oldfield",
   year: "1998",
   explanation:
-    "During elementary school years, I spent countless hours alone with my grandma. She had a stereo and a collection of CDs from my aunt. I remember going through ALL of them, track by track, until I found this one... I spent years listening to this track in loop. I was so young that I couldn't even tell that what I was hearing was Mike's guitar solo. For me it was just perfection. Funnywise, next time I heard the words `Tubular Bells` it was 15 years later, when I was studying progressive Rock at Uni. The name came out and I went home to find this track again. I almost freak out when I found it.",
+    "During elementary school years, I spent countless hours alone with my grandma. She had a stereo and a collection of CDs from my aunt. I remember going through ALL of them, track by track, until I found this one... I spent years listening to this track in loop. I was so young that I couldn't even tell that what I was hearing was Mike's guitar solo. For me it was just a perfect wall of sound. Funnywise, next time I heard the words `Tubular Bells` it was 15 years later, when I was studying progressive Rock at Uni. The name came out and I went home to find this track again. I almost freak out when I found it after all those years.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   picID: 121212,
 };
@@ -185,7 +185,7 @@ const doors = {
   artist: "The Doors",
   year: "1967",
   explanation:
-    "The Doors was not put on the albums section because I could not choose one. If I had created a bands section, it would be one of the firsts.",
+    "The Doors was not put on the albums section because I could not choose one. But if I had created a bands section, it would be one of the firsts. And here one of my favorite tracks of them.",
   listen: "https://www.youtube.com/watch?v=VScSEXRwUqQ",
   picID: 8888998,
 };
@@ -228,7 +228,7 @@ const debussy = {
   album: "Piano Favorites",
   artist: "Claude Debussy (François-Joël Thiollier",
   year: "1906",
-  explanation: "I think I heard this track a 100 times in one day once.",
+  explanation: "Once I heard this track a 100 times in one day.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   picID: 8555800,
 };
@@ -249,7 +249,8 @@ const genesis = {
   album: "A Trick of the Tail",
   artist: "Genesis",
   year: "1976",
-  explanation: "I still cannot believe how good this track is.",
+  explanation:
+    "I still cannot believe how good this track is. It just gets better and in the end when the mellotron hits... Uff...",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   picID: 834759834,
 };
@@ -304,7 +305,7 @@ const herbie = {
   artist: "Herbie Hancock",
   year: "1973",
   explanation:
-    "I remember my sound teacher showing me this when I was 18. Didn't like it at that time. I didn't even consider non-techno music to be relevant to me. Later...",
+    "I remember my sound teacher showing me this when I was 18. I didn't like it at that time. I didn't even consider non-techno music to be relevant to me. Later...",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   picID: 767673434,
 };
@@ -377,7 +378,7 @@ const frusciante = {
   artist: "John Frusciante",
   year: "2009",
   explanation:
-    "Recommended to me by one of my best friends. He came home once and told me: `dig this, because I just cried with it`.",
+    "Recommended to me by one of my best friends. He came home once and told me: 'dig this, because I just cried with it'.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   picID: 45545,
 };
@@ -431,7 +432,7 @@ const m83 = {
   artist: "M83",
   year: "2011",
   explanation:
-    "Found this one in a VIMEO video where they mixed images from Yosemite. It really had a huge impact on me. I even went to San Francisco once just to go there... and they roads were closed because of the snow.",
+    "Found this one in a VIMEO video where they mixed images from Yosemite. It really had a huge impact on me. I even went to San Francisco once just to go there... and the roads were closed because of the snow.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   picID: 653466,
 };
@@ -524,7 +525,8 @@ const ornette = {
   album: "The Complete Science Fiction Sessions",
   artist: "Ornette Coleman",
   year: "1982",
-  explanation: "No words needed/can discribe this.",
+  explanation:
+    "No words needed/can discribe this. If you are a fan of Ornette as I am, you will understand.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   picID: 1234143,
 };
@@ -586,7 +588,7 @@ const rinoGaetano = {
   artist: "Rino Gaetano",
   year: "1975",
   explanation:
-    "I was at a restaurant when I heard it for the first time and had to ask the waiter to tell me the name. I was blown away. What an artist!",
+    "I was at a restaurant when I heard it for the first time and had to ask the waiter to tell me the name of it. I was blown away. What an artist!",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   picID: 999888,
 };
@@ -710,7 +712,7 @@ const stevieSting = {
   artist: "Stevie Wonder & Sting",
   year: "2013",
   explanation:
-    "This was the first time that I heard Stanley Randolf. Oh my God those drums...",
+    "This was the first time that I heard Stanley Randolf (the drummer of Stevie). Oh my God those drums... And that Hi Hat...",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   picID: 1234124,
 };
@@ -814,7 +816,7 @@ const shell = {
   artist: "Kenji Kawai (incl. collabs)",
   year: "1995",
   explanation:
-    "I did spend once a whole morning working and listening to this track in a loop. The mixture of tension (string instrument) and relaxing pads it's next level emotions.",
+    "I did spend once a whole morning working and listening to this track in a loop. The mixture of tension (string instrument) and relaxing pads it's very intense. It was also a big inspiration to later do my track called (Death's waiting room, from Tot Fosk)",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   picID: 447173,
 };

@@ -9,7 +9,7 @@
   background-color: rgb(6, 37, 6);
   font-size: 2rem;
   display: grid;
-  grid-template-rows: 1fr 7rem 7rem 7rem 0.5fr;
+  grid-template-rows: 40rem 7rem 7rem 7rem 26rem;
   align-items: center;
   padding: 2rem 4rem 1rem 4rem;
 }

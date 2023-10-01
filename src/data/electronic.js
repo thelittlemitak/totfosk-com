@@ -16,7 +16,7 @@ const t47 = {
   artist: "Tommy Four Seven",
   year: "2011",
   explanation:
-    "This track served as an anchor during the period I didn't do electronic music. I still think it's one of the gratest techno tracks of all time.",
+    "This track served as an anchor during the period in which I didn't do electronic music. I still think it's one of the gratest techno tracks of all time because of its simplicity and efectiveness.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 65656562345,
   picture: 238423084,
@@ -28,7 +28,7 @@ const inkeys = {
   artist: "Aphex Twin",
   year: "1996",
   explanation:
-    "Found once while listening to one of his sets and riding my bike next to Teufelsberg. The mix of the track with the view (nature + architecture) really hit me.",
+    "This one was found while listening to one of his sets and riding my bike next to Teufelsberg (Berlin antenna). The mix of the track with the view (nature mixed with architecture) really hit me.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
 
   key: 67547,
@@ -40,7 +40,7 @@ const barac = {
   artist: "Barac",
   year: "2015",
   explanation:
-    "Probably my favorite rominimal track. A friend and I had a DJ/producer duo in my early twenties and this was the music we were playing.",
+    "One of my favorites rominimal track. A friend and I had a DJ/producer duo in my early twenties (WARM Ibiza) and this was the style of music we were playing. We had hundreds of records like this one.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
 
   key: 32424,
@@ -65,7 +65,7 @@ const dob = {
   artist: "Date of Birth",
   year: "1999",
   explanation:
-    "This is just too addictive. OST from a video game called Planet Dob, released for the original Playstation on 1999 and found on Youtube's PS compilation from ryland kurshenoff.",
+    "This is just too addictive. OST from a video game called Planet Dob, released for the original Playstation on 1999. I found this one on Youtube's PlayStation compilation from ryland kurshenoff.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 789087,
   picture: 54322345,
@@ -76,7 +76,8 @@ const privatePress = {
   album: "Cyberpunk 2077 OST",
   artist: "Private Press",
   year: "2020",
-  explanation: "Found on the TV show. Obsessed with this track since day 1.",
+  explanation:
+    "Found on the anime TV show. It also appears on a radio in the video game. I am obsessed with this track since day 1; I had to stop the series when I found it.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 97890,
   picture: 65566556,
@@ -87,7 +88,8 @@ const a001 = {
   album: "Nyctophobia EP",
   artist: "A001",
   year: "2016",
-  explanation: "Masterpiece track from a great album of the misterious artist. It almost feels like a new techno style. Very subtle and yet agressive.",
+  explanation:
+    "Masterpiece track from a great album of the misterious artist on one of the top techno label (MORD). It almost feels like a new industrial techno style. Very subtle and yet agressive.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 345634,
   picture: 999888,
@@ -99,7 +101,7 @@ const snts = {
   artist: "OAKE (SNTS Remix)",
   year: "2018",
   explanation:
-    "This is not the track that introduced me to SNTS but it has always been my favorite, and a good example of what was his style.",
+    "This is not the track that introduced me to SNTS but it has always been my favorite, and a good example of what was his style once was. When I play live, sometimes I cut the middle part. But it has perfect groove.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 456745,
   picture: 9871234,
@@ -111,7 +113,7 @@ const buriedSecrets = {
   artist: "Buried Secrets",
   year: "2019",
   explanation:
-    "Once I cried listening to this one before sleeping. That's my brain on... nothing. That's me with techno!",
+    "Once I cried listening to this track before sleeping. That's my brain on... nothing. That's me with techno! It has both this mix of aggressivity and super relaxing pads. It seems that there's hope... but there isn't.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 5678675,
   picture: 3749250235,
@@ -123,7 +125,7 @@ const chemical = {
   artist: "The Chemical Brothers",
   year: "2008",
   explanation:
-    "Mindblowing track from The Chemical Brothers. Got it recommended by a friend of my sister in Granada. Someone called Felipe. Hi Felipe!!!",
+    "Mindblowing track from The Chemical Brothers. I still remember when I got it recommended by a friend of my sister while I was living in Granada. He just came and said: 'guys you have to hear this now!'.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
 
   key: 142341328,
@@ -135,7 +137,8 @@ const rabbeat = {
   album: "Open EP",
   artist: "RaBBeat",
   year: "2019",
-  explanation: "Killer techno track.",
+  explanation:
+    "I always think about how would this turn people crazy the day that I play at Tresor and play this track as the opening of my set. And wonder also how would I be able to follow this intensity...",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 6666,
   picture: 88866886,
@@ -147,7 +150,7 @@ const jeanCaffeine = {
   artist: "Jean Caffeine",
   year: "1998",
   explanation:
-    "My favorite afterparty song ever. It has all the good and bad feelings a killer minimal microhouse track needs.",
+    "My favorite afterparty song ever. It has all the good and bad feelings a killer minimal microhouse track needs. Happy and nostalgic. Simple and complex. It's perfect. Made by one aliases of Luke Solomon.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 56345423,
   picture: 888888888,
@@ -159,7 +162,7 @@ const villalobos = {
   artist: "Ricardo Villalobos",
   year: "2006",
   explanation:
-    "Being from Ibiza and born in the 90s you have Villalobos as your rock hero. And this is track is one of the best examples of his crazy influence on Rominimal.",
+    "All the kids from Ibiza that were born in the 90s have Villalobos as their 'rock' star. And this is track is one of the best examples of his production abilities and huge influence on future rominimal.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 377374,
   picture: 555555,
@@ -171,7 +174,7 @@ const marcman = {
   artist: "Marcman",
   year: "2013",
   explanation:
-    "While my friend and I had this DJ duo we were both absessed with Marcman. Top producers in Romania.",
+    "While my friend and I had this DJ duo called WARM, we were both obsessed with Marcman. One of the top producers in Romania. He even did a Remix for us once!",
   listen: "https://www.youtube.com/watch?v=iF2ujAcRYg0",
   key: 453252345,
   picture: 12344311234,
@@ -205,7 +208,7 @@ const sewerlvst = {
   artist: "Sewerlvst",
   year: "2020",
   explanation:
-    "I think we all freaked out when we discovered this track as an instruction to BreakCore. There's no way back after hearing this.",
+    "I think we all freaked out when we discovered this track as an introduction to BreakCore. There's no way back after hearing this and it became one of the favorite tracks/styles of many people recently.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 5454536,
   picture: 542352345,
@@ -216,7 +219,8 @@ const squarepusher = {
   album: "Hard Normal Daddy",
   artist: "Squarepusher",
   year: "1997",
-  explanation: "At least, I think I heard this track 1000 times this year 2023",
+  explanation:
+    "This track literally creates addiction. I think I heard this track 300 times this year 2023. Almost every day before going to sleep, that for sure. Drums from James Brown track Soul Pride (Clyde Stubblefield).",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 6775756,
   picture: 4554325345,
@@ -250,7 +254,7 @@ const lesserOf = {
   artist: "Lesser Of",
   year: "2022",
   explanation:
-    "Probably the best example of Dark Ambient Drone Hard Industrial Techno by one of my biggest influences nowadays.",
+    "Probably the best example of Dark Ambient Drone Hard Industrial Techno by one of my biggest influences nowadays. When Tot Fosk is back this is the style of music I want to do. Relaxing and agressive...",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 809856089,
   picture: 54545,

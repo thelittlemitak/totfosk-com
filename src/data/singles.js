@@ -185,7 +185,7 @@ const doors = {
   artist: "The Doors",
   year: "1967",
   explanation:
-    "As with Led Zeppelin, the Door's was not added to favorite Albums but this two are by far the two most impactful bands of my live. So I just picked the most heard track of each band.",
+    "The Doors was not put on the albums section because I could not choose one. If I had created a bands section, it would be one of the firsts.",
   listen: "https://www.youtube.com/watch?v=VScSEXRwUqQ",
   picID: 8888998,
 };
@@ -325,7 +325,7 @@ const rachmaninov = {
   album: "The Very Best of Rachmaninov",
   artist: "Finnish National Opera Chorus",
   year: "2005",
-  explanation: "This is just too good. Period.",
+  explanation: "This is just too good.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   picID: 2341234,
 };
@@ -420,7 +420,7 @@ const lynyrd = {
   album: "Pronounced Leh-Nerd Skin-Nerd",
   artist: "Lynyrd Skynyrd",
   year: "1973",
-  explanation: "Beautiful lovely track. Period.",
+  explanation: "Beautiful lovely track.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   picID: 74532,
 };
@@ -588,7 +588,7 @@ const rinoGaetano = {
   explanation:
     "I was at a restaurant when I heard it for the first time and had to ask the waiter to tell me the name. I was blown away. What an artist!",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  picID: 9999,
+  picID: 999888,
 };
 
 const rolyPorter = {
@@ -629,7 +629,7 @@ const steveGadd = {
   explanation:
     "Steve Gadd is so good and influential that after hearing this track a few times I used many of the fills he play unconsciously on an album I recorded for a punk band. The musicality just sticks with you.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  picID: 5345345326,
+  picID: 5554454545,
 };
 
 const steveVai = {
@@ -658,8 +658,7 @@ const sweetTrip = {
   album: "You WIll Never Know Why",
   artist: "Sweet Trip",
   year: "2021",
-  explanation:
-    "I didn't want to repeat artists from the Albums lists but this is too good.",
+  explanation: "Sweet trip is too good.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   picID: 343443,
 };
@@ -721,7 +720,7 @@ const yes = {
   album: "Yes",
   artist: "Yes",
   year: "1969",
-  explanation: "Best rock song ever. Period.",
+  explanation: "Best rock song ever.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   picID: 343422234,
 };
@@ -742,9 +741,10 @@ const miserables = {
   album: "Les Misérables",
   artist: "Alain Boublil, Herbert Kretzmer, Claude-Michel Schönberg",
   year: "2012",
-  explanation: "I found it and it was amazing",
+  explanation:
+    "I loved the movie and the music in it! This is one of my favorites.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
-  picID: 999563,
+  picID: 7104923,
 };
 
 const metal = {
@@ -813,7 +813,8 @@ const shell = {
   album: "Ghost In The Shell",
   artist: "Kenji Kawai (incl. collabs)",
   year: "1995",
-  explanation: "I found it and it was amazing",
+  explanation:
+    "I did spend once a whole morning working and listening to this track in a loop. The mixture of tension (string instrument) and relaxing pads it's next level emotions.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   picID: 447173,
 };

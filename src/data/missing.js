@@ -8,7 +8,7 @@ const albums = {
     key: 22,
   },
   rings: {
-    title: "Howard Shore - The Lord of the Rings(2001-2-3)",
+    title: "Howard Shore - The Lord of the Rings (2001-2-3)",
     key: 33,
   },
   gangStarr: {

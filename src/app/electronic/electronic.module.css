@@ -9,10 +9,10 @@
   background-color: rgb(6, 37, 6);
   font-size: 2rem;
   display: grid;
-  grid-template-rows: 1fr 7rem 7rem 7rem 1fr;
+  grid-template-rows: 1fr 7rem 7rem 7rem 24rem;
   align-items: center;
   padding: 2rem 4rem 1rem 4rem;
-  height: 80rem;
+  min-height: 90rem;
 }
 
 .electroWrapper div {

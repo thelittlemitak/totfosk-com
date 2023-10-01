@@ -15,7 +15,8 @@ const t47 = {
   album: "Primate",
   artist: "Tommy Four Seven",
   year: "2011",
-  explanation: "I found it and it was amazing",
+  explanation:
+    "This track served as an anchor during the period I didn't do electronic music. I still think it's one of the gratest techno tracks of all time.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 65656562345,
   picture: 238423084,
@@ -27,7 +28,7 @@ const inkeys = {
   artist: "Aphex Twin",
   year: "1996",
   explanation:
-    "It was one of the first times I was listening to an Aphex Twin set on my headphones when this track came it. At the same time, I was riding my bike and I just arrived to Teufelsberg. The mix of the track with the view (nature + architecture) really hit me.",
+    "Found once while listening to one of his sets and riding my bike next to Teufelsberg. The mix of the track with the view (nature + architecture) really hit me.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
 
   key: 67547,
@@ -64,7 +65,7 @@ const dob = {
   artist: "Date of Birth",
   year: "1999",
   explanation:
-    "This is just too addictive. Found on Youtube's PS2 DJ compilation from dedeco",
+    "This is just too addictive. OST from a video game called Planet Dob, released for the original Playstation on 1999 and found on Youtube's PS compilation from ryland kurshenoff.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 789087,
   picture: 54322345,
@@ -86,7 +87,7 @@ const a001 = {
   album: "Nyctophobia EP",
   artist: "A001",
   year: "2016",
-  explanation: "I found it and it was amazing",
+  explanation: "Masterpiece track from a great album of the misterious artist. It almost feels like a new techno style. Very subtle and yet agressive.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 345634,
   picture: 999888,
@@ -97,7 +98,8 @@ const snts = {
   album: "Sentiment Of Callousness Remixed",
   artist: "OAKE (SNTS Remix)",
   year: "2018",
-  explanation: "I found it and it was amazing",
+  explanation:
+    "This is not the track that introduced me to SNTS but it has always been my favorite, and a good example of what was his style.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 456745,
   picture: 9871234,
@@ -248,7 +250,7 @@ const lesserOf = {
   artist: "Lesser Of",
   year: "2022",
   explanation:
-    "Probably the best example of Dark Ambient Drone Hard Industrial Techno.",
+    "Probably the best example of Dark Ambient Drone Hard Industrial Techno by one of my biggest influences nowadays.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 809856089,
   picture: 54545,
@@ -260,7 +262,7 @@ const kenIshii = {
   artist: "Ken Ishii",
   year: "1995",
   explanation:
-    "I was living in Granada while studying and I knew that Industrial Copera invited Ken Ishii. At that time I didn't know who he was so I checked on YouTube and found the videoclip of this track... Needless to say, it has probably been the videoclip that has blown my mind the most in my entire life.",
+    "While studying in Granada, Industrial Copera invited Ken Ishii. At that time I didn't know who he was so I checked on YouTube and found the videoclip of this track...",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 98675234,
   picture: 23475,
@@ -293,13 +295,13 @@ export const electronicMusic = [
   villalobos,
   marcman,
   // mortalKombat,
-  mitaka,
+  // mitaka,
   sewerlvst,
-  venetian,
+  // venetian,
   // dettmann,
   squarepusher,
   lesserOf,
   kenIshii,
   buriedSecrets,
-  luigi,
+  // luigi,
 ];

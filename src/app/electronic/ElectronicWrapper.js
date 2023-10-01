@@ -20,8 +20,7 @@ const ElectronicWrapper = function (props) {
         className={styles.album}
       >{`${props.fullObj.album} (${props.fullObj.year})`}</div>
       <div className={styles.descrition}>
-        This is a text in which I explain shit. This is a text in which I
-        explain shit. This is a text in which I explain shit.{" "}
+        {props.fullObj.explanation}
       </div>
     </div>
   );

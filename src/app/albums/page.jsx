@@ -29,7 +29,7 @@ export default function Albums() {
   const tagger = function (e) {
     const test = e.target.innerHTML;
     setTagSelected(test);
-    const taggedArray = albumsState.filter((albumObj) =>
+    const taggedArray = albumsV.filter((albumObj) =>
       albumObj.genre.includes(test)
     );
     setAlbumsState(taggedArray);
@@ -39,7 +39,7 @@ export default function Albums() {
     setQuote2("");
     setQuote3("");
     setQuote4("");
-    setTitle(`You are now only seeing ${test.toLowerCase()} tagged music`)
+    setTitle(`You are now only seeing ${test.toLowerCase()} tagged music`);
   };
 
   const changerYears = function () {
@@ -50,6 +50,7 @@ export default function Albums() {
     const newArr2 = [...newArr];
     setAlbumsState(newArr2);
     setTagSelected("");
+    setTitle(standardTitle);
 
     setTimeout(() => setWrapperStyleID(1), 1400);
   };
@@ -57,12 +58,11 @@ export default function Albums() {
   const changerFavorites = function () {
     setWrapperStyleID(2);
     setListType("favorites");
-    console.log("this works");
 
     const newArr3 = [...albumsV];
     setAlbumsState(newArr3);
     setTagSelected("");
-    console.log("this works too");
+    setTitle(standardTitle);
 
     setTimeout(() => setWrapperStyleID(1), 1400);
   };
@@ -108,9 +108,8 @@ export default function Albums() {
   const [quote3, setQuote3] = useState(quotePrinter(2));
   const [quote4, setQuote4] = useState(quotePrinter(3));
 
-  const [title, setTitle] = useState(
-    "A list of the most influential albums of my life."
-  );
+  const standardTitle = "A list of the most influential albums of my life.";
+  const [title, setTitle] = useState(standardTitle);
 
   useEffect(() => {
     const handleScroll = () => {

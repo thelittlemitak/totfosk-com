@@ -8,7 +8,7 @@ import { useState, useEffect } from "react";
 import Sorter from "../_shared/components/Sorter";
 import sortByKey from "../_shared/functions/sortByKey";
 import MissingList from "../_shared/components/MissingList";
-import {missingAlbums} from "../../data/missing";
+import { missingAlbums } from "../../data/missing";
 
 export default function Albums() {
   const albumsV = albumsImport;
@@ -35,6 +35,11 @@ export default function Albums() {
     setAlbumsState(taggedArray);
     setWrapperStyleID(2);
     setTimeout(() => setWrapperStyleID(1), 1400);
+    setQuote1("");
+    setQuote2("");
+    setQuote3("");
+    setQuote4("");
+    setTitle(`You are now only seeing ${test.toLowerCase()} tagged music`)
   };
 
   const changerYears = function () {
@@ -69,7 +74,7 @@ export default function Albums() {
   const mapper = function (start, end) {
     return albumsState.slice(start, end).map((x) => {
       counter++;
-      // 
+      //
       return (
         <AlbumWrapper
           test={wrapperStyleID}
@@ -98,9 +103,14 @@ export default function Albums() {
     return <div className={styles.quotes}>{quotes[0][a]}</div>;
   };
 
-  const quote2 = quotePrinter(1);
-  const quote3 = quotePrinter(2);
-  const quote4 = quotePrinter(3);
+  const [quote1, setQuote1] = useState(quotePrinter(0));
+  const [quote2, setQuote2] = useState(quotePrinter(1));
+  const [quote3, setQuote3] = useState(quotePrinter(2));
+  const [quote4, setQuote4] = useState(quotePrinter(3));
+
+  const [title, setTitle] = useState(
+    "A list of the most influential albums of my life."
+  );
 
   useEffect(() => {
     const handleScroll = () => {
@@ -126,16 +136,14 @@ export default function Albums() {
 
   return (
     <>
-      <div className={styles.quotes}>
-        A list of the most influential albums of my life.
-      </div>
+      <div className={styles.quotes}>{title}</div>
       <Sorter
         listTypeTunnel={listType}
         changerFTunnel={changerFavorites}
         changerYTunnel={changerYears}
       ></Sorter>
       <div className={styles.pageWrapper}>{albums1_9}</div>
-      <div className={styles.quotes}>{quotes[0][0]}</div>
+      <div className={styles.quotes}>{quote1}</div>
       {showMore1 && albums10_19}
       {showMore1 && quote2}
       {showMore2 && albums20_29}

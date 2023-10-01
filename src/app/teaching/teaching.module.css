@@ -1,0 +1,47 @@
+.mainText {
+  font-size: 3rem;
+  margin: 2% 10% 1% 10%;
+}
+
+.secondaryText {
+  font-size: 3rem;
+  margin: 2% 10% 1% 10%;
+}
+
+.form {
+  margin: 0 auto;
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  font-size: 3rem;
+  /* background-color: rgb(6, 37, 6); */
+  padding: 2rem 2.6rem;
+}
+
+.submitBtn {
+  background-color: rgb(6, 37, 6);
+  padding: 0rem 1rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.ins {
+  padding-left: 1rem;
+  color: rgb(6, 37, 6);
+}
+
+.instrumentsWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-size: 3rem;
+  gap: 3rem;
+  margin: 0 3rem;
+}
+
+.instrumentCard {
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}

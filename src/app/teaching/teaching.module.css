@@ -1,6 +1,6 @@
 .mainText {
   font-size: 3rem;
-  margin: 2% 10% 1% 10%;
+  margin: 4rem 5rem 4rem 10rem;
 }
 
 .secondaryText {
@@ -31,17 +31,59 @@
   color: rgb(6, 37, 6);
 }
 
+/* ! Card */
+
 .instrumentsWrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   font-size: 3rem;
-  gap: 3rem;
-  margin: 0 3rem;
+  gap: 4rem;
+  margin: 0 4rem;
 }
 
 .instrumentCard {
-  background-color: blue;
+  background-color: rgb(37, 6, 6);
   display: flex;
   align-items: center;
   flex-direction: column;
+  padding-bottom: 2rem;
+}
+
+.title {
+  margin: 1rem auto;
+}
+
+.properties {
+  display: grid;
+  grid-template-columns: 2rem 1fr;
+  align-self: flex-start;
+  font-size: 2.4rem;
+  grid-column-gap: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.studiosWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 3rem;
+  gap: 4rem;
+  margin: 0 4rem;
+}
+
+.mainBtnsWrapper {
+  font-size: 3rem;
+}
+
+.btnFlex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.btnStyle {
+  background-color: blue;
+}
+
+.selectedBtn {
+  background-color: red;
 }

@@ -45,6 +45,15 @@ const singles = {
     title: "The Strokes - Reptilia (Room on Fire, 2003)",
     key: 123321,
   },
+  claudio: {
+    title: "Claudio Baglioni - Pequeño Gran Amor (Sábado por la tarde, 1975)",
+    key: 1231,
+  },
+  cooper: {
+    title:
+      "John Cooper Clarke - Evidently Chickentown (Snap, Crackle & Bop, 1980)",
+    key: 2211,
+  },
 };
 
 export const missingAlbums = [
@@ -58,7 +67,7 @@ export const missingAlbums = [
 export const missingSingles = [
   singles.danzig,
   singles.japes,
-  singles.rage,
   singles.primus,
-  singles.reptilia
+  singles.reptilia,
+  singles.claudio,
 ];

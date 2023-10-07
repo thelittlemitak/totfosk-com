@@ -17,14 +17,14 @@ const Teaching = function () {
   return (
     <>
       <div className={styles.mainText}>
-        I would gladly help you with your journey! This are the topics I am
+        I would gladly help you with your journey! These are the topics I am
         currently available for teaching, both in Berlin or online:
       </div>
       <div className={styles.instrumentsWrapper}>
         <Card
           titleTunnel="Drums"
           levelTunnel="All levels"
-          styleTunnel="All styles."
+          styleTunnel="All styles"
           widthTunnel={300}
           heightTunnel={300}
           sourceID={11}
@@ -75,20 +75,20 @@ const Teaching = function () {
         <Card
           titleTunnel="Studio 1"
           levelTunnel="Allee der Kosmonauten, 12681 Berlin"
-          styleTunnel="Accoustic drums."
+          styleTunnel="Accoustic drums"
           widthTunnel={500}
           heightTunnel={500}
           sourceID={11}
-          infoTunnel="49 keys keyboard."
+          infoTunnel="49 keys keyboard"
         ></Card>
         <Card
           titleTunnel="Studio 2"
           levelTunnel="KreutzigerstraBe, 10247 Berlin"
-          styleTunnel="Electronic drums."
+          styleTunnel="Electronic drums"
           widthTunnel={500}
           heightTunnel={500}
           sourceID={22}
-          infoTunnel="88 hammered keys keyboard."
+          infoTunnel="88 hammered keys keyboard"
         ></Card>
       </div>
       <div className={styles.mainText}>

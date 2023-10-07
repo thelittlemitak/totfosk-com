@@ -6,7 +6,11 @@ function Btn(props) {
 
   const styler = function (e) {
     let btnTag = e.target.innerHTML;
-    setBtnStyle(styles.selectedBtn);
+    if (btnStyle === styles.btnStyle) {
+      setBtnStyle(styles.selectedBtn);
+    } else {
+      setBtnStyle(styles.btnStyle);
+    }
     props.instSelectorT(btnTag);
   };
 

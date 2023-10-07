@@ -2,17 +2,52 @@
 
 import styles from "./teaching.module.css";
 import Card from "./components/Card";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Btn from "./components/Btn";
 
 const Teaching = function () {
-  const [array1, setArray1] = useState([]);
+  const [instrumentsSelected, setInstrumentsSelected] = useState([]);
+  const [studioSelected, setStudioSelected] = useState([]);
+  const [hoursSelected, setHoursSelected] = useState([]);
 
   const instSelector = function (tag) {
-    let array2 = [...array1, tag];
-    setArray1(array2);
-    console.log(array2);
+    let newArray = [...instrumentsSelected, tag];
+    setInstrumentsSelected(newArray);
   };
+
+  const instDeselector = function (tagToRemove) {
+    const newArray = instrumentsSelected.filter((tag) => tag !== tagToRemove);
+    setInstrumentsSelected(newArray);
+  };
+
+  const studioSelector = function (tag) {
+    let newArray = [...studioSelected, tag];
+    setStudioSelected(newArray);
+  };
+
+  const studioDeselector = function (tagToRemove) {
+    const newArray = studioSelected.filter((tag) => tag !== tagToRemove);
+    setStudioSelected(newArray);
+  };
+
+  const hoursSelector = function (tag) {
+    let newArray = [...hoursSelected, tag];
+    setHoursSelected(newArray);
+  };
+
+  const hoursDeselector = function (tagToRemove) {
+    const newArray = hoursSelected.filter((tag) => tag !== tagToRemove);
+    setHoursSelected(newArray);
+  };
+
+  useEffect(() => {
+    console.log("array1 has changed");
+  }, [instrumentsSelected]); // Specify array1 as a dependency
+
+  // const arrayUpdater = function (tag, previousArray, setter) {
+  //   let newArr = [...previousArray, tag];
+  //   setter(newArr);
+  // };
 
   return (
     <>
@@ -96,22 +131,60 @@ const Teaching = function () {
       </div>
       <div className={styles.mainBtnsWrapper}>
         <div className={styles.btnFlex}>
-          <Btn nameTunnel="Drums" instSelectorT={instSelector}></Btn>
-          <Btn nameTunnel="Piano" instSelectorT={instSelector}></Btn>
-          <Btn nameTunnel="Ableton" instSelectorT={instSelector}></Btn>
-          <Btn nameTunnel="Logic" instSelectorT={instSelector}></Btn>
+          <Btn
+            nameTunnel="Drums"
+            pressAction={instSelector}
+            unpressAction={instDeselector}
+          ></Btn>
+          <Btn
+            nameTunnel="Piano"
+            pressAction={instSelector}
+            unpressAction={instDeselector}
+          ></Btn>
+          <Btn
+            nameTunnel="Ableton"
+            pressAction={instSelector}
+            unpressAction={instDeselector}
+          ></Btn>
+          <Btn
+            nameTunnel="Logic"
+            pressAction={instSelector}
+            unpressAction={instDeselector}
+          ></Btn>
         </div>
         <div className={styles.btnFlex}>
-          <button>Studio 1</button>
-          <button>Studio 2</button>
+          <Btn
+            nameTunnel="Studio 1"
+            pressAction={studioSelector}
+            unpressAction={studioDeselector}
+          ></Btn>
+          <Btn
+            nameTunnel="Studio 2"
+            pressAction={studioSelector}
+            unpressAction={studioDeselector}
+          ></Btn>
         </div>
         <div className={styles.btnFlex}>
-          <button>1 hour</button>
-          <button>1,5 hours</button>
-          <button>2 hours</button>
-          <button>2,5 hours</button>
+          <Btn
+            nameTunnel="1 hour"
+            pressAction={hoursSelector}
+            unpressAction={hoursDeselector}
+          ></Btn>
+          <Btn
+            nameTunnel="1,5 hours"
+            pressAction={hoursSelector}
+            unpressAction={hoursDeselector}
+          ></Btn>
+          <Btn
+            nameTunnel="2 hours"
+            pressAction={hoursSelector}
+            unpressAction={hoursDeselector}
+          ></Btn>{" "}
         </div>
       </div>
+      <div
+        className={styles.summary}
+      >{`You will be learning ${instrumentsSelected} in ${studioSelected} during a ${hoursSelected} class`}</div>
       <button>Submit</button>
 
       <form className={styles.form}>

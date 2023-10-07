@@ -87,3 +87,8 @@
 .selectedBtn {
   background-color: red;
 }
+
+.summary {
+  text-align: center;
+  font-size: 3rem;
+}

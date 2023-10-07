@@ -8,10 +8,11 @@ function Btn(props) {
     let btnTag = e.target.innerHTML;
     if (btnStyle === styles.btnStyle) {
       setBtnStyle(styles.selectedBtn);
+      props.pressAction(btnTag);
     } else {
       setBtnStyle(styles.btnStyle);
+      props.unpressAction(btnTag);
     }
-    props.instSelectorT(btnTag);
   };
 
   return (

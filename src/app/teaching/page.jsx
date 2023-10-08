@@ -2,7 +2,7 @@
 
 import styles from "./teaching.module.css";
 import Card from "./components/Card";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import Btn from "./components/Btn";
 
 const Teaching = function () {
@@ -33,21 +33,31 @@ const Teaching = function () {
   const hoursSelector = function (tag) {
     let newArray = [...hoursSelected, tag];
     setHoursSelected(newArray);
+    console.log(newArray == "1,5 hours");
   };
 
   const hoursDeselector = function (tagToRemove) {
     const newArray = hoursSelected.filter((tag) => tag !== tagToRemove);
     setHoursSelected(newArray);
+    console.log(newArray == ["1,5 hours"]);
   };
 
-  useEffect(() => {
-    console.log("array1 has changed");
-  }, [instrumentsSelected]); // Specify array1 as a dependency
+  // useEffect(() => {
+  //   console.log("array1 has changed");
+  // }, [instrumentsSelected]);
 
   // const arrayUpdater = function (tag, previousArray, setter) {
   //   let newArr = [...previousArray, tag];
   //   setter(newArr);
   // };
+
+  const elementToScrollTo = useRef(null);
+
+  const scrollToElement = () => {
+    if (elementToScrollTo.current) {
+      elementToScrollTo.current.scrollIntoView({ behavior: "smooth" });
+    }
+  };
 
   return (
     <>
@@ -55,6 +65,9 @@ const Teaching = function () {
         I would gladly help you with your journey! These are the topics I am
         currently available for teaching, both in Berlin or online:
       </div>
+      <button className={styles.applyBtn} onClick={scrollToElement}>
+        Apply now
+      </button>
       <div className={styles.instrumentsWrapper}>
         <Card
           titleTunnel="Drums"
@@ -129,7 +142,8 @@ const Teaching = function () {
       <div className={styles.mainText}>
         For online courses, I can only use Studio 2.
       </div>
-      <div className={styles.mainBtnsWrapper}>
+      <div className={styles.mainBtnsWrapper} ref={elementToScrollTo}>
+        <div className={styles.btnTitles}>Choose your instrument(s)</div>
         <div className={styles.btnFlex}>
           <Btn
             nameTunnel="Drums"
@@ -152,6 +166,7 @@ const Teaching = function () {
             unpressAction={instDeselector}
           ></Btn>
         </div>
+        <div className={styles.btnTitles}>Choose the place</div>
         <div className={styles.btnFlex}>
           <Btn
             nameTunnel="Studio 1"
@@ -163,7 +178,18 @@ const Teaching = function () {
             pressAction={studioSelector}
             unpressAction={studioDeselector}
           ></Btn>
+          <Btn
+            nameTunnel="At yours"
+            pressAction={studioSelector}
+            unpressAction={studioDeselector}
+          ></Btn>
+          <Btn
+            nameTunnel="Online"
+            pressAction={studioSelector}
+            unpressAction={studioDeselector}
+          ></Btn>
         </div>
+        <div className={styles.btnTitles}>Choose the length of the lesson</div>
         <div className={styles.btnFlex}>
           <Btn
             nameTunnel="1 hour"
@@ -179,37 +205,62 @@ const Teaching = function () {
             nameTunnel="2 hours"
             pressAction={hoursSelector}
             unpressAction={hoursDeselector}
-          ></Btn>{" "}
+          ></Btn>
         </div>
+        <form className={styles.form}>
+          <label htmlFor="email">
+            {" "}
+            <div className={styles.btnTitles}>Leave your email</div>
+          </label>
+          <input
+            className={styles.ins}
+            type="email"
+            id="email"
+            name="email"
+            placeholder="email@mail.com"
+            required
+          />
+          <input type="submit" value="Submit" className={styles.submitBtn} />
+        </form>
       </div>
-      <div
-        className={styles.summary}
-      >{`You will be learning ${instrumentsSelected} in ${studioSelected} during a ${hoursSelected} class`}</div>
-      <button>Submit</button>
-
-      <form className={styles.form}>
-        <label htmlFor="email">Email:</label>
-        <input
-          className={styles.ins}
-          type="email"
-          id="email"
-          name="email"
-          placeholder="email@mail.com"
-          required
-        />
-
-        <label htmlFor="city">City:</label>
-        <input
-          className={styles.ins}
-          type="text"
-          id="city"
-          name="city"
-          placeholder="Menorca"
-          required
-        />
-
-        <input type="submit" value="Submit" className={styles.submitBtn} />
-      </form>
+      <div className={styles.summary}>
+        {`You will be learning
+      ${instrumentsSelected} 
+      ${
+        studioSelected != "" &&
+        studioSelected != "At yours" &&
+        studioSelected != "Online"
+          ? "in"
+          : ""
+      }
+      ${
+        studioSelected == "Studio 1" ||
+        studioSelected == "Studio 2" ||
+        studioSelected == "Online" ||
+        studioSelected == "At yours" ||
+        studioSelected == ""
+          ? studioSelected
+          : "too many places"
+      }
+      ${
+        hoursSelected == "1,5 hours" ||
+        hoursSelected == "2 hours" ||
+        hoursSelected == "1 hour" ||
+        hoursSelected == ""
+          ? `${hoursSelected == "" ? "" : `during a ${hoursSelected} class.`}`
+          : "during too many different hours."
+      }
+      ${
+        (instrumentsSelected == "" &&
+          studioSelected == "" &&
+          hoursSelected == "") ||
+        (studioSelected == "" && hoursSelected == "") ||
+        hoursSelected == ""
+          ? "..."
+          : ""
+      }
+      `}
+      </div>
       <div className={styles.secondaryText}>
         Also, if you subscribe, you will be getting my self-released music for
         free directly to your mailbox.

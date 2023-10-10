@@ -4,7 +4,7 @@ import AlbumWrapper from "./AlbumWrapper";
 import styles from "./albums.module.css";
 import albumsImport from "../../data/albums";
 import quotes from "../../data/quotes";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import Sorter from "../_shared/components/Sorter";
 import sortByKey from "../_shared/functions/sortByKey";
 import MissingList from "../_shared/components/MissingList";
@@ -111,25 +111,44 @@ export default function Albums() {
   const standardTitle = "A list of the most influential albums of my life.";
   const [title, setTitle] = useState(standardTitle);
 
+  const opener1Ref = useRef(null);
+  const opener2Ref = useRef(null);
+  const opener3Ref = useRef(null);
+  const opener4Ref = useRef(null);
+
+
+
+
   useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 2200) {
-        setShowMore1(true);
-      }
-      if (window.scrollY > 5400) {
-        setShowMore2(true);
-      }
-      if (window.scrollY > 8600) {
-        setShowMore3(true);
-      }
-      if (window.scrollY > 11800) {
-        setShowMore4(true);
-      }
+    const handleScroll = (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          // Entry is in the viewport, set the corresponding state to true
+          if (entry.target === opener1Ref.current) {
+            setShowMore1(true);
+          } else if (entry.target === opener2Ref.current) {
+            setShowMore2(true);
+          } else if (entry.target === opener3Ref.current) {
+            setShowMore3(true);
+          } else if (entry.target === opener4Ref.current) {
+            setShowMore4(true);
+          }
+        }
+      });
     };
-    window.addEventListener("scroll", handleScroll);
+
+    const observer = new IntersectionObserver(handleScroll, {
+      threshold: 0.5,
+    });
+
+    observer.observe(opener1Ref.current);
+    observer.observe(opener2Ref.current);
+    observer.observe(opener3Ref.current);
+    observer.observe(opener4Ref.current);
+
 
     return () => {
-      window.removeEventListener("scroll", handleScroll);
+      observer.disconnect();
     };
   }, []);
 
@@ -142,12 +161,16 @@ export default function Albums() {
         changerYTunnel={changerYears}
       ></Sorter>
       <div className={styles.pageWrapper}>{albums1_9}</div>
+      <div className={styles.opener} ref={opener1Ref}></div>
       <div className={styles.quotes}>{quote1}</div>
       {showMore1 && albums10_19}
+      <div className={styles.opener} ref={opener2Ref}></div>
       {showMore1 && quote2}
       {showMore2 && albums20_29}
+      <div className={styles.opener} ref={opener3Ref}></div>
       {showMore2 && quote3}
       {showMore3 && albums30_39}
+      <div className={styles.opener} ref={opener4Ref}></div>
       {showMore3 && quote4}
       {showMore4 && albums40_50}
       <MissingList list={missingAlbums}></MissingList>
@@ -239,3 +262,25 @@ export default function Albums() {
 // const [albums20_29, setAlbums20_29] = useState(mapper(19, 29));
 // const [albums30_39, setAlbums30_39] = useState(mapper(29, 39));
 // const [albums40_50, setAlbums40_50] = useState(mapper(39, 51));
+
+// useEffect(() => {
+  //   const handleScroll = () => {
+  //     if (window.scrollY > 2200) {
+  //       setShowMore1(true);
+  //     }
+  //     if (window.scrollY > 5400) {
+  //       setShowMore2(true);
+  //     }
+  //     if (window.scrollY > 8600) {
+  //       setShowMore3(true);
+  //     }
+  //     if (window.scrollY > 11800) {
+  //       setShowMore4(true);
+  //     }
+  //   };
+  //   window.addEventListener("scroll", handleScroll);
+
+  //   return () => {
+  //     window.removeEventListener("scroll", handleScroll);
+  //   };
+  // }, []);

@@ -104,3 +104,8 @@
   background-color: red;
   width: 50%;
 }
+
+.opener {
+  font-size: 5rem;
+  max-height: 0;
+}

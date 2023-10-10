@@ -153,7 +153,7 @@ export default function Albums() {
   }, []);
 
   return (
-    <>
+    <div className="disappeared">
       <div className={styles.quotes}>{title}</div>
       <Sorter
         listTypeTunnel={listType}
@@ -174,7 +174,7 @@ export default function Albums() {
       {showMore3 && quote4}
       {showMore4 && albums40_50}
       <MissingList list={missingAlbums}></MissingList>
-    </>
+    </div>
   );
 }
 

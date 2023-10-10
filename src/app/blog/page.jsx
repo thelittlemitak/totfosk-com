@@ -1,5 +1,6 @@
 const Blog = function () {
-  return <div>Hi !</div>;
+  return;
+  <div className="disappeared">Hi !</div>;
 };
 
 export default Blog;

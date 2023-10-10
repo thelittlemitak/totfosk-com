@@ -1,6 +1,7 @@
 "use client";
 
 import styles from "./teaching.module.css";
+import "../global.css";
 import Card from "./components/Card";
 import { useState, useEffect, useRef } from "react";
 import Btn from "./components/Btn";
@@ -51,6 +52,8 @@ const Teaching = function () {
   //   setter(newArr);
   // };
 
+  useEffect(() => console.log("reRender"), []);
+
   const elementToScrollTo = useRef(null);
 
   const scrollToElement = () => {
@@ -59,8 +62,18 @@ const Teaching = function () {
     }
   };
 
+  const submitter = function () {
+    if (
+      studioSelected == "" ||
+      instrumentsSelected == "" ||
+      hoursSelected == ""
+    ) {
+      console.log("empty");
+    }
+  };
+
   return (
-    <>
+    <div className="disappeared">
       <div className={styles.mainText}>
         I would gladly help you with your journey! These are the topics I am
         currently available for teaching, both in Berlin or online:
@@ -220,7 +233,12 @@ const Teaching = function () {
             placeholder="email@mail.com"
             required
           />
-          <input type="submit" value="Submit" className={styles.submitBtn} />
+          <input
+            type="submit"
+            value="Submit"
+            className={styles.submitBtn}
+            onClick={submitter}
+          />
         </form>
       </div>
       <div className={styles.summary}>
@@ -261,11 +279,7 @@ const Teaching = function () {
       }
       `}
       </div>
-      <div className={styles.secondaryText}>
-        Also, if you subscribe, you will be getting my self-released music for
-        free directly to your mailbox.
-      </div>
-    </>
+    </div>
   );
 };
 

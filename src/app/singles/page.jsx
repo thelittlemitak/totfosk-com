@@ -69,7 +69,7 @@ export default function Singles() {
   const singles80_100 = mapper(79, 100);
 
   return (
-    <>
+    <div className="disappeared">
       <div className={styles.quotes}>
         A list of the most influential singles of my life.
       </div>
@@ -86,6 +86,6 @@ export default function Singles() {
         {singles80_100}
       </div>
       <MissingList list={missingSingles}></MissingList>
-    </>
+    </div>
   );
 }

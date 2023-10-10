@@ -12,9 +12,9 @@ const Electronic = function () {
     ));
   };
   return (
-    <>
+    <div className="disappeared">
       <div className={styles.mainGrid}>{mapper()}</div>;
-    </>
+    </div>
   );
 };
 

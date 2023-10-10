@@ -8,14 +8,13 @@
   margin: 2% 10% 1% 10%;
 }
 
-
-
 .submitBtn {
   background-color: rgb(6, 37, 6);
   padding: 0rem 1rem;
   margin: 0 auto;
   margin-top: 2rem;
   cursor: pointer;
+  margin-left: 1rem;
 }
 
 .ins {
@@ -66,7 +65,7 @@
 .mainBtnsWrapper {
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 1rem;
   font-size: 3rem;
   background-color: rgb(37, 6, 6);
   margin: 0 20%;
@@ -91,6 +90,7 @@
 .summary {
   text-align: center;
   font-size: 3rem;
+  margin: 2rem auto 3rem auto;
 }
 
 .btnTitles {

@@ -10,6 +10,7 @@ const Teaching = function () {
   const [instrumentsSelected, setInstrumentsSelected] = useState([]);
   const [studioSelected, setStudioSelected] = useState([]);
   const [hoursSelected, setHoursSelected] = useState([]);
+  const [btnStyle, setBtnStyle] = useState(styles.btnStyle);
 
   const instSelector = function (tag) {
     let newArray = [...instrumentsSelected, tag];
@@ -22,13 +23,16 @@ const Teaching = function () {
   };
 
   const studioSelector = function (tag) {
-    let newArray = [...studioSelected, tag];
-    setStudioSelected(newArray);
+    // let newArray = [...studioSelected, tag];
+    setStudioSelected(tag);
+    console.log(studioSelected);
+    // let newStudioSelected = tag;
+    // console.log(newStudioSelected);
   };
 
   const studioDeselector = function (tagToRemove) {
-    const newArray = studioSelected.filter((tag) => tag !== tagToRemove);
-    setStudioSelected(newArray);
+    // const newArray = studioSelected.filter((tag) => tag !== tagToRemove);
+    // setStudioSelected(newArray);
   };
 
   const hoursSelector = function (tag) {
@@ -69,6 +73,19 @@ const Teaching = function () {
       hoursSelected == ""
     ) {
       console.log("empty");
+    }
+  };
+
+  const styler = function (e) {
+    let btnTag = e.target.innerHTML;
+    console.log(btnTag)
+
+    if (btnStyle === styles.btnStyle) {
+      setBtnStyle(styles.selectedBtn);
+      // props.pressAction(btnTag);
+    } else {
+      setBtnStyle(styles.btnStyle);
+      // props.unpressAction(btnTag);
     }
   };
 
@@ -156,7 +173,7 @@ const Teaching = function () {
         For online courses, I can only use Studio 2.
       </div>
       <div className={styles.mainBtnsWrapper} ref={elementToScrollTo}>
-        <div className={styles.btnTitles}>Choose your instrument(s)</div>
+        {/* <div className={styles.btnTitles}>Choose your instrument(s)</div>
         <div className={styles.btnFlex}>
           <Btn
             nameTunnel="Drums"
@@ -178,31 +195,39 @@ const Teaching = function () {
             pressAction={instSelector}
             unpressAction={instDeselector}
           ></Btn>
-        </div>
+        </div> */}
         <div className={styles.btnTitles}>Choose the place</div>
         <div className={styles.btnFlex}>
           <Btn
             nameTunnel="Studio 1"
             pressAction={studioSelector}
             unpressAction={studioDeselector}
+            stylerT={styler}
+            styleT={btnStyle}
           ></Btn>
           <Btn
             nameTunnel="Studio 2"
             pressAction={studioSelector}
             unpressAction={studioDeselector}
+            stylerT={styler}
+            styleT={btnStyle}
           ></Btn>
           <Btn
             nameTunnel="At yours"
             pressAction={studioSelector}
             unpressAction={studioDeselector}
+            stylerT={styler}
+            styleT={btnStyle}
           ></Btn>
           <Btn
             nameTunnel="Online"
             pressAction={studioSelector}
             unpressAction={studioDeselector}
+            stylerT={styler}
+            styleT={btnStyle}
           ></Btn>
         </div>
-        <div className={styles.btnTitles}>Choose the length of the lesson</div>
+        {/* <div className={styles.btnTitles}>Choose the length of the lesson</div>
         <div className={styles.btnFlex}>
           <Btn
             nameTunnel="1 hour"
@@ -219,7 +244,7 @@ const Teaching = function () {
             pressAction={hoursSelector}
             unpressAction={hoursDeselector}
           ></Btn>
-        </div>
+        </div> */}
         <form className={styles.form}>
           <label htmlFor="email">
             {" "}

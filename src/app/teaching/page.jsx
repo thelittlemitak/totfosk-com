@@ -8,43 +8,34 @@ import Btn from "./components/Btn";
 
 const Teaching = function () {
   const [instrumentsSelected, setInstrumentsSelected] = useState([]);
-  const [studioSelected, setStudioSelected] = useState([]);
-  const [hoursSelected, setHoursSelected] = useState([]);
+  const [studioSelected, setStudioSelected] = useState("");
+  const [hoursSelected, setHoursSelected] = useState("");
   const [btnStyle, setBtnStyle] = useState(styles.btnStyle);
 
   const instSelector = function (tag) {
-    let newArray = [...instrumentsSelected, tag];
+    let btnTag = tag.target.innerHTML;
+    let newArray = [...instrumentsSelected, btnTag];
     setInstrumentsSelected(newArray);
-  };
-
-  const instDeselector = function (tagToRemove) {
-    const newArray = instrumentsSelected.filter((tag) => tag !== tagToRemove);
-    setInstrumentsSelected(newArray);
+    if (instrumentsSelected.includes(btnTag)) {
+      const newArray = instrumentsSelected.filter((tag) => tag !== btnTag);
+      setInstrumentsSelected(newArray);
+    }
   };
 
   const studioSelector = function (tag) {
-    // let newArray = [...studioSelected, tag];
-    setStudioSelected(tag);
-    console.log(studioSelected);
-    // let newStudioSelected = tag;
-    // console.log(newStudioSelected);
-  };
-
-  const studioDeselector = function (tagToRemove) {
-    // const newArray = studioSelected.filter((tag) => tag !== tagToRemove);
-    // setStudioSelected(newArray);
+    let btnTag = tag.target.innerHTML;
+    setStudioSelected(btnTag);
+    if (studioSelected === btnTag) {
+      setStudioSelected("");
+    }
   };
 
   const hoursSelector = function (tag) {
-    let newArray = [...hoursSelected, tag];
-    setHoursSelected(newArray);
-    console.log(newArray == "1,5 hours");
-  };
-
-  const hoursDeselector = function (tagToRemove) {
-    const newArray = hoursSelected.filter((tag) => tag !== tagToRemove);
-    setHoursSelected(newArray);
-    console.log(newArray == ["1,5 hours"]);
+    let btnTag = tag.target.innerHTML;
+    setHoursSelected(btnTag);
+    if (hoursSelected === btnTag) {
+      setHoursSelected("");
+    }
   };
 
   // useEffect(() => {
@@ -73,19 +64,6 @@ const Teaching = function () {
       hoursSelected == ""
     ) {
       console.log("empty");
-    }
-  };
-
-  const styler = function (e) {
-    let btnTag = e.target.innerHTML;
-    console.log(btnTag)
-
-    if (btnStyle === styles.btnStyle) {
-      setBtnStyle(styles.selectedBtn);
-      // props.pressAction(btnTag);
-    } else {
-      setBtnStyle(styles.btnStyle);
-      // props.unpressAction(btnTag);
     }
   };
 
@@ -173,78 +151,117 @@ const Teaching = function () {
         For online courses, I can only use Studio 2.
       </div>
       <div className={styles.mainBtnsWrapper} ref={elementToScrollTo}>
-        {/* <div className={styles.btnTitles}>Choose your instrument(s)</div>
+        {/* BTNS INSTRUMENTS */}
+
+        <div className={styles.btnTitles}>Choose your instrument(s)</div>
         <div className={styles.btnFlex}>
           <Btn
             nameTunnel="Drums"
             pressAction={instSelector}
-            unpressAction={instDeselector}
+            styleTunnel={
+              instrumentsSelected.includes("Drums")
+                ? styles.selectedBtn
+                : styles.btnStyle
+            }
           ></Btn>
           <Btn
             nameTunnel="Piano"
             pressAction={instSelector}
-            unpressAction={instDeselector}
+            styleTunnel={
+              instrumentsSelected.includes("Piano")
+                ? styles.selectedBtn
+                : styles.btnStyle
+            }
           ></Btn>
           <Btn
             nameTunnel="Ableton"
             pressAction={instSelector}
-            unpressAction={instDeselector}
+            styleTunnel={
+              instrumentsSelected.includes("Ableton")
+                ? styles.selectedBtn
+                : styles.btnStyle
+            }
           ></Btn>
           <Btn
             nameTunnel="Logic"
             pressAction={instSelector}
-            unpressAction={instDeselector}
+            styleTunnel={
+              instrumentsSelected.includes("Logic")
+                ? styles.selectedBtn
+                : styles.btnStyle
+            }
           ></Btn>
-        </div> */}
+        </div>
+
+        {/* BTNS STUDIOS */}
         <div className={styles.btnTitles}>Choose the place</div>
         <div className={styles.btnFlex}>
           <Btn
             nameTunnel="Studio 1"
             pressAction={studioSelector}
-            unpressAction={studioDeselector}
-            stylerT={styler}
-            styleT={btnStyle}
+            styleTunnel={
+              studioSelected === "Studio 1"
+                ? styles.selectedBtn
+                : styles.btnStyle
+            }
           ></Btn>
           <Btn
             nameTunnel="Studio 2"
             pressAction={studioSelector}
-            unpressAction={studioDeselector}
-            stylerT={styler}
-            styleT={btnStyle}
+            styleTunnel={
+              studioSelected === "Studio 2"
+                ? styles.selectedBtn
+                : styles.btnStyle
+            }
           ></Btn>
           <Btn
             nameTunnel="At yours"
             pressAction={studioSelector}
-            unpressAction={studioDeselector}
-            stylerT={styler}
-            styleT={btnStyle}
+            styleTunnel={
+              studioSelected === "At yours"
+                ? styles.selectedBtn
+                : styles.btnStyle
+            }
           ></Btn>
           <Btn
             nameTunnel="Online"
             pressAction={studioSelector}
-            unpressAction={studioDeselector}
-            stylerT={styler}
-            styleT={btnStyle}
+            styleTunnel={
+              studioSelected === "Online" ? styles.selectedBtn : styles.btnStyle
+            }
           ></Btn>
         </div>
-        {/* <div className={styles.btnTitles}>Choose the length of the lesson</div>
+
+        {/* BTNS HOURS */}
+        <div className={styles.btnTitles}>Choose the length of the lesson</div>
         <div className={styles.btnFlex}>
           <Btn
             nameTunnel="1 hour"
             pressAction={hoursSelector}
-            unpressAction={hoursDeselector}
+            styleTunnel={
+              hoursSelected === "1 hour" ? styles.selectedBtn : styles.btnStyle
+            }
           ></Btn>
           <Btn
             nameTunnel="1,5 hours"
             pressAction={hoursSelector}
-            unpressAction={hoursDeselector}
+            styleTunnel={
+              hoursSelected === "1,5 hours"
+                ? styles.selectedBtn
+                : styles.btnStyle
+            }
           ></Btn>
           <Btn
             nameTunnel="2 hours"
             pressAction={hoursSelector}
-            unpressAction={hoursDeselector}
+            styleTunnel={
+              hoursSelected === "2 hours" ? styles.selectedBtn : styles.btnStyle
+            }
           ></Btn>
-        </div> */}
+        </div>
+
+        {/* FORM FINAL */}
+
         <form className={styles.form}>
           <label htmlFor="email">
             {" "}
@@ -266,6 +283,9 @@ const Teaching = function () {
           />
         </form>
       </div>
+
+      {/* LA FRASECICA */}
+
       <div className={styles.summary}>
         {`You will be learning
       ${instrumentsSelected} 
@@ -276,15 +296,7 @@ const Teaching = function () {
           ? "in"
           : ""
       }
-      ${
-        studioSelected == "Studio 1" ||
-        studioSelected == "Studio 2" ||
-        studioSelected == "Online" ||
-        studioSelected == "At yours" ||
-        studioSelected == ""
-          ? studioSelected
-          : "too many places"
-      }
+      ${studioSelected}
       ${
         hoursSelected == "1,5 hours" ||
         hoursSelected == "2 hours" ||

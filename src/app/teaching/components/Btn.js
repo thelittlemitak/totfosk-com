@@ -21,7 +21,7 @@ function Btn(props) {
   }
 
   return (
-    <button onClick={props.stylerT} className={props.styleT}>
+    <button onClick={props.pressAction} className={props.styleTunnel}>
       {props.nameTunnel}
     </button>
   );

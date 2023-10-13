@@ -11,6 +11,7 @@ const Teaching = function () {
   const [studioSelected, setStudioSelected] = useState("");
   const [hoursSelected, setHoursSelected] = useState("");
   const [btnStyle, setBtnStyle] = useState(styles.btnStyle);
+  const [joinedString, setJoinedString] = useState("");
 
   const instSelector = function (tag) {
     let btnTag = tag.target.innerHTML;
@@ -66,6 +67,10 @@ const Teaching = function () {
       console.log("empty");
     }
   };
+
+  useEffect(() => {
+    setJoinedString(instrumentsSelected.join(", "));
+  }, [instrumentsSelected]);
 
   return (
     <div className="disappeared">
@@ -288,7 +293,7 @@ const Teaching = function () {
 
       <div className={styles.summary}>
         {`You will be learning
-      ${instrumentsSelected} 
+      ${joinedString} 
       ${
         studioSelected != "" &&
         studioSelected != "At yours" &&
@@ -296,7 +301,7 @@ const Teaching = function () {
           ? "in"
           : ""
       }
-      ${studioSelected}
+      ${studioSelected === "At yours" ? "at yours" : studioSelected}
       ${
         hoursSelected == "1,5 hours" ||
         hoursSelected == "2 hours" ||

@@ -1,0 +1,69 @@
+.mainPost {
+  background-color: rgb(37, 6, 6);
+  margin: 1rem 1rem 2rem 1rem;
+  padding: 2rem 3rem 2rem 5rem;
+  position: relative;
+}
+
+.titleFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  background-color: rgb(6, 37, 6);
+  padding: 0rem 4rem 0rem 3rem;
+}
+
+.title {
+  font-size: 3rem;
+}
+
+.date {
+  font-size: 2rem;
+}
+
+.bodyContainer {
+  margin: 1rem 2rem 1rem 2rem;
+}
+
+.body {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.commentContainer {
+  background-color: black;
+  padding: 1rem 3rem 2rem 3rem;
+  font-size: 1.9rem;
+  margin: 0rem 0rem 1rem 0rem;
+}
+
+.commentTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.comment {
+  margin-left: 1rem;
+}
+
+.commentInput {
+  font-size: 2rem;
+  padding-left: 2rem;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.submitBtn {
+  display: block;
+  background-color: rgb(6, 37, 6);
+  padding: 0rem 1rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+  cursor: pointer;
+  font-size: 2rem;
+}

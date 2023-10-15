@@ -1,17 +1,21 @@
 import styles from "./blog.module.css";
 import BlogPost from "./BlogPost";
-import 
+import posts from "../../data/posts";
 
 const Blog = function () {
-  return;
-  <div className="disappeared">
-    <BlogPost
-      titleTunnel={"I hate social media"}
-      bodyTunnel={
-        "Because of many things and thangs. Because of many things and thangs. Because of many things and thangs. Because of many things and thangs. Because of many things and thangs. Because of many things and thangs. Because of many things and thangs. "
-      }
-    ></BlogPost>
-  </div>;
+  return (
+    <div className="disappeared">
+      {posts.map((x) => {
+        return (
+          <BlogPost
+            titleTunnel={x.title}
+            bodyTunnel={x.body}
+            key={x.key}
+          ></BlogPost>
+        );
+      })}
+    </div>
+  );
 };
 
 export default Blog;

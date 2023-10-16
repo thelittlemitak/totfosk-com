@@ -12,6 +12,7 @@
   gap: 2rem;
   background-color: rgb(6, 37, 6);
   padding: 0rem 4rem 0rem 3rem;
+  margin-bottom: 1rem;
 }
 
 .title {
@@ -66,4 +67,30 @@
   margin-top: 2rem;
   cursor: pointer;
   font-size: 2rem;
+}
+
+.image {
+  margin: 0 auto;
+}
+
+.remover {
+  text-align: center;
+  width: 9rem;
+  margin-left: auto;
+}
+
+.remover button {
+  text-decoration: underline;
+}
+
+.hidden {
+  display: none;
+}
+
+.commentInputWrong {
+  font-size: 2rem;
+  padding-left: 2rem;
+  width: 100%;
+  margin-top: 2rem;
+  background-color: red;
 }

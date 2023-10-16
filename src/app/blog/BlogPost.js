@@ -1,3 +1,6 @@
+"use client";
+
+import { useState } from "react";
 import styles from "./blog.module.css";
 import Comment from "./components/Comment";
 import Image from "next/image";
@@ -7,56 +10,97 @@ const BlogPost = function (props) {
   const options = { year: "numeric", month: "long", day: "numeric" };
   const formattedDate = date.toLocaleString(undefined, options);
 
-  const user = "Balinotrix";
-  const commentTitle = `${user}, on ${formattedDate}:`;
-  const commentFromSomeone =
-    "This is a comment explaining shiiiii explaining shiiiii explaining shiiiii explaining shiiiii explaining shiiiii explaining shiiiii explaining shiiiii";
+  const [importedComments, setImportedComments] = useState(
+    props.commentsTunnel
+  );
+  const [inputed, setInputed] = useState("");
+  const [inputStyle, setInputStyle] = useState(1);
 
-  const imageStyle = {
-    height: "100%",
-    maxWidth: "1200px",
+  const inputer = function (e) {
+    let inputed = e.target.value;
+    if (inputed !== "") {
+      setInputStyle(1);
+    }
+    setInputed(inputed);
   };
+
+  let newNumber = Math.random();
+
+  const commentPusher = function () {
+    if (inputed === "") {
+      setInputStyle(2);
+      return;
+    }
+    let oldArray = importedComments;
+    let newArray = [
+      ...oldArray,
+      {
+        user: "Inputero",
+        comment: inputed,
+        date: "date inputed",
+        key: newNumber,
+      },
+    ];
+    setImportedComments(newArray);
+    setInputed("");
+  };
+
+  const commentRemover = (key) => {
+    // Use the key to filter out the comment you want to remove
+    const filteredComments = importedComments.filter(
+      (comment) => comment.key !== key
+    );
+    setImportedComments(filteredComments);
+  };
+
+  const keyPusher = function (e) {
+    if (e.code == "Enter") {
+      console.log("enter has been pressed");
+      commentPusher();
+    }
+  };
+
   return (
     <div className={styles.mainPost}>
       <div className={styles.titleFlex}>
-        <div className={styles.title}>{props.titleTunnel}</div>
+        <div
+          className={styles.title}
+        >{`#${props.indexTunnel} - ${props.titleTunnel}`}</div>
         <div className={styles.date}>{formattedDate.toString()}</div>
       </div>
-      <div
-        className={styles.imageCont}
-        style={{ width: "100%", height: "100%", position: "relative" }}
-      >
-        <Image
-          layout="fill"
-          objectFit="contain"
-          src={"/blogNOTPREPARED/111.webp"}
-          alt={"this is a picture of my grandpa doing amazing things"}
-        ></Image>
-      </div>
+      <Image
+        width={500}
+        height={500}
+        src={`/blogNOTPREPARED/${props.picIDTunnel}.webp`}
+        alt={"this is a picture of my grandpa doing amazing things"}
+        className={styles.image}
+      ></Image>
       <div className={styles.bodyContainer}>
         <div className={styles.body}>{props.bodyTunnel}</div>
-        <Comment
-          titleTunnel={commentTitle}
-          commentTunnel={commentFromSomeone}
-        ></Comment>
-        <Comment
-          titleTunnel={commentTitle}
-          commentTunnel={commentFromSomeone}
-        ></Comment>
-        <Comment
-          titleTunnel={commentTitle}
-          commentTunnel={commentFromSomeone}
-        ></Comment>
+        {importedComments.map((x) => {
+          return (
+            <Comment
+              titleTunnel={`${x.user}, on ${x.date}:`}
+              commentTunnel={x.comment}
+              key={x.key}
+              userTunnel={x.user}
+              removerFTunnel={() => commentRemover(x.key)} // Pass the key to the commentRemover
+            ></Comment>
+          );
+        })}
         <input
-          className={styles.commentInput}
+          className={
+            inputStyle === 1 ? styles.commentInput : styles.commentInputWrong
+          }
           placeholder="New comment"
           type="text"
+          value={inputed}
+          onChange={inputer}
+          onKeyDown={keyPusher}
         ></input>
-        <input
-          type="submit"
-          value="Post comment"
-          className={styles.submitBtn}
-        />
+        <button className={styles.submitBtn} onClick={commentPusher}>
+          Post comment
+        </button>
       </div>
     </div>
   );

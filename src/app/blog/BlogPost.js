@@ -4,6 +4,7 @@ import { useState } from "react";
 import styles from "./blog.module.css";
 import Comment from "./components/Comment";
 import Image from "next/image";
+import currentDate from "../_shared/misc/currentDate"
 
 const BlogPost = function (props) {
   const date = new Date();
@@ -37,7 +38,7 @@ const BlogPost = function (props) {
       {
         user: "Inputero",
         comment: inputed,
-        date: "date inputed",
+        date: currentDate,
         key: newNumber,
       },
     ];

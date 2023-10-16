@@ -29,10 +29,10 @@
   visibility: hidden;
   display: flex;
   color: rgb(200, 200, 200);
-  padding: 0 2rem;
   translate: 0% -5%;
   border-bottom: 1px solid black;
   border-right: 1px solid black;
+  width: 25rem;
 }
 
 .dropLinks {

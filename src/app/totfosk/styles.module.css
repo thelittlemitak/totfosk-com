@@ -1,0 +1,12 @@
+.releaseContainer {
+font-size: 3rem;
+display: grid;
+gap: 1rem;
+grid-template-columns: 30rem 1fr;
+}
+
+.titleContainer {
+  display: grid;
+  grid-template-columns: 40rem 20rem;
+
+}

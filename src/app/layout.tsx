@@ -27,8 +27,8 @@ export default function RootLayout({
         <header className={styles.headerFooter}>
           <nav className={styles.navBar}>
             <Link href="/">Home</Link>
+            <Link href="/totfosk">Tot Fosk</Link>
             <Link href="/blog">Blog</Link>
-            <Link href="/music">Music</Link>
             <Link href="/teaching">Teaching</Link>
             <div className={styles.dropDownTitle}>
               Influences

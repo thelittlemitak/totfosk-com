@@ -7,6 +7,11 @@ grid-template-columns: 30rem 1fr;
 
 .titleContainer {
   display: grid;
-  grid-template-columns: 40rem 20rem;
+  grid-template-columns: 40rem 20rem 1fr;
+}
 
+.audioPlayer {
+  height: 20px;
+  border-radius: 0px;
+  background-color: inherit;
 }

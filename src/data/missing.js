@@ -54,6 +54,21 @@ const singles = {
       "John Cooper Clarke - Evidently Chickentown (Snap, Crackle & Bop, 1980)",
     key: 2211,
   },
+  zombie: {
+    title:
+      "Zombie Zombie - Thème de fin (L'heure de la sortie OST, 2019)",
+    key: 23232,
+  },
+  royale: {
+    title:
+      "Masamichi Amano - Professeur et élèves (Final Battle) (Battle Royale OST, 2000)",
+    key: 23232,
+  },
+  tribe: {
+    title:
+      "A Tribe Called Quest - Solid Wall of Sound (We Got It from Here... Thank You 4 Your Service, 2016)",
+    key: 2323,
+  },
 };
 
 export const missingAlbums = [
@@ -70,4 +85,8 @@ export const missingSingles = [
   singles.primus,
   singles.reptilia,
   singles.claudio,
+  singles.cooper,
+  singles.zombie,
+  singles.royale
+
 ];

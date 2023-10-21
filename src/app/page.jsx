@@ -3,6 +3,7 @@ import styles from "./app.module.css";
 export default function HomePage() {
   return (
     <div className="disappeared">
+      
       <div className={styles.mainText}>
         If you want to follow me without the need of social media, you can
         easily put your email and city, and you will be notified only if I play

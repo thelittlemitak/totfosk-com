@@ -30,7 +30,7 @@ body {
   margin: 0;
   text-size-adjust: none;
 
-  font-family:'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   font-weight: 500;
   color: rgb(200, 200, 200);
 }
@@ -53,4 +53,15 @@ html {
   100% {
     opacity: 100;
   }
+}
+
+.w-6.h-6 {
+  stroke: rgb(200, 200, 200);
+  font-size: 3rem;
+  height: 32px;
+  width: 32px;
+}
+
+.w-6.h-6:hover {
+  cursor: pointer;
 }

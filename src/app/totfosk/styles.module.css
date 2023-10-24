@@ -1,17 +1,53 @@
 .releaseContainer {
-font-size: 3rem;
-display: grid;
-gap: 1rem;
-grid-template-columns: 30rem 1fr;
+  font-size: 3rem;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 30rem 1fr;
+  margin-bottom: 5rem;
 }
 
 .titleContainer {
-  display: grid;
-  grid-template-columns: 40rem 20rem 1fr;
+  font-size: 2.5rem;
+  margin-right: 5rem;
+  margin-left: 3rem;
 }
 
 .audioPlayer {
   height: 20px;
   border-radius: 0px;
   background-color: inherit;
+}
+
+.albumTitleWrapper {
+}
+
+.albumTitle {
+  text-align: center;
+  background-color: rgb(6, 37, 6);
+  margin-bottom: 2rem;
+}
+
+.titleFlex {
+  display: flex;
+  gap: 2rem;
+}
+
+#progress {
+  appearance: none;
+  width: 90%;
+  cursor: pointer;
+  color: red;
+  background-color: rgb(6, 37, 6);
+  background: rgb(37, 6, 6);
+  border-radius: 10px;
+  margin-left: 5rem;
+}
+
+.controls {
+  color: white;
+}
+
+.w-6.h-6 {
+  color: red;
+  background-color: ;
 }

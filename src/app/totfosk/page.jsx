@@ -1,5 +1,5 @@
 import ReleaseCard from "./ReleaseCard";
-import releases from "../../data/releases";
+import releases from "../../data/totfosk";
 
 const TotFosk = function () {
   return (

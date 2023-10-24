@@ -5,17 +5,62 @@ import Image from "next/image";
 import { useRef, useEffect } from "react";
 
 const ReleaseCard = function (props) {
-  const audioRefs = props.albumTunnel.tracks.map(() => useRef());
-  const playRefs = props.albumTunnel.tracks.map(() => useRef());
-  const progressRefs = props.albumTunnel.tracks.map(() => useRef());
+  function playAudio(audioId) {
+    const audioElement = document.getElementById(audioId);
+    if (audioElement) {
+      if (audioElement.paused) {
+        audioElement.play(); // If the audio is paused, play it
+      } else {
+        audioElement.pause(); // If the audio is playing, pause it
+      }
+    }
+  }
 
   useEffect(() => {
-    audioRefs.forEach((audioRef, index) => {
-      audioRef.current.onloadedmetadata = function () {
-        progressRefs[index].current.max = audioRef.current.duration;
-      };
+    const audioElements = props.albumTunnel.tracks.map((x) =>
+      document.getElementById(`audio-${x.key}`)
+    );
+
+    const inputRangeElements = props.albumTunnel.tracks.map((x) =>
+      document.getElementById(`progress-${x.key}`)
+    );
+
+    function updateInputRange(audioElement, inputRange) {
+      if (audioElement && inputRange) {
+        inputRange.value =
+          (audioElement.currentTime / audioElement.duration) * 100;
+      }
+    }
+
+    audioElements.forEach((audioElement, index) => {
+      if (audioElement) {
+        audioElement.addEventListener("timeupdate", () => {
+          updateInputRange(audioElement, inputRangeElements[index]);
+        });
+      }
     });
-  }, [audioRefs, progressRefs]);
+
+    // Clean up the event listeners when the component unmounts
+    return () => {
+      audioElements.forEach((audioElement) => {
+        if (audioElement) {
+          audioElement.removeEventListener("timeupdate", () => {
+            updateInputRange(audioElement, inputRangeElements[index]);
+          });
+        }
+      });
+    };
+  }, [props.albumTunnel.tracks]);
+
+  function handleProgressChange(audioKey, newProgress) {
+    // Find the audio element associated with the given key
+    const audioElement = document.getElementById(`audio-${audioKey}`);
+
+    if (audioElement) {
+      const newTime = (newProgress / 100) * audioElement.duration;
+      audioElement.currentTime = newTime;
+    }
+  }
 
   return (
     <div className={styles.releaseContainer}>
@@ -45,7 +90,7 @@ const ReleaseCard = function (props) {
                   strokeWidth={1.5}
                   stroke="currentColor"
                   className="w-6 h-6"
-                  ref={playRefs[index]}
+                  onClick={() => playAudio(`audio-${x.key}`)}
                 >
                   <path
                     strokeLinecap="round"
@@ -53,15 +98,16 @@ const ReleaseCard = function (props) {
                     d="M21 7.5V18M15 7.5V18M3 16.811V8.69c0-.864.933-1.406 1.683-.977l7.108 4.061a1.125 1.125 0 010 1.954l-7.108 4.061A1.125 1.125 0 013 16.811z"
                   />
                 </svg>
-                <audio controls ref={audioRefs[index]}>
+                <audio id={`audio-${x.key}`}>
                   <source src={`audio/${x.key}.mp3`} type="audio/mpeg" />
                 </audio>
               </div>
               <input
                 type="range"
-                defaultValue="10"
-                id={styles.progress}
-                ref={progressRefs[index]}
+                defaultValue="00"
+                className={styles.progress}
+                id={`progress-${x.key}`}
+                onChange={(e) => handleProgressChange(x.key, e.target.value)}
               ></input>
             </div>
           );

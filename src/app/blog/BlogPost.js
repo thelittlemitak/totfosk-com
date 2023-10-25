@@ -4,7 +4,7 @@ import { useState } from "react";
 import styles from "./blog.module.css";
 import Comment from "./components/Comment";
 import Image from "next/image";
-import currentDate from "../_shared/misc/currentDate"
+import currentDate from "../_shared/misc/currentDate";
 
 const BlogPost = function (props) {
   const date = new Date();
@@ -67,7 +67,7 @@ const BlogPost = function (props) {
         <div
           className={styles.title}
         >{`#${props.indexTunnel} - ${props.titleTunnel}`}</div>
-        <div className={styles.date}>{formattedDate.toString()}</div>
+        <div className={styles.date}>{props.dateTunnel}</div>
       </div>
       <Image
         width={500}

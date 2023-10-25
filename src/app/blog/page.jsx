@@ -1,6 +1,6 @@
 import styles from "./blog.module.css";
 import BlogPost from "./BlogPost";
-import posts from "../../data/posts";
+import posts from "../../data/blog";
 
 const Blog = function () {
   return (
@@ -16,6 +16,7 @@ const Blog = function () {
             indexTunnel={adjustedIndex}
             picIDTunnel={x.picID}
             commentsTunnel={x.comments}
+            dateTunnel={x.date}
           ></BlogPost>
         );
       })}

@@ -40,6 +40,14 @@ const arembsubril = {
   key: 23132,
 };
 
-const releases = [arembsubril, korru, sukerrel];
+const lunakid = {
+  album: "Bleed (Tot Fosk Remix)",
+  tracks: [{ title: "Lunakid - Bleed (Tot Fosk Remix)", duration: "05:06", key: 137289 }],
+  date: "05.06.2020",
+  label: "SOULPUNX",
+  key: 343434,
+};
+
+const releases = [arembsubril, korru, sukerrel, lunakid];
 
 export default releases;

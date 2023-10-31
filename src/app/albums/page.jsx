@@ -35,7 +35,14 @@ export default function Albums() {
       albumObj.genre.includes(test)
     );
     // only the albums with the tag selected will appear
-    setAlbumsState(taggedArray);
+    // setAlbumsState(taggedArray);
+    if (listType === "favorites") {
+      setAlbumsState(taggedArray);
+    } else if (listType === "year of release") {
+      const newArr = sortByKey(taggedArray, "year");
+      setAlbumsState(newArr);
+    }
+
     // appareance animation
     setWrapperStyleID(2);
     setTimeout(() => setWrapperStyleID(1), 1400);
@@ -48,40 +55,58 @@ export default function Albums() {
     setTitle(`You are now only seeing ${test.toLowerCase()} tagged music.`);
   };
 
-  // ! CHANGER - this is what happens when the top listing button is pressed
+  // ! TAG CLEANER - this is what happens when you press the CLEAN TAG btn
+  const cleaner = function () {
+    setTagSelected("");
+    // appareance animation
+    setWrapperStyleID(2);
+    setTimeout(() => setWrapperStyleID(1), 1400);
+    // extra
+    setTitle(standardTitle);
+    // this is to put the index of the appearing list to numbers o the year of release. It also removes the year from the favorites.
+    setListType("favorites");
+    // this sets the list as the imported one (standard order)
+    const newArr3 = [...albumsImportVar];
+    setAlbumsState(newArr3);
+  };
+
+  // ! yearsCHANGER - this is what happens when the top listing button is pressed
   const changerYears = function () {
     // appareance animation
     setWrapperStyleID(2);
     setTimeout(() => setWrapperStyleID(1), 1400);
-    // this is to put the index of the appearing list to numbers o the year of release. It also removes the year from the favorites.
+    // this is to put the index of the appearing list to numbers or the year of release. It also removes the year from the favorites.
     setListType("year of release");
 
     const newArr = sortByKey(albumsState, "year");
     const newArr2 = [...newArr];
     setAlbumsState(newArr2);
-    // extra
-    setTitle(standardTitle);
-    // ? under study...
-    setTagSelected("");
   };
 
-  // ! CHANGER - this is what happens when the top listing button is pressed
+  // ! favoritesCHANGER - this is what happens when the top listing button is pressed
   const changerFavorites = function () {
     // appareance animation
     setWrapperStyleID(2);
     setTimeout(() => setWrapperStyleID(1), 1400);
     // this is to put the index of the appearing list to numbers o the year of release. It also removes the year from the favorites.
     setListType("favorites");
-    // this sets the list as the imported one (standard order)
-    const newArr3 = [...albumsImportVar];
-    setAlbumsState(newArr3);
-    // extra
-    setTitle(standardTitle);
-    // ? under study...
-    setTagSelected("");
+    // this sets the list as the imported one (standard order) but we cannot remove the tag
+    console.log(albumsState);
+    const testArr = albumsState.slice().sort((a, b) => {
+      return albumsState.indexOf(a) - albumsState.indexOf(b);
+    });
+    if (tagSelected === "") {
+      const testArr2 = [...albumsImportVar];
+      setAlbumsState(testArr2);
+    } else {
+      const taggedArray = albumsImportVar.filter((albumObj) =>
+        albumObj.genre.includes(tagSelected)
+      );
+      setAlbumsState(taggedArray);
+    }
   };
 
-  useEffect(() => console.log("I am rerendering"), [albumsState]);
+  // useEffect(() => console.log("I am rerendering"), [albumsState]);
 
   let counter = 0;
 
@@ -165,6 +190,9 @@ export default function Albums() {
   return (
     <div className="disappeared">
       <div className={styles.quotes}>{title}</div>
+      <div className={styles.clearBtn} onClick={cleaner}>
+        CLEAR TAG
+      </div>
       <Sorter
         listTypeTunnel={listType}
         changerFTunnel={changerFavorites}

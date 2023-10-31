@@ -109,3 +109,15 @@
   font-size: 5rem;
   max-height: 0;
 }
+
+.clearBtn {
+  width: 18rem;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 3rem;
+  background-color: rgb(6, 37, 6)
+}
+
+.clearBtn:hover {
+  cursor: pointer;
+}

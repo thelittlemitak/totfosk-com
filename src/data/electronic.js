@@ -40,7 +40,7 @@ const barac = {
   artist: "Barac",
   year: "2015",
   explanation:
-    "One of my favorites rominimal track. A friend and I had a DJ/producer duo in my early twenties (WARM Ibiza) and this was the style of music we were playing. We had hundreds of records like this one.",
+    "One of my favorites rominimal tracks. A friend and I had a DJ/producer duo in my early twenties (WARM Ibiza) and this was the style of music we were playing. We had hundreds of records like this one.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
 
   key: 32424,
@@ -65,7 +65,7 @@ const dob = {
   artist: "Date of Birth",
   year: "1999",
   explanation:
-    "This is just too addictive. OST from a video game called Planet Dob, released for the original Playstation on 1999. I found this one on Youtube's PlayStation compilation from ryland kurshenoff.",
+    "This is just too addictive. OST from a video game called Planet Dob, released for the original Playstation on 1999. I found this one on Youtube's DJ compilation from ryland kurshenoff.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 789087,
   picture: 54322345,
@@ -77,7 +77,7 @@ const privatePress = {
   artist: "Private Press",
   year: "2020",
   explanation:
-    "Found on the anime TV show. It also appears on a radio in the video game. I am obsessed with this track since day 1; I had to stop the series when I found it.",
+    "Found on the anime TV show. It also appears on a radio in the video game. I am obsessed with this track since day 1; I had to stop the series when I found it and listen to it on repeat.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 97890,
   picture: 65566556,
@@ -89,7 +89,7 @@ const a001 = {
   artist: "A001",
   year: "2016",
   explanation:
-    "Masterpiece track from a great album of the misterious artist on one of the top techno label (MORD). It almost feels like a new industrial techno style. Very subtle and yet agressive.",
+    "Masterpiece track from a great album of the misterious artist on one of the top techno labels (MORD). It almost feels like a new industrial techno style. Very subtle and yet agressive.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 345634,
   picture: 999888,
@@ -101,7 +101,7 @@ const snts = {
   artist: "OAKE (SNTS Remix)",
   year: "2018",
   explanation:
-    "This is not the track that introduced me to SNTS but it has always been my favorite, and a good example of what was his style once was. When I play live, sometimes I cut the middle part. But it has perfect groove.",
+    "This is not the track that introduced me to SNTS but it has always been my favorite, and a good example of what was his style once was. When I play live, sometimes I cut the middle part. But it has a perfect groove.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 456745,
   picture: 9871234,
@@ -162,7 +162,7 @@ const villalobos = {
   artist: "Ricardo Villalobos",
   year: "2006",
   explanation:
-    "All the kids from Ibiza that were born in the 90s have Villalobos as their 'rock' star. And this is track is one of the best examples of his production abilities and huge influence on future rominimal.",
+    "All the kids from Ibiza that were born in the 90s have Villalobos as their 'rock star'. And this is track is one of the best examples of his production abilities and huge influence on future rominimal.",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 377374,
   picture: 555555,
@@ -220,7 +220,7 @@ const squarepusher = {
   artist: "Squarepusher",
   year: "1997",
   explanation:
-    "This track literally creates addiction. I think I heard this track 300 times this year 2023. Almost every day before going to sleep, that for sure. Drums from James Brown track Soul Pride (Clyde Stubblefield).",
+    "This track literally creates addiction. I think I heard this track 300 times this year 2023. Almost every day before going to sleep, that for sure. Drums from James Brown track Soul Pride (Clyde Stubblefield drums).",
   listen: "https://www.youtube.com/watch?v=CMUnPyv3C_8",
   key: 6775756,
   picture: 4554325345,

@@ -11,7 +11,7 @@ import MissingList from "../_shared/components/MissingList";
 import { missingAlbums } from "../../data/missing";
 
 export default function Albums() {
-  const albumsV = albumsImport;
+  const albumsImportVar = albumsImport;
 
   const [btnStyle, setBtnStyle] = useState(styles.btn);
   const [btnCounter, setBtnCounter] = useState(0);
@@ -19,52 +19,66 @@ export default function Albums() {
   const [showMore2, setShowMore2] = useState(false);
   const [showMore3, setShowMore3] = useState(false);
   const [showMore4, setShowMore4] = useState(false);
-  const [albumsState, setAlbumsState] = useState([...albumsV]);
+  const [albumsState, setAlbumsState] = useState([...albumsImportVar]);
   const [listType, setListType] = useState("favorites");
   const [tagStyle, setTagStyle] = useState(styles.genre);
   const [tagSelected, setTagSelected] = useState("");
 
   const [wrapperStyleID, setWrapperStyleID] = useState(1);
 
+  // ! TAGGER - this is what happens when a tag is pressed
   const tagger = function (e) {
+    // logic to get the tag selected
     const test = e.target.innerHTML;
     setTagSelected(test);
-    const taggedArray = albumsV.filter((albumObj) =>
+    const taggedArray = albumsImportVar.filter((albumObj) =>
       albumObj.genre.includes(test)
     );
+    // only the albums with the tag selected will appear
     setAlbumsState(taggedArray);
+    // appareance animation
     setWrapperStyleID(2);
     setTimeout(() => setWrapperStyleID(1), 1400);
+    // remove quotes when the tag function is on
     setQuote1("");
     setQuote2("");
     setQuote3("");
     setQuote4("");
-    setTitle(`You are now only seeing ${test.toLowerCase()} tagged music`);
+    // extra
+    setTitle(`You are now only seeing ${test.toLowerCase()} tagged music.`);
   };
 
+  // ! CHANGER - this is what happens when the top listing button is pressed
   const changerYears = function () {
+    // appareance animation
     setWrapperStyleID(2);
+    setTimeout(() => setWrapperStyleID(1), 1400);
+    // this is to put the index of the appearing list to numbers o the year of release. It also removes the year from the favorites.
     setListType("year of release");
 
     const newArr = sortByKey(albumsState, "year");
     const newArr2 = [...newArr];
     setAlbumsState(newArr2);
-    setTagSelected("");
+    // extra
     setTitle(standardTitle);
-
-    setTimeout(() => setWrapperStyleID(1), 1400);
+    // ? under study...
+    setTagSelected("");
   };
 
+  // ! CHANGER - this is what happens when the top listing button is pressed
   const changerFavorites = function () {
+    // appareance animation
     setWrapperStyleID(2);
-    setListType("favorites");
-
-    const newArr3 = [...albumsV];
-    setAlbumsState(newArr3);
-    setTagSelected("");
-    setTitle(standardTitle);
-
     setTimeout(() => setWrapperStyleID(1), 1400);
+    // this is to put the index of the appearing list to numbers o the year of release. It also removes the year from the favorites.
+    setListType("favorites");
+    // this sets the list as the imported one (standard order)
+    const newArr3 = [...albumsImportVar];
+    setAlbumsState(newArr3);
+    // extra
+    setTitle(standardTitle);
+    // ? under study...
+    setTagSelected("");
   };
 
   useEffect(() => console.log("I am rerendering"), [albumsState]);
@@ -116,9 +130,6 @@ export default function Albums() {
   const opener3Ref = useRef(null);
   const opener4Ref = useRef(null);
 
-
-
-
   useEffect(() => {
     const handleScroll = (entries) => {
       entries.forEach((entry) => {
@@ -145,7 +156,6 @@ export default function Albums() {
     observer.observe(opener2Ref.current);
     observer.observe(opener3Ref.current);
     observer.observe(opener4Ref.current);
-
 
     return () => {
       observer.disconnect();
@@ -264,23 +274,23 @@ export default function Albums() {
 // const [albums40_50, setAlbums40_50] = useState(mapper(39, 51));
 
 // useEffect(() => {
-  //   const handleScroll = () => {
-  //     if (window.scrollY > 2200) {
-  //       setShowMore1(true);
-  //     }
-  //     if (window.scrollY > 5400) {
-  //       setShowMore2(true);
-  //     }
-  //     if (window.scrollY > 8600) {
-  //       setShowMore3(true);
-  //     }
-  //     if (window.scrollY > 11800) {
-  //       setShowMore4(true);
-  //     }
-  //   };
-  //   window.addEventListener("scroll", handleScroll);
+//   const handleScroll = () => {
+//     if (window.scrollY > 2200) {
+//       setShowMore1(true);
+//     }
+//     if (window.scrollY > 5400) {
+//       setShowMore2(true);
+//     }
+//     if (window.scrollY > 8600) {
+//       setShowMore3(true);
+//     }
+//     if (window.scrollY > 11800) {
+//       setShowMore4(true);
+//     }
+//   };
+//   window.addEventListener("scroll", handleScroll);
 
-  //   return () => {
-  //     window.removeEventListener("scroll", handleScroll);
-  //   };
-  // }, []);
+//   return () => {
+//     window.removeEventListener("scroll", handleScroll);
+//   };
+// }, []);

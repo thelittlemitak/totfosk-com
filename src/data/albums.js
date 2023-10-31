@@ -292,7 +292,7 @@ const notUsed = {
   social: "@sweet_trip_official",
 };
 const moodyBlues = {
-  artist: "The moody blues",
+  artist: "The Moody Blues",
   album: "Days Of The Future Passed",
   year: "1967",
   label: "Deram (Decca sublabel)",
@@ -410,9 +410,9 @@ const autobahn = {
 };
 const limbo = {
   artist: "Martin Stig Andersen",
-  album: "X",
+  album: "LIMBO",
   year: "2011",
-  label: "X",
+  label: "PlayDead",
   decription:
     "Andersen studied orchestral composition at the Royal Academy of Music in Aarhus, Denmark. After graduating in 2003, he went on to study electro-acoustic composition at City University in London. Andersen cited spectral composers such as Tristan Murail as inspiration.",
   favorite: "X",
@@ -436,7 +436,7 @@ const theWall = {
 };
 const modell = {
   artist: "Rod Modell",
-  album: "X",
+  album: "Captagon",
   year: "2019",
   label: "Tresor",
   decription:
@@ -501,7 +501,7 @@ const estopa = {
 };
 const goreshit = {
   artist: "Goreshit",
-  album: "my love feels all wrong",
+  album: "My Love Feels All Wrong",
   year: "2015",
   label: "Self-released",
   decription:
@@ -529,7 +529,7 @@ const rush = {
   artist: "Rush",
   album: "2112",
   year: "1976",
-  label: "X",
+  label: "Mercury",
   decription:
     "Rush finished touring for their unsuccessful previous album and was in financial hardship due to the album's disappointing sales, unfavourable critical reception, and a decline in attendance at its shows. The label considered dropping Rush but granted the band one more album following negotiations with manager Ray Danniels. Though the label demanded more commercial material, the band decided to continue developing its progressive rock sound.",
   favorite: "X",
@@ -555,7 +555,7 @@ const apeScape = {
   artist: "Soichi Terada",
   album: "Ape Scape",
   year: "1999",
-  label: "X",
+  label: "Far East",
   decription:
     "Terada was given an opportunity to compose the music for the game after a director listened to his track 'Sumo Jungle'. When he learned what the game was about, Terada was 'really excited' as he played on the PlayStation and was shown demo footage of the game.",
   favorite: "X",
@@ -634,7 +634,8 @@ const paulita = {
   album: "Deathvox",
   year: "2014",
   label: "R&S",
-  decription: "This is the album that led to the creation of my Tot Fosk alias so...",
+  decription:
+    "This is the album that led to the creation of my Tot Fosk alias so...",
   favorite: "X",
   albumCounting: "X",
   genre: [genres.techno, genres.electronic].sort(),
@@ -699,7 +700,7 @@ const madonna = {
   artist: "Madonna",
   album: "Confessions on a Dance Floor",
   year: "2005",
-  label: "Warner",
+  label: "Warner Bros",
   decription:
     "The album was mainly recorded at Stuart Price's home-studio, who stayed up all nights working on the songs. Musically, the record is structured like a DJ's set. The songs are sequenced and blended so that they are played continuously without any gaps.",
   favorite: "Moby Dick",

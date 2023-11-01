@@ -1,9 +1,19 @@
+"use client";
+
+import { useEffect } from "react";
 import styles from "./app.module.css";
 
 export default function HomePage() {
+  const getSomething = function () {
+    fetch("https://jsonplaceholder.typicode.com/todos/1")
+      .then((response) => response.json())
+      .then((json) => console.log(json));
+  };
+
+  useEffect(() => getSomething(), []);
+
   return (
     <div className="disappeared">
-      
       <div className={styles.mainText}>
         If you want to follow me without the need of social media, you can
         easily put your email and city, and you will be notified only if I play

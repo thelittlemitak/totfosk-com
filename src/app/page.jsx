@@ -12,6 +12,8 @@ export default function HomePage() {
 
   useEffect(() => getSomething(), []);
 
+  console.log(getSomething)
+
   return (
     <div className="disappeared">
       <div className={styles.mainText}>

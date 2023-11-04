@@ -12,7 +12,7 @@ export default function HomePage() {
 
   useEffect(() => getSomething(), []);
 
-  console.log(getSomething)
+  console.log(getSomething);
 
   return (
     <div className="disappeared">
@@ -42,7 +42,7 @@ export default function HomePage() {
           required
         />
 
-        <input type="submit" value="Submit" className={styles.submitBtn} />
+        <div className={styles.submitBtn}>Submitititi</div>
       </form>
       <div className={styles.secondaryText}>
         Also, if you subscribe, you will be getting my self-released music for

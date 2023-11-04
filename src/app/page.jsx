@@ -42,7 +42,7 @@ export default function HomePage() {
           required
         />
 
-        <div className={styles.submitBtn}>Submitititi</div>
+        <div className={styles.submitBtn}>Submit</div>
       </form>
       <div className={styles.secondaryText}>
         Also, if you subscribe, you will be getting my self-released music for

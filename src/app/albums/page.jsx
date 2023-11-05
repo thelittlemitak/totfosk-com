@@ -187,12 +187,16 @@ export default function Albums() {
     };
   }, []);
 
+  const clearTagBtn = (
+    <div className={styles.clearBtn} onClick={cleaner}>
+      CLEAR TAG
+    </div>
+  );
+
   return (
     <div className="disappeared">
       <div className={styles.quotes}>{title}</div>
-      <div className={styles.clearBtn} onClick={cleaner}>
-        CLEAR TAG
-      </div>
+      {tagSelected != "" ? clearTagBtn : ""}
       <Sorter
         listTypeTunnel={listType}
         changerFTunnel={changerFavorites}

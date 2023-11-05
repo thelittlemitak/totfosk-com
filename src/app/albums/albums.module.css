@@ -111,11 +111,12 @@
 }
 
 .clearBtn {
-  width: 18rem;
   margin: 0 auto;
   text-align: center;
-  font-size: 3rem;
-  background-color: rgb(6, 37, 6)
+  font-size: 2rem;
+  background-color: rgb(6, 37, 6);
+  padding: 0 1rem;
+  width: 16rem;
 }
 
 .clearBtn:hover {

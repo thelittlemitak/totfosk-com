@@ -189,7 +189,7 @@ export default function Albums() {
 
   const clearTagBtn = (
     <div className={styles.clearBtn} onClick={cleaner}>
-      CLEAR TAG
+      Clear tag
     </div>
   );
 

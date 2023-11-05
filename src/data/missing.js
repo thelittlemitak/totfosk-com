@@ -55,38 +55,36 @@ const singles = {
     key: 2211,
   },
   zombie: {
-    title:
-      "Zombie Zombie - Thème de fin (L'heure de la sortie OST, 2019)",
-    key: 23232,
+    title: "Zombie Zombie - Thème de fin (L'heure de la sortie OST, 2019)",
+    key: 1231231,
   },
   royale: {
     title:
       "Masamichi Amano - Professeur et élèves (Final Battle) (Battle Royale OST, 2000)",
-    key: 23232,
+    key: 5452627,
   },
   tribe: {
     title:
       "A Tribe Called Quest - Solid Wall of Sound (We Got It from Here... Thank You 4 Your Service, 2016)",
     key: 2323,
   },
+  wideshut: {
+    title: "Jocelyn Pook - Flood, 1999)",
+    key: 2323,
+  },
 };
 
 export const missingAlbums = [
   albums.austin,
-  albums.canto,
   albums.rings,
   albums.gangStarr,
   albums.diamond,
   albums.traffic,
 ];
 export const missingSingles = [
-  singles.danzig,
   singles.japes,
-  singles.primus,
-  singles.reptilia,
-  singles.claudio,
   singles.cooper,
   singles.zombie,
-  singles.royale
-
+  singles.royale,
+  singles.wideshut,
 ];

@@ -92,3 +92,9 @@
   width: 100%;
   padding: 20rem;
 }
+
+@media (max-width: 1250px) {
+  .mainText {
+    font-size: 2rem;
+  }
+}
